@@ -1,0 +1,161 @@
+//Items
+item.hemp_ingot_raw.name=Raw Hemp Ingot
+item.hemp_ingot.name=Hemp Ingot
+item.resin.name=Resin
+item.super_resin.name=Super Resin
+item.hemp_mulch.name=Hemp Mulch
+item.hemp_paper.name=Hemp Paper
+item.rizlaz_single.name=Rizlaz
+item.gelatin.name=Gelatin
+
+//Raw Hemp
+item.hemp_raw.name=Raw Hemp
+item.hemp_raw_hybrid.name=Raw Hybrid Hemp
+item.hemp_raw_indica.name=Raw Indica Hemp
+item.hemp_raw_medicinal.name=Raw Medicinal Hemp
+item.hemp_raw_sativa.name=Raw Sativa Hemp
+
+// Dried Hemp
+item.hemp_dried.name=Dried Hemp
+item.hemp_dried_hybrid.name=Dried Hybrid Hemp
+item.hemp_dried_indica.name=Dried Indica Hemp
+item.hemp_dried_medicinal.name=Dried Medicinal Hemp
+item.hemp_dried_sativa.name=Dried Sativa Hemp
+
+//Buds
+item.bud_hemp.name=Hemp Bud
+item.bud_hybrid.name=Hybrid Bud
+item.bud_indica.name=Indica Bud
+item.bud_medicinal.name=Medicinal Bud
+item.bud_sativa.name=Sativa Bud
+
+//Crushed Buds
+item.crushed_bud_hemp.name=Crushed Hemp Bud
+item.crushed_bud_hybrid.name=Crushed Hybrid Bud
+item.crushed_bud_indica.name=Crushed Indica Bud
+item.crushed_bud_medicinal.name=Crushed Medicinal Bud
+item.crushed_bud_sativa.name=Crushed Sativa Bud
+
+//Other Crushed
+item.crushed_redstone.name=Crushed Redstone
+item.crushed_diamond.name=Crushed Diamond
+
+//Crop Drops
+item.cropdrop_hemp.name=Hemp Crop
+item.cropdrop_hybrid.name=Hybrid Crop
+item.cropdrop_indica.name=Indica Crop
+item.cropdrop_medicinal.name=Medicinal Crop
+item.cropdrop_sativa.name=Sativa Crop
+
+//Joints
+item.joint_hybrid.name=Hybrid Joint
+item.joint_indica.name=Indica Joint
+item.joint_medicinal.name=Medicinal Joint
+item.joint_sativa.name=Sativa Joint
+
+//Seeds
+item.seeds_hemp.name=Hemp Seeds
+item.seeds_hybrid.name=Hybrid Seeds
+item.seeds_indica.name=Indica Seeds
+item.seeds_medicinal.name=Medicinal Seeds
+item.seeds_sativa.name=Sativa Seeds
+
+//Toasted Seeds
+item.seeds_toasted_hemp.name=Toasted Hemp Seeds
+item.seeds_toasted_hybrid.name=Toasted Hybrid Seeds
+item.seeds_toasted_indica.name=Toasted Indica Seeds
+item.seeds_toasted_medicinal.name=Toasted Medicinal Seeds
+item.seeds_toasted_sativa.name=Toasted Sativa Seeds
+
+//Plants
+tile.plant_hemp.name=Hemp Plant
+tile.plant_hybrid.name=Hybrid Plant
+tile.plant_indica.name=Indica Plant
+tile.plant_medicinal.name=Medicinal Plant
+tile.plant_sativa.name=Sativa Plant
+
+//Edibles
+item.cookie_cbd.name=CBD Cookie
+item.cookie_hybrid.name=Hybrid Cookie
+item.cookie_indica.name=Indica Cookie
+item.cookie_medicinal.name=Medicinal Cookie
+item.cookie_sativa.name=Sativa Cookie
+item.gummies_cbd.name=CBD Gummies
+item.gummies_indica.name=Indica Gummies
+item.gummies_medicinal.name=Medicinal Gummies
+item.gummies_sativa.name=Sativa Gummies
+item.gummy_cbd.name=CBD Gummy Bear
+item.gummy_indica.name=Indica Gummy Bear
+item.gummy_medicinal.name=Medicinal Gummy Bear
+item.gummy_sativa.name=Sativa Gummy Bear
+item.canna_milk.name=Canna Milk
+item.canna_egg.name=Canna Egg
+
+//MISC
+item.herb_grinder.name=Herb Grinder
+
+//Armour
+item.hempingot_helmet.name=HempIngot Helmet
+item.hempingot_chestplate.name=Hemp Ingot Chestplate
+item.hempingot_leggings.name=Hemp Ingot Leggings
+item.hempingot_boots.name=Hemp Ingot Boots
+item.resin_helmet.name=Resin Helmet
+item.resin_chestplate.name=Resin Chestplate
+item.resin_leggings.name=Resin Leggings
+item.resin_boots.name=Resin Boots
+item.super_resin_helmet.name=Super Resin Helmet
+item.super_resin_chestplate.name=Super Resin Chestplate
+item.super_resin_leggings.name=Super Resin Leggings
+item.super_resin_boots.name=Super Resin Boots
+
+//Hemp IngotTools
+item.hempingot_axe.name=Hemp Ingot Axe
+item.hempingot_hoe.name=Hemp Ingot Hoe
+item.hempingot_pickaxe.name=Hemp Ingot Pickaxe
+item.hempingot_shovel.name=Hemp Ingot Shovel
+item.hempingot_sword.name=Hemp Ingot Sword
+
+//Resin Tools
+item.resin_axe.name=Resin Axe
+item.resin_hoe.name=Resin Hoe
+item.resin_pickaxe.name=Resin Pickaxe
+item.resin_shovel.name=Resin Shovel
+item.resin_sword.name=Resin Sword
+
+//Super Resin Tools
+item.super_resin_axe.name=Super Resin Axe
+item.super_resin_hoe.name=Super Resin Hoe
+item.super_resin_pickaxe.name=Super Resin Pickaxe
+item.super_resin_shovel.name=Super Resin Shovel
+item.super_resin_sword.name=Super Resin Sword
+
+//Blocks
+tile.canna_leaves.name=Canna Leaves
+tile.canna_log.name=Canna Log
+tile.canna_planks.name=Canna Planks
+tile.canna_sapling.name=Canna Sapling
+tile.canna_chest.name=Canna Chest
+//tile.santa_hat.name=Santa Hat
+tile.hempingot_block.name=Hemp Ingot Block
+tile.hempingot_slab_half.name=HempIngot Slab
+tile.hemp_wood_slab_half.name=Hemp Wood Slab.
+
+
+//Machines
+tile.resin_extractor.name=Resin Extractor
+
+//Containers
+container.canna_chest=Canna Chest
+container.resin_extractor=Extractor
+
+//Creative Tabs
+itemGroup.herbalcraft=HC:HerbalCraft
+itemGroup.hcedibles=HC:Edibles
+itemGroup.hcarmoury=HC:Armoury
+itemGroup.hctools=HC:Tools
+itemGroup.hcmachines=HC:Machines
+
+//Entity
+entity.stoned_cow.name=Stoned Cow
+entity.stoned_pig.name=Stoned Pig
+entity.stoned_chicken.name=Stoned Chicken

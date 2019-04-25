@@ -1,0 +1,9 @@
+{
+    "parent": "block/half_slab",
+    "textures":
+    {
+        "bottom": "herbalcraft:blocks/canna_planks",
+        "top": "herbalcraft:blocks/canna_planks",
+        "side": "herbalcraft:blocks/canna_planks"
+    }
+}

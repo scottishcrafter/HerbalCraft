@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  X",
+    " X ",
+    " # "
+  ],
+  "key": {
+  "#": 
+     {
+      "item": "minecraft:planks",
+      "data": 0
+      
+    },
+   
+    "X": [
+      {
+        "item": "minecraft:iron_ingot"
+      },
+      {
+        "item": "herbalcraft:hemp_ingot"
+      }
+    ]
+  },
+  "result": {
+    "item": "herbalcraft:herb_grinder"
+  }
+}

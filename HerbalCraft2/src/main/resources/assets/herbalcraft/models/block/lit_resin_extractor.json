@@ -1,0 +1,12 @@
+{
+    "parent": "block/orientable",
+    "textures": {
+        "particle": "herbalcraft:blocks/resin_extractor_side",
+        "up": "herbalcraft:blocks/resin_extractor_top",
+        "down": "herbalcraft:blocks/resin_extractor_top",
+        "north": "herbalcraft:blocks/resin_extractor_front_on",
+        "east": "herbalcraft:blocks/resin_extractor_side",
+        "south": "herbalcraft:blocks/resin_extractor_side",
+        "west": "herbalcraft:blocks/resin_extractor_side"
+    }
+}

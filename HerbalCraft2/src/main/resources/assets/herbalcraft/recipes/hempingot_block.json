@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": 
+      {
+        "item": "herbalcraft:hemp_ingot"
+      }
+      
+  },
+  "result": {
+    "item": "herbalcraft:hempingot_block",
+    "count": 1
+  }
+}

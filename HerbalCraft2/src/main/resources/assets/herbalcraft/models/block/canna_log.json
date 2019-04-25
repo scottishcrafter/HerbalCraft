@@ -1,0 +1,8 @@
+{
+    "parent": "block/cube_column",
+    "textures":
+    {
+        "end": "herbalcraft:blocks/canna_log_top",
+        "side": "herbalcraft:blocks/canna_log_side"
+    }
+}

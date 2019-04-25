@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "###",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "item": "herbalcraft:gelatin"
+    },
+    "X": [
+      {
+        "item": "herbalcraft:bud_medicinal"
+      },
+      {
+        "item": "herbalcraft:crushed_bud_medicinal"
+      }
+    ]
+  },
+  "result": {
+    "item": "herbalcraft:gummies_medicinal",
+    "count": 1
+  }
+}

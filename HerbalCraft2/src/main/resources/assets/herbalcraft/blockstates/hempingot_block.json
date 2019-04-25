@@ -1,0 +1,9 @@
+{
+    "variants":
+    {
+        "normal":
+        {
+            "model": "herbalcraft:hempingot_block"
+        }
+    }
+}

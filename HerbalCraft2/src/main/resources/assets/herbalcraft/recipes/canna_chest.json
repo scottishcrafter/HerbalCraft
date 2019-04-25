@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"XXX",
+		"X X",
+		"XXX"
+	],
+	"key": {
+		"X": {
+			"item": "herbalcraft:hemp_ingot"
+		}
+		
+	},
+	"result": {
+		"item": "herbalcraft:canna_chest"
+	}
+}

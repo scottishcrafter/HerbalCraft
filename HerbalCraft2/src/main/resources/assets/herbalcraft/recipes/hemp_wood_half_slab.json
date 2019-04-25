@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"XXX"
+	],
+	"key": {
+		"X": {
+			"item": "herbalcraft:canna_planks"
+		}
+		
+	},
+	"result": {
+		"item": "herbalcraft:hemp_wood_slab_half",
+		"count": 6
+	}
+}

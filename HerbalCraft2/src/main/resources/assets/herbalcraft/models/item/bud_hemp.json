@@ -1,0 +1,11 @@
+{
+ 
+    "parent": "item/generated",
+ 
+    "textures": {
+ 
+        "layer0": "herbalcraft:items/bud_hemp"
+ 
+    }
+ 
+}

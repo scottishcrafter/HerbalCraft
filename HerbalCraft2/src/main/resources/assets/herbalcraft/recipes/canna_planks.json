@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X"
+  ],
+  "key": {
+    "X": 
+      {
+        "item": "herbalcraft:canna_log"
+      }
+      
+  },
+  "result": {
+    "item": "herbalcraft:canna_planks",
+    "count": 4
+  }
+}

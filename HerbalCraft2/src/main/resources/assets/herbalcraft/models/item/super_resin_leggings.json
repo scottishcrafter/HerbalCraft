@@ -1,0 +1,6 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "herbalcraft:items/super_resin_armour_leggings"
+	}
+}

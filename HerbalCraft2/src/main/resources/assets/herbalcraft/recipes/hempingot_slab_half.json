@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"XXX"
+	],
+	"key": {
+		"X": {
+			"item": "herbalcraft:hempingot_block"
+		}
+		
+	},
+	"result": {
+		"item": "herbalcraft:hempingot_slab_half",
+		"count": 6
+	}
+}

@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " X ",
+    "X#X",
+    " X "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:water_bucket"
+    },
+    "X": [
+      {
+        "item": "herbalcraft:hemp_dried"
+      },
+      {
+        "item": "herbalcraft:hemp_dried_sativa"
+      },
+      {
+        "item": "herbalcraft:hemp_dried_indica"
+      },
+      {
+        "item": "herbalcraft:hemp_dried_hybrid"
+      },
+      {
+        "item": "herbalcraft:hemp_dried_medicinal"
+      }
+    ]
+  },
+  "result": {
+    "item": "herbalcraft:hemp_mulch",
+    "count": 8
+  }
+}

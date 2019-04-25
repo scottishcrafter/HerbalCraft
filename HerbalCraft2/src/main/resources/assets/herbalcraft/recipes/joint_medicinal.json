@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##X",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "item": "herbalcraft:rizlaz_single"
+    },
+    "X": [
+      {
+        "item": "herbalcraft:bud_medicinal"
+      },
+      {
+        "item": "herbalcraft:crushed_bud_medicinal"
+      }
+    ]
+  },
+  "result": {
+    "item": "herbalcraft:joint_medicinal",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" X ",
+		" # ",
+		" # "
+	],
+	"key": {
+		"X": {
+			"item": "herbalcraft:super_resin"
+		},
+		"#": {
+			"item": "minecraft:stick"
+		}
+	},
+	"result": {
+		"item": "herbalcraft:super_resin_shovel"
+	}
+}

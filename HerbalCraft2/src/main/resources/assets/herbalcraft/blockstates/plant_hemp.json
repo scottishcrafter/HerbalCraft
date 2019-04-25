@@ -1,0 +1,51 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "cross"
+	},
+	"variants": {
+		"age": {
+			"0": {
+				"textures": {
+					"cross": "herbalcraft:blocks/hemp_plant_crop_stage0"
+				}
+			},
+			"1": {
+				"textures": {
+					"cross": "herbalcraft:blocks/hemp_plant_crop_stage1"
+				}
+			},
+			"2": {
+				"textures": {
+					"cross": "herbalcraft:blocks/hemp_plant_crop_stage2"
+				}
+			},
+			"3": {
+				"textures": {
+					"cross": "herbalcraft:blocks/hemp_plant_crop_stage2"
+				}
+			},
+			"4": {
+				"textures": {
+					"cross": "herbalcraft:blocks/hemp_plant_crop_stage3"
+				}
+			},
+			"5": {
+				"textures": {
+					"cross": "herbalcraft:blocks/hemp_plant_crop_stage3"
+				}
+			},
+			"6": {
+				"textures": {
+					"cross": "herbalcraft:blocks/hemp_plant_crop_stage4"
+				}
+			},
+			"7": {
+				"textures": {
+					"cross": "herbalcraft:blocks/hemp_plant_crop_stage4"
+				}
+			}
+			
+		}
+	}
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":[
+    "##X",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "item": "herbalcraft:rizlaz_single"
+    },
+    "X": [
+      {
+        "item": "herbalcraft:bud_indica"
+      },
+      {
+        "item": "herbalcraft:crushed_bud_indica"
+      }
+    ]
+  },
+  "result": {
+    "item": "herbalcraft:joint_indica",
+    "count": 1
+  }
+}

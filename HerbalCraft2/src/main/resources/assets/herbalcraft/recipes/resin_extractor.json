@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XAX",
+    "X#X",
+    "XAX"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:furnace"
+    },
+    "A": {
+    "item": "minecraft:piston"
+    },
+    "X": [
+      {
+        "item": "herbalcraft:hemp_ingot"
+      },
+      {
+        "item": "minecraft:iron_ingot"
+      }
+    ]
+  },
+  "result": {
+    "item": "herbalcraft:resin_extractor",
+    "count": 1
+  }
+}

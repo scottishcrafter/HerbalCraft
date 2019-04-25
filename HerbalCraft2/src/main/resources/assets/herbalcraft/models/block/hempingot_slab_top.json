@@ -1,0 +1,9 @@
+{
+    "parent": "block/upper_slab",
+    "textures":
+    {
+        "bottom": "herbalcraft:blocks/hempingot_block",
+        "top": "herbalcraft:blocks/hempingot_block",
+        "side": "herbalcraft:blocks/hempingot_block"
+    }
+}
