@@ -1,13 +1,15 @@
 package com.scottishcrafter.herbalcraft.blocks.crops;
 import net.minecraft.block.BlockCrops;
+
 import com.scottishcrafter.herbalcraft.init.BlockInit;
 import com.scottishcrafter.herbalcraft.init.ItemInit;
 import net.minecraft.block.SoundType;
+import net.minecraft.block.properties.PropertyInteger;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 
 public class BlockSativaPlant extends BlockCrops {
-	 
+	
 	public BlockSativaPlant(String name)
 	{
 		setUnlocalizedName(name);
@@ -20,7 +22,11 @@ public class BlockSativaPlant extends BlockCrops {
 		
 	}
 	
-	
+	@Override
+	protected PropertyInteger getAgeProperty()
+    {
+        return AGE;
+    }
 
 	@Override
 	protected Item getSeed()
@@ -34,6 +40,12 @@ public class BlockSativaPlant extends BlockCrops {
 		return ItemInit.CROPDROP_SATIVA;
 	
 	}
+	
+	@Override
+	public int getMaxAge()
+    {
+        return 4;
+    }
 	
 	
 }

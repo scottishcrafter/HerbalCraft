@@ -22,36 +22,14 @@
 			},
 			"3": {
 				"textures": {
-					"cross": "herbalcraft:blocks/hemp_plant_crop_stage2"
+					"cross": "herbalcraft:blocks/hemp_plant_crop_stage3"
 				}
 			},
 			"4": {
 				"textures": {
-					"cross": "herbalcraft:blocks/hemp_plant_crop_stage3"
-				}
-			},
-			"5": {
-				"textures": {
-					"cross": "herbalcraft:blocks/hemp_plant_crop_stage3"
-				}
-			},
-			"6": {
-				"textures": {
-					"cross": "herbalcraft:blocks/hemp_plant_crop_stage4"
-				}
-			},
-			"7": {
-				"textures": {
 					"cross": "herbalcraft:blocks/hemp_plant_crop_stage4"
 				}
 			}
-			
-		},
-		"inventory":{
-			"textures":{
-				"cross":"herbalcraft:blocks/hemp_plant_crop_stage4"
-			}
-			
 		
 		
 	}

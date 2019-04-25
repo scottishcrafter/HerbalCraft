@@ -6,11 +6,12 @@ import com.scottishcrafter.herbalcraft.init.ItemInit;
 
 import net.minecraft.block.BlockCrops;
 import net.minecraft.block.SoundType;
+import net.minecraft.block.properties.PropertyInteger;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 
 public class BlockHybridPlant extends BlockCrops {
-	 
+	
 	public BlockHybridPlant(String name)
 	{
 		setUnlocalizedName(name);
@@ -23,20 +24,27 @@ public class BlockHybridPlant extends BlockCrops {
 		
 	}
 	
-	
+	@Override
+	protected PropertyInteger getAgeProperty()
+    {
+        return AGE;
+    }
 
-@Override
-protected Item getSeed()
-{
+	@Override
+	protected Item getSeed()
+	{
 	return ItemInit.SEEDS_HYBRID;
-}
+	}
 
-@Override
-protected Item getCrop()
-{
-	return ItemInit.CROPDROP_HYBRID;
+	@Override
+	protected Item getCrop()
+	{
+		return ItemInit.CROPDROP_HYBRID;
+	}
 	
-	       
-	
-}
+	@Override
+	public int getMaxAge()
+    {
+        return 4;
+    }
 }

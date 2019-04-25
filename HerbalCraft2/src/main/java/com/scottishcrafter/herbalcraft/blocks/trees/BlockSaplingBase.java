@@ -7,6 +7,8 @@ import com.scottishcrafter.herbalcraft.init.BlockInit;
 import com.scottishcrafter.herbalcraft.init.ItemInit;
 import com.scottishcrafter.herbalcraft.util.interfaces.IHasModel;
 import com.scottishcrafter.herbalcraft.world.generation.generators.WorldGenHempTree;
+import com.scottishcrafter.herbalcraft.world.generation.generators.WorldGenIndicaTree;
+
 import net.minecraft.block.BlockBush;
 import net.minecraft.block.IGrowable;
 import net.minecraft.block.material.Material;
@@ -37,7 +39,7 @@ public class BlockSaplingBase extends BlockBush implements IGrowable, IHasModel
 		setUnlocalizedName(name);
 		setRegistryName(name);
 		this.setDefaultState(this.blockState.getBaseState().withProperty(STAGE, Integer.valueOf(0)));
-		setCreativeTab(Main.HERBALCRAFT);
+		setCreativeTab(Main.HCTREES);
 		
 		type = name.replaceAll("_sapling", "").trim();
 				
@@ -124,6 +126,9 @@ public class BlockSaplingBase extends BlockBush implements IGrowable, IHasModel
 		{
 		case "hemp":
 			gen = new WorldGenHempTree();
+			break;
+		case "indica":
+			gen = new WorldGenIndicaTree();
 			break;
 		
 		}

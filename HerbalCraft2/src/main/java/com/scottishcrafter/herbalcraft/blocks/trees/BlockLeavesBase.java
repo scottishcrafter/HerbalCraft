@@ -29,13 +29,13 @@ public class BlockLeavesBase extends BlockLeaves implements IHasModel
 	
 	public BlockLeavesBase(String name) 
 	{
-		type = name.replaceAll("_leaves", name).trim();
+		type = name;
 		System.out.println(type);
 		
 		setUnlocalizedName(name);
 		setRegistryName(name);
 		setSoundType(SoundType.PLANT);
-		setCreativeTab(Main.HERBALCRAFT);
+		setCreativeTab(Main.HCTREES);
 		setDefaultState(this.blockState.getBaseState().withProperty(CHECK_DECAY, Boolean.valueOf(true)).withProperty(DECAYABLE, Boolean.valueOf(true)));
 				
 		BlockInit.BLOCKS.add(this);
@@ -45,8 +45,8 @@ public class BlockLeavesBase extends BlockLeaves implements IHasModel
 	@Override
 	public Item getItemDropped(IBlockState state, Random rand, int fortune) 
 	{
-		if(type == "hemp") return ItemInit.TREEDROP_HEMP;
-		//else if(type == "aluminium") return Item.getItemFromBlock(BlockInit.ALUMINIUM_SAPLING);
+		if(type == "hemp_leaves") return ItemInit.TREEDROP_HEMP;
+		else if(type == "indica_leaves") return ItemInit.TREEDROP_INDICA;
 		else return ItemInit.CROPDROP_HEMP;
 	}
 	

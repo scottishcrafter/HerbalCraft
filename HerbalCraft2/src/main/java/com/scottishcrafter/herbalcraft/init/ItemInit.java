@@ -107,6 +107,7 @@ public class ItemInit
 	
 	//Tree Drops
 	public static final Item TREEDROP_HEMP = new TreeDropHemp ("treedrop_hemp", Main.HERBALCRAFT);
+	public static final Item TREEDROP_INDICA = new TreeDropIndica ("treedrop_indica", Main.HERBALCRAFT);
 	
 	//Items:Raw Hemps
 	public static final Item HEMP_RAW = new ItemBase("hemp_raw", Main.HERBALCRAFT);

@@ -31,6 +31,7 @@ public class Main
 	public static final CreativeTabs HCMACHINES = new HCMachinesTab();
 	public static final CreativeTabs HCARMOURY = new HCArmouryTab();
 	public static final CreativeTabs HCTOOLS = new HCToolsTab();
+	public static final CreativeTabs HCTREES = new HCTreesTab();
 	public static File config;
 	
 	static { FluidRegistry.enableUniversalBucket(); }

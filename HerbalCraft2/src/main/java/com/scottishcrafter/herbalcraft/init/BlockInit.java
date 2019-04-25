@@ -36,10 +36,6 @@ public class BlockInit
 	//Blocks
 	public static final Block HEMPINGOT_BLOCK = new BlockBase("hempingot_block", Material.IRON, Main.HERBALCRAFT);
 	public static final Block HEMP_WOOL = new BlockBase("hemp_wool", Material.CARPET, Main.HERBALCRAFT);
-	public static final Block HEMP_LEAVES = new BlockLeavesBase("hemp_leaves");
-	public static final Block HEMP_LOG = new BlockLogBase("hemp_log");
-	public static final Block HEMP_PLANKS = new BlockBase("hemp_planks", Material.WOOD, Main.HERBALCRAFT);
-	public static final Block HEMP_SAPLING = new BlockSaplingBase("hemp_sapling");
 	public static final BlockSlab HEMPINGOT_SLAB_DOUBLE = new BlockSlabDoubleBase("hempingot_slab_double", Material.IRON, Main.HERBALCRAFT, BlockInit.HEMPINGOT_SLAB_HALF);
 	public static final BlockSlab HEMPINGOT_SLAB_HALF = new BlockSlabHalfBase("hempingot_slab_half", Material.IRON, Main.HERBALCRAFT, BlockInit.HEMPINGOT_SLAB_HALF, BlockInit.HEMPINGOT_SLAB_DOUBLE);
 	public static final BlockSlab HEMP_WOOD_SLAB_DOUBLE = new BlockSlabDoubleBase("hemp_wood_slab_double", Material.WOOD, Main.HERBALCRAFT, BlockInit.HEMP_WOOD_SLAB_HALF);
@@ -52,6 +48,17 @@ public class BlockInit
 	
 	//Machines
 	public static final Block RESIN_EXTRACTOR = new BlockResinExtractor("resin_extractor");
+	
+	//Tree Stuff
+	public static final Block HEMP_LEAVES = new BlockLeavesBase("hemp_leaves");
+	public static final Block HEMP_LOG = new BlockLogBase("hemp_log");
+	public static final Block HEMP_PLANKS = new BlockBase("hemp_planks", Material.WOOD, Main.HERBALCRAFT);
+	public static final Block HEMP_SAPLING = new BlockSaplingBase("hemp_sapling");
+	
+	public static final Block INDICA_LEAVES = new BlockLeavesBase("indica_leaves");
+	public static final Block INDICA_LOG = new BlockLogBase("indica_log");
+	public static final Block INDICA_PLANKS = new BlockBase("indica_planks", Material.WOOD, Main.HERBALCRAFT);
+	public static final Block INDICA_SAPLING = new BlockSaplingBase("indica_sapling");
 	
 	
 	

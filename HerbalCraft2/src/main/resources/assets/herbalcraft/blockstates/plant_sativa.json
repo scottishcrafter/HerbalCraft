@@ -4,12 +4,7 @@
 		"model": "cross"
 	},
 	"variants": {
-		"inventory":
-		{
-			"textures": {
-					"cross": "herbalcraft:blocks/sativa_plant_crop_stage0"
-				}
-		},
+
 		"age": {
 			"0": {
 				"textures": {
@@ -18,41 +13,26 @@
 			},
 			"1": {
 				"textures": {
-					"cross": "herbalcraft:blocks/sativa_plant_crop_stage0"
+					"cross": "herbalcraft:blocks/sativa_plant_crop_stage1"
 				}
 			},
 			"2": {
 				"textures": {
-					"cross": "herbalcraft:blocks/sativa_plant_crop_stage1"
+					"cross": "herbalcraft:blocks/sativa_plant_crop_stage2"
 				}
 			},
 			"3": {
 				"textures": {
-					"cross": "herbalcraft:blocks/sativa_plant_crop_stage2"
+					"cross": "herbalcraft:blocks/sativa_plant_crop_stage3"
 				}
 			},
 			"4": {
 				"textures": {
-					"cross": "herbalcraft:blocks/sativa_plant_crop_stage2"
-				}
-			},
-			"5": {
-				"textures": {
-					"cross": "herbalcraft:blocks/sativa_plant_crop_stage3"
-				}
-			},
-			"6": {
-				"textures": {
-					"cross": "herbalcraft:blocks/sativa_plant_crop_stage3"
-				}
-			},
-			"7": {
-				"textures": {
 					"cross": "herbalcraft:blocks/sativa_plant_crop_stage4"
 				}
 			}
-		}
 
-		
+
+		}
 	}
 }

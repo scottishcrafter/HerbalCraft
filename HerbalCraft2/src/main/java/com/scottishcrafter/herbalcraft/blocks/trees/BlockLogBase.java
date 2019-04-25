@@ -21,7 +21,7 @@ public class BlockLogBase extends BlockLog implements IHasModel
 		setRegistryName(name);
 		setSoundType(SoundType.WOOD);
 		setDefaultState(this.blockState.getBaseState().withProperty(LOG_AXIS, EnumAxis.Y));
-		setCreativeTab(Main.HERBALCRAFT);
+		setCreativeTab(Main.HCTREES);
 				
 		BlockInit.BLOCKS.add(this);
 		ItemInit.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));

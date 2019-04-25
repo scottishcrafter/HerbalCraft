@@ -1,7 +1,5 @@
 package com.scottishcrafter.herbalcraft;
 
-import net.minecraft.block.properties.PropertyInteger;
-
 public class Reference 
 {
 	public static final String MODID = "herbalcraft";
@@ -16,5 +14,5 @@ public class Reference
 	public static final int GUI_CANNA_CHEST = 2;
 	
 	
-	public static final PropertyInteger AGE = PropertyInteger.create("age", 0, 4);
+	
 }
