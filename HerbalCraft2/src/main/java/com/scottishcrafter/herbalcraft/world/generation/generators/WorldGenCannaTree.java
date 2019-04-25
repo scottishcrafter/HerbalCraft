@@ -126,7 +126,7 @@ public class WorldGenCannaTree extends WorldGenAbstractTree
 	protected boolean canGrowInto(Block blockType)
 	{
 		Material material = blockType.getDefaultState().getMaterial();
-       return material == Material.AIR || material == Material.LEAVES || material == Material.GROUND || blockType == Blocks.GRASS || blockType == Blocks.DIRT || blockType == Blocks.LOG || blockType == Blocks.LOG2 || blockType == Blocks.SAPLING || blockType == Blocks.VINE;
+       return material == Material.AIR || material == Material.LEAVES || material == Material.GROUND || material == Material.GRASS || blockType == Blocks.DIRT || blockType == Blocks.LOG || blockType == Blocks.LOG2 || blockType == Blocks.SAPLING || blockType == Blocks.VINE;
   
 	}
 }

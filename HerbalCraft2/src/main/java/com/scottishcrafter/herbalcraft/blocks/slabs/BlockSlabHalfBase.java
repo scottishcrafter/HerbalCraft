@@ -3,7 +3,6 @@ package com.scottishcrafter.herbalcraft.blocks.slabs;
 import com.scottishcrafter.herbalcraft.Main;
 import com.scottishcrafter.herbalcraft.init.ItemInit;
 import com.scottishcrafter.herbalcraft.util.interfaces.IHasModel;
-import net.minecraft.block.Block;
 import net.minecraft.block.BlockSlab;
 import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;

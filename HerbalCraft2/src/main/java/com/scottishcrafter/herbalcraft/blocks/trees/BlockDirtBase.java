@@ -1,7 +1,6 @@
 package com.scottishcrafter.herbalcraft.blocks.trees;
 
 import com.scottishcrafter.herbalcraft.blocks.BlockBase;
-import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.creativetab.CreativeTabs;

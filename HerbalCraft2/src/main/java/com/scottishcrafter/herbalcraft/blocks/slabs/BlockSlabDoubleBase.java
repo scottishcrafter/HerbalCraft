@@ -1,11 +1,8 @@
 package com.scottishcrafter.herbalcraft.blocks.slabs;
 
-import net.minecraft.block.Block;
 import net.minecraft.block.BlockSlab;
 import net.minecraft.block.material.Material;
-import net.minecraft.block.properties.IProperty;
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.item.ItemStack;
 
 public class BlockSlabDoubleBase extends BlockSlabBase
 {

@@ -46,7 +46,7 @@ public class BlockInit
 	public static final BlockSlab HEMP_WOOD_SLAB_HALF = new BlockSlabHalfBase("hemp_wood_slab_half", Material.WOOD, Main.HERBALCRAFT, BlockInit.HEMP_WOOD_SLAB_HALF, BlockInit.HEMP_WOOD_SLAB_DOUBLE);
 	//Custom Models
 	public static final Block CANNA_CHEST = new BlockCannaChest("canna_chest");
-	//public static final Block HEMPINGOT__DOOR = new BlockDoorBase("hempingot_door", Material.ANVIL, Main.HERBALCRAFT);
+	public static final Block HEMPINGOT__DOOR = new BlockDoorBase("hempingot_door", Material.ANVIL, Main.HERBALCRAFT);
 	
 	
 	//Machines

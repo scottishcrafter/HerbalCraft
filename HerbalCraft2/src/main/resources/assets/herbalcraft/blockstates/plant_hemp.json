@@ -46,6 +46,14 @@
 				}
 			}
 			
-		}
+		},
+		"inventory":{
+			"textures":{
+				"cross":"herbalcraft:blocks/hemp_plant_crop_stage4"
+			}
+			
+		
+		
 	}
+}
 }

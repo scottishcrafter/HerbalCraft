@@ -8,6 +8,9 @@ item.hemp_paper.name=Hemp Paper
 item.rizlaz_single.name=Rizlaz
 item.gelatin.name=Gelatin
 
+//Doors
+tile.hempingot_door.name=HempIngot Door
+
 //Raw Hemp
 item.hemp_raw.name=Raw Hemp
 item.hemp_raw_hybrid.name=Raw Hybrid Hemp

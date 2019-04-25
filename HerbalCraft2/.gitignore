@@ -20,3 +20,15 @@ build
 # other
 eclipse
 run
+/gradle/
+/build.gradle
+/gradle.properties
+/gradlew
+/gradlew.bat
+/config/
+/logs/
+/saves/
+/options.txt
+/usercache.json
+/usernamecache.json
+/eula.txt
