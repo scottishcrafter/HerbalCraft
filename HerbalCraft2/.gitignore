@@ -32,3 +32,10 @@ run
 /usercache.json
 /usernamecache.json
 /eula.txt
+/world/
+/banned-ips.json
+/banned-players.json
+/ops.json
+/server.properties
+/servers.dat
+/whitelist.json
