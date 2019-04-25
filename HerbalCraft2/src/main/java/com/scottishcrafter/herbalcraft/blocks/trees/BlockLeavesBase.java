@@ -1,6 +1,8 @@
 package com.scottishcrafter.herbalcraft.blocks.trees;
 
 import java.util.List;
+import java.util.Random;
+
 import com.scottishcrafter.herbalcraft.Main;
 import com.scottishcrafter.herbalcraft.init.BlockInit;
 import com.scottishcrafter.herbalcraft.init.ItemInit;
@@ -11,6 +13,7 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.properties.IProperty;
 import net.minecraft.block.state.BlockStateContainer;
 import net.minecraft.block.state.IBlockState;
+import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.ItemStack;
@@ -26,7 +29,7 @@ public class BlockLeavesBase extends BlockLeaves implements IHasModel
 	
 	public BlockLeavesBase(String name) 
 	{
-		type = name.replaceAll("_leaves", "").trim();
+		type = name.replaceAll("_leaves", name).trim();
 		System.out.println(type);
 		
 		setUnlocalizedName(name);
@@ -39,13 +42,16 @@ public class BlockLeavesBase extends BlockLeaves implements IHasModel
 		ItemInit.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
 	}
 	
-	//@Override
-	//public Item getItemDropped(IBlockState state, Random rand, int fortune) 
-	//{
-	//	if(type == "copper") return Item.getItemFromBlock(BlockInit.COPPER_SAPLING);
-	//	else if(type == "aluminium") return Item.getItemFromBlock(BlockInit.ALUMINIUM_SAPLING);
-	//	else return Item.getItemFromBlock(Blocks.SAPLING);
-	//}
+	@Override
+	public Item getItemDropped(IBlockState state, Random rand, int fortune) 
+	{
+		if(type == "hemp") return ItemInit.TREEDROP_HEMP;
+		//else if(type == "aluminium") return Item.getItemFromBlock(BlockInit.ALUMINIUM_SAPLING);
+		else return ItemInit.CROPDROP_HEMP;
+	}
+	
+	
+	
 	
 	@Override
 	public int getMetaFromState(IBlockState state) 
@@ -92,7 +98,7 @@ public class BlockLeavesBase extends BlockLeaves implements IHasModel
 	@Override
 	public BlockRenderLayer getBlockLayer() 
 	{
-		return BlockRenderLayer.TRANSLUCENT;
+		return BlockRenderLayer.CUTOUT;
 	}	
 	
 	@Override

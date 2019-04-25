@@ -11,17 +11,16 @@ import net.minecraft.util.EnumFacing;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraft.world.gen.feature.WorldGenAbstractTree;
-import net.minecraft.world.gen.feature.WorldGenTrees;
 import net.minecraftforge.common.IPlantable;
 
-public class WorldGenCannaTree extends WorldGenAbstractTree
+public class WorldGenHempTree extends WorldGenAbstractTree
 {
-	public static final IBlockState LOG = BlockInit.CANNA_LOG.getDefaultState();
-	public static final IBlockState LEAF = BlockInit.CANNA_LEAVES.getDefaultState();
+	public static final IBlockState LOG = BlockInit.HEMP_LOG.getDefaultState();
+	public static final IBlockState LEAF = BlockInit.HEMP_LEAVES.getDefaultState();
 	
 	private final int minHeight;
 	
-	public WorldGenCannaTree() 
+	public WorldGenHempTree() 
 	{
 		super(false);
 		this.minHeight = 12;

@@ -105,6 +105,9 @@ public class ItemInit
 	public static final Item CROPDROP_MEDICINAL = new CropDropMedicinal ("cropdrop_medicinal", Main.HERBALCRAFT);
 	public static final Item CROPDROP_SATIVA = new CropDropSativa ("cropdrop_sativa", Main.HERBALCRAFT);
 	
+	//Tree Drops
+	public static final Item TREEDROP_HEMP = new TreeDropHemp ("treedrop_hemp", Main.HERBALCRAFT);
+	
 	//Items:Raw Hemps
 	public static final Item HEMP_RAW = new ItemBase("hemp_raw", Main.HERBALCRAFT);
 	public static final Item HEMP_RAW_HYBRID = new ItemBase("hemp_raw_hybrid", Main.HERBALCRAFT);

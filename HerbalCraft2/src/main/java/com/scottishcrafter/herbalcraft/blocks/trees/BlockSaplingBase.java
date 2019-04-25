@@ -6,7 +6,7 @@ import com.scottishcrafter.herbalcraft.Main;
 import com.scottishcrafter.herbalcraft.init.BlockInit;
 import com.scottishcrafter.herbalcraft.init.ItemInit;
 import com.scottishcrafter.herbalcraft.util.interfaces.IHasModel;
-import com.scottishcrafter.herbalcraft.world.generation.generators.WorldGenCannaTree;
+import com.scottishcrafter.herbalcraft.world.generation.generators.WorldGenHempTree;
 import net.minecraft.block.BlockBush;
 import net.minecraft.block.IGrowable;
 import net.minecraft.block.material.Material;
@@ -122,8 +122,8 @@ public class BlockSaplingBase extends BlockBush implements IGrowable, IHasModel
 		
 		switch(type)
 		{
-		case "canna":
-			gen = new WorldGenCannaTree();
+		case "hemp":
+			gen = new WorldGenHempTree();
 			break;
 		
 		}

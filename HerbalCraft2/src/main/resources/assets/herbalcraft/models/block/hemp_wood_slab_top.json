@@ -2,8 +2,8 @@
     "parent": "block/upper_slab",
     "textures":
     {
-        "bottom": "herbalcraft:blocks/canna_planks",
-        "top": "herbalcraft:blocks/canna_planks",
-        "side": "herbalcraft:blocks/canna_planks"
+        "bottom": "herbalcraft:blocks/hemp_planks",
+        "top": "herbalcraft:blocks/hemp_planks",
+        "side": "herbalcraft:blocks/hemp_planks"
     }
 }

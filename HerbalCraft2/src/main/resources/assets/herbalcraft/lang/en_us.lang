@@ -8,8 +8,11 @@ item.hemp_paper.name=Hemp Paper
 item.rizlaz_single.name=Rizlaz
 item.gelatin.name=Gelatin
 
+
+
 //Doors
 tile.hempingot_door.name=HempIngot Door
+tile.hemp_wood_door.name=Hemp Wood Door
 
 //Raw Hemp
 item.hemp_raw.name=Raw Hemp
@@ -50,6 +53,8 @@ item.cropdrop_indica.name=Indica Crop
 item.cropdrop_medicinal.name=Medicinal Crop
 item.cropdrop_sativa.name=Sativa Crop
 
+//Tree Drops
+item.treedrop_hemp.name=Hemp Tree Bundle
 //Joints
 item.joint_hybrid.name=Hybrid Joint
 item.joint_indica.name=Indica Joint
@@ -133,11 +138,11 @@ item.super_resin_shovel.name=Super Resin Shovel
 item.super_resin_sword.name=Super Resin Sword
 
 //Blocks
-tile.canna_leaves.name=Canna Leaves
-tile.canna_log.name=Canna Log
-tile.canna_planks.name=Canna Planks
-tile.canna_sapling.name=Canna Sapling
-tile.canna_chest.name=Canna Chest
+tile.hemp_leaves.name=Hemp Leaves
+tile.hemp_log.name=Hemp Log
+tile.hemp_planks.name=Hemp Planks
+tile.hemp_sapling.name=Hemp Sapling
+tile.hemp_chest.name=Hemp Chest
 //tile.santa_hat.name=Santa Hat
 tile.hempingot_block.name=Hemp Ingot Block
 tile.hempingot_slab_half.name=HempIngot Slab

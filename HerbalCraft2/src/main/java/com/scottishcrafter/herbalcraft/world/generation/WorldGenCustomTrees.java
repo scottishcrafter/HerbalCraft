@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Random;
 
-import com.scottishcrafter.herbalcraft.world.generation.generators.WorldGenCannaTree;
+import com.scottishcrafter.herbalcraft.world.generation.generators.WorldGenHempTree;
 import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
 import net.minecraft.util.math.BlockPos;
@@ -18,7 +18,7 @@ import net.minecraftforge.fml.common.IWorldGenerator;
 
 public class WorldGenCustomTrees implements IWorldGenerator
 {
-	private final WorldGenerator CANNA = new WorldGenCannaTree();
+	private final WorldGenerator HEMP = new WorldGenHempTree();
 	
 	
 	@Override
@@ -32,7 +32,7 @@ public class WorldGenCustomTrees implements IWorldGenerator
 			
 		case 0:
 			
-			runGenerator(CANNA, world, random, chunkX, chunkZ, 5, Blocks.GRASS, BiomePlains.class);
+			runGenerator(HEMP, world, random, chunkX, chunkZ, 5, Blocks.GRASS, BiomePlains.class);
 			
 			
 			break;

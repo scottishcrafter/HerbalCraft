@@ -6,12 +6,12 @@
   "key": {
     "X": 
       {
-        "item": "herbalcraft:canna_log"
+        "item": "herbalcraft:hemp_log"
       }
       
   },
   "result": {
-    "item": "herbalcraft:canna_planks",
+    "item": "herbalcraft:hemp_planks",
     "count": 4
   }
 }

@@ -2,6 +2,6 @@
     "parent": "block/cross",
     "textures":
     {
-        "cross": "herbalcraft:blocks/canna_sapling"
+        "cross": "herbalcraft:blocks/hemp_sapling"
     }
 }
