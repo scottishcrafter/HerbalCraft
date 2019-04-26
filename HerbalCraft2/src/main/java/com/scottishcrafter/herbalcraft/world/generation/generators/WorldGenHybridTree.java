@@ -13,14 +13,14 @@ import net.minecraft.world.World;
 import net.minecraft.world.gen.feature.WorldGenAbstractTree;
 import net.minecraftforge.common.IPlantable;
 
-public class WorldGenHempTree extends WorldGenAbstractTree
+public class WorldGenHybridTree extends WorldGenAbstractTree
 {
-	public static final IBlockState LOG = BlockInit.HEMP_LOG.getDefaultState();
-	public static final IBlockState LEAF = BlockInit.HEMP_LEAVES.getDefaultState();
+	public static final IBlockState LOG = BlockInit.HYBRID_LOG.getDefaultState();
+	public static final IBlockState LEAF = BlockInit.HYBRID_LEAVES.getDefaultState();
 	
 	private final int minHeight;
 	
-	public WorldGenHempTree() 
+	public WorldGenHybridTree() 
 	{
 		super(false);
 		this.minHeight = 12;
@@ -73,7 +73,7 @@ public class WorldGenHempTree extends WorldGenAbstractTree
 			IBlockState state = world.getBlockState(down);
 			boolean isSoil = state.getBlock().canSustainPlant(state, world, down, EnumFacing.UP, (IPlantable) Blocks.SAPLING);
 			
-			if(isSoil && y < world.getHeight() - height - 2)
+			if(isSoil && y < world.getHeight() - height - 1)
 			{
 				state.getBlock().onPlantGrow(state, world, down, pos);
 				
@@ -125,7 +125,7 @@ public class WorldGenHempTree extends WorldGenAbstractTree
 	protected boolean canGrowInto(Block blockType)
 	{
 		Material material = blockType.getDefaultState().getMaterial();
-       return material == Material.AIR || material == Material.LEAVES || material == Material.GRASS || material == Material.GROUND || blockType == Blocks.GRASS || blockType == Blocks.DIRT || blockType == Blocks.LOG || blockType == Blocks.LOG2 || blockType == Blocks.SAPLING || blockType == Blocks.VINE;
+       return material == Material.AIR || material == Material.LEAVES || material == Material.GROUND || material == Material.GRASS || blockType == Blocks.DIRT || blockType == Blocks.LOG || blockType == Blocks.LOG2 || blockType == Blocks.SAPLING || blockType == Blocks.VINE;
   
 	}
 }

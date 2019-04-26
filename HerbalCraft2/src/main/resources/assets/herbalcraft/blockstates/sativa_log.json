@@ -1,0 +1,9 @@
+{
+    "variants":
+    {
+        "axis=y":  { "model": "herbalcraft:sativa_log" },
+        "axis=z":   { "model": "herbalcraft:sativa_log", "x": 90 },
+        "axis=x":   { "model": "herbalcraft:sativa_log", "x": 90, "y": 90 },
+        "axis=none": { "model": "herbalcraft:sativa_bark" }
+    }
+}

@@ -1,5 +1,6 @@
 package com.scottishcrafter.herbalcraft.init;
 
+import com.scottishcrafter.herbalcraft.util.ModConfiguration;
 import com.scottishcrafter.herbalcraft.world.biomes.BiomeCanna;
 import net.minecraft.world.biome.Biome;
 import net.minecraftforge.common.BiomeDictionary;
@@ -25,7 +26,7 @@ public class BiomeInit
 		BiomeDictionary.addTypes(biome, types);
 		BiomeManager.addBiome(biomeType, new BiomeEntry(biome, 10));
 		
-		//if(ModConfiguration.spawnCustomBiomesInOverworld) 
+		if(ModConfiguration.spawnCustomBiomesInOverworld) 
 		{
 			BiomeManager.addSpawnBiome(biome);
 		}

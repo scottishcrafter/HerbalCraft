@@ -1,0 +1,8 @@
+{
+    "parent": "block/cube_column",
+    "textures":
+    {
+        "end": "herbalcraft:blocks/medicinal_log_top",
+        "side": "herbalcraft:blocks/medicinal_log_side"
+    }
+}

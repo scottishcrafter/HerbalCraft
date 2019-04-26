@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Random;
 
-import com.scottishcrafter.herbalcraft.world.generation.generators.WorldGenHempTree;
-import com.scottishcrafter.herbalcraft.world.generation.generators.WorldGenIndicaTree;
+import com.scottishcrafter.herbalcraft.world.biomes.BiomeCanna;
+import com.scottishcrafter.herbalcraft.world.generation.generators.*;
 
 import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
@@ -22,6 +22,9 @@ public class WorldGenCustomTrees implements IWorldGenerator
 {
 	private final WorldGenerator HEMP = new WorldGenHempTree();
 	private final WorldGenerator INDICA = new WorldGenIndicaTree();
+	private final WorldGenerator MEDICINAL = new WorldGenMedicinalTree();
+	private final WorldGenerator SATIVA = new WorldGenSativaTree();
+	
 	
 	
 	@Override
@@ -36,7 +39,9 @@ public class WorldGenCustomTrees implements IWorldGenerator
 		case 0:
 			
 			runGenerator(HEMP, world, random, chunkX, chunkZ, 5, Blocks.GRASS, BiomePlains.class);
-			runGenerator(INDICA, world, random, chunkX, chunkZ, 5, Blocks.GRASS, BiomePlains.class);
+			runGenerator(INDICA, world, random, chunkX, chunkZ, 5, Blocks.GRASS, BiomeCanna.class);
+			runGenerator(MEDICINAL, world, random, chunkX, chunkZ, 5, Blocks.GRASS, BiomeCanna.class);
+			runGenerator(SATIVA, world, random, chunkX, chunkZ, 5, Blocks.GRASS, BiomeCanna.class);
 			
 			
 			break;

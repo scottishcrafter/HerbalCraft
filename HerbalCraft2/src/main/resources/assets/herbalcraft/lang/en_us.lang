@@ -59,6 +59,8 @@ item.cropdrop_sativa.name=Sativa Crop
 //Tree Drops
 item.treedrop_hemp.name=Hemp Tree Bundle
 item.treedrop_indica.name=Indica Tree Bundle
+item.treedrop_sativa.name=Sativa Tree Bundle
+item.treedrop_hybrid.name=Hybrid Tree Bundle
 //Joints
 item.joint_hybrid.name=Hybrid Joint
 item.joint_indica.name=Indica Joint
@@ -150,6 +152,22 @@ tile.indica_leaves.name=Indica Leaves
 tile.indica_log.name=Indica Log
 tile.indica_planks.name=Indica Planks
 tile.indica_sapling.name=Indica Sapling
+
+tile.sativa_leaves.name=Sativa Leaves
+tile.sativa_log.name=Sativa Log
+tile.sativa_planks.name=Sativa Planks
+tile.sativa_sapling.name=Sativa Sapling
+
+tile.hybrid_leaves.name=Hybrid Leaves
+tile.hybrid_log.name=Hybrid Log
+tile.hybrid_planks.name=Hybrid Planks
+tile.hybrid_sapling.name=Hybrid Sapling
+
+tile.medicinal_leaves.name=Medicinal Leaves
+tile.medicinal_log.name=Medicinal Log
+tile.medicinal_planks.name=Medicinal Planks
+tile.medicinal_sapling.name=Medicinal Sapling
+
 tile.hemp_chest.name=Hemp Chest
 //tile.santa_hat.name=Santa Hat
 tile.hempingot_block.name=Hemp Ingot Block

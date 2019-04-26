@@ -6,8 +6,7 @@ import com.scottishcrafter.herbalcraft.Main;
 import com.scottishcrafter.herbalcraft.init.BlockInit;
 import com.scottishcrafter.herbalcraft.init.ItemInit;
 import com.scottishcrafter.herbalcraft.util.interfaces.IHasModel;
-import com.scottishcrafter.herbalcraft.world.generation.generators.WorldGenHempTree;
-import com.scottishcrafter.herbalcraft.world.generation.generators.WorldGenIndicaTree;
+import com.scottishcrafter.herbalcraft.world.generation.generators.*;
 
 import net.minecraft.block.BlockBush;
 import net.minecraft.block.IGrowable;

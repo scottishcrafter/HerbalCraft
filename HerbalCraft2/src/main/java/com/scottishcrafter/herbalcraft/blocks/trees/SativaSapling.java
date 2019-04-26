@@ -27,13 +27,13 @@ import net.minecraft.world.gen.feature.WorldGenTrees;
 import net.minecraft.world.gen.feature.WorldGenerator;
 import net.minecraftforge.event.terraingen.TerrainGen;
 
-public class HempSapling extends BlockBush implements IGrowable, IHasModel
+public class SativaSapling extends BlockBush implements IGrowable, IHasModel
 {	
 	public static final PropertyInteger STAGE = PropertyInteger.create("stage", 0, 1);
     protected static final AxisAlignedBB SAPLING_AABB = new AxisAlignedBB(0.09999999403953552D, 0.0D, 0.09999999403953552D, 0.8999999761581421D, 0.800000011920929D, 0.8999999761581421D);
     private static String type;
     
-    public HempSapling(String name) 
+    public SativaSapling(String name) 
     {
 		setUnlocalizedName(name);
 		setRegistryName(name);
@@ -124,8 +124,8 @@ public class HempSapling extends BlockBush implements IGrowable, IHasModel
 		
 		switch(type)
 		{
-		case "hemp_sapling":
-			gen = new WorldGenHempTree();
+		case "sativa_sapling":
+			gen = new WorldGenSativaTree();
 			break;
 		
 		

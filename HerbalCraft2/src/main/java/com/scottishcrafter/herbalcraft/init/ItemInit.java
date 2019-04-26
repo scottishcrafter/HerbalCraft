@@ -107,7 +107,10 @@ public class ItemInit
 	
 	//Tree Drops
 	public static final Item TREEDROP_HEMP = new TreeDropHemp ("treedrop_hemp", Main.HERBALCRAFT);
+	public static final Item TREEDROP_HYBRID = new TreeDropHybrid ("treedrop_hybrid", Main.HERBALCRAFT);
 	public static final Item TREEDROP_INDICA = new TreeDropIndica ("treedrop_indica", Main.HERBALCRAFT);
+	public static final Item TREEDROP_MEDICINAL = new TreeDropMedicinal ("treedrop_medicinal", Main.HERBALCRAFT);
+	public static final Item TREEDROP_SATIVA = new TreeDropSativa ("treedrop_sativa", Main.HERBALCRAFT);
 	
 	//Items:Raw Hemps
 	public static final Item HEMP_RAW = new ItemBase("hemp_raw", Main.HERBALCRAFT);
