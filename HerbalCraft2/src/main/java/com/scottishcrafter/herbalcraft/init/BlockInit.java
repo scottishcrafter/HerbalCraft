@@ -17,7 +17,9 @@ import com.scottishcrafter.herbalcraft.blocks.slabs.BlockSlabDoubleBase;
 import com.scottishcrafter.herbalcraft.blocks.slabs.BlockSlabHalfBase;
 import com.scottishcrafter.herbalcraft.blocks.trees.BlockLeavesBase;
 import com.scottishcrafter.herbalcraft.blocks.trees.BlockLogBase;
-import com.scottishcrafter.herbalcraft.blocks.trees.BlockSaplingBase;
+import com.scottishcrafter.herbalcraft.blocks.trees.HempSapling;
+import com.scottishcrafter.herbalcraft.blocks.trees.IndicaSapling;
+
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockSlab;
 import net.minecraft.block.material.Material;
@@ -53,12 +55,12 @@ public class BlockInit
 	public static final Block HEMP_LEAVES = new BlockLeavesBase("hemp_leaves");
 	public static final Block HEMP_LOG = new BlockLogBase("hemp_log");
 	public static final Block HEMP_PLANKS = new BlockBase("hemp_planks", Material.WOOD, Main.HERBALCRAFT);
-	public static final Block HEMP_SAPLING = new BlockSaplingBase("hemp_sapling");
+	public static final Block HEMP_SAPLING = new HempSapling("hemp_sapling");
 	
 	public static final Block INDICA_LEAVES = new BlockLeavesBase("indica_leaves");
 	public static final Block INDICA_LOG = new BlockLogBase("indica_log");
 	public static final Block INDICA_PLANKS = new BlockBase("indica_planks", Material.WOOD, Main.HERBALCRAFT);
-	public static final Block INDICA_SAPLING = new BlockSaplingBase("indica_sapling");
+	public static final Block INDICA_SAPLING = new IndicaSapling("indica_sapling");
 	
 	
 	

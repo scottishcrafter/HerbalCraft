@@ -28,20 +28,21 @@ import net.minecraft.world.gen.feature.WorldGenTrees;
 import net.minecraft.world.gen.feature.WorldGenerator;
 import net.minecraftforge.event.terraingen.TerrainGen;
 
-public class BlockSaplingBase extends BlockBush implements IGrowable, IHasModel
+public class IndicaSapling extends BlockBush implements IGrowable, IHasModel
 {	
 	public static final PropertyInteger STAGE = PropertyInteger.create("stage", 0, 1);
     protected static final AxisAlignedBB SAPLING_AABB = new AxisAlignedBB(0.09999999403953552D, 0.0D, 0.09999999403953552D, 0.8999999761581421D, 0.800000011920929D, 0.8999999761581421D);
     private static String type;
     
-    public BlockSaplingBase(String name) 
+    public IndicaSapling(String name) 
     {
 		setUnlocalizedName(name);
 		setRegistryName(name);
 		this.setDefaultState(this.blockState.getBaseState().withProperty(STAGE, Integer.valueOf(0)));
 		setCreativeTab(Main.HCTREES);
 		
-		type = name.replaceAll("_sapling", "").trim();
+		type = name;
+		System.out.println(type);
 				
 		BlockInit.BLOCKS.add(this);
 		ItemInit.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
@@ -124,12 +125,10 @@ public class BlockSaplingBase extends BlockBush implements IGrowable, IHasModel
 		
 		switch(type)
 		{
-		case "hemp":
-			gen = new WorldGenHempTree();
-			break;
-		case "indica":
+		case "indica_sapling":
 			gen = new WorldGenIndicaTree();
 			break;
+		
 		
 		}
 		
