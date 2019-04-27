@@ -4,20 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.scottishcrafter.herbalcraft.Main;
-import com.scottishcrafter.herbalcraft.blocks.BlockBase;
-import com.scottishcrafter.herbalcraft.blocks.BlockCannaChest;
-import com.scottishcrafter.herbalcraft.blocks.BlockDoorBase;
-import com.scottishcrafter.herbalcraft.blocks.crops.BlockHempPlant;
-import com.scottishcrafter.herbalcraft.blocks.crops.BlockHybridPlant;
-import com.scottishcrafter.herbalcraft.blocks.crops.BlockIndicaPlant;
-import com.scottishcrafter.herbalcraft.blocks.crops.BlockMedicinalPlant;
-import com.scottishcrafter.herbalcraft.blocks.crops.BlockSativaPlant;
-import com.scottishcrafter.herbalcraft.blocks.machines.BlockResinExtractor;
-import com.scottishcrafter.herbalcraft.blocks.slabs.BlockSlabDoubleBase;
-import com.scottishcrafter.herbalcraft.blocks.slabs.BlockSlabHalfBase;
-import com.scottishcrafter.herbalcraft.blocks.trees.HempLeaves;
+import com.scottishcrafter.herbalcraft.blocks.*;
+import com.scottishcrafter.herbalcraft.blocks.crops.*;
+import com.scottishcrafter.herbalcraft.blocks.slabs.*;
 import com.scottishcrafter.herbalcraft.blocks.trees.*;
-
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockSlab;
 import net.minecraft.block.material.Material;
@@ -46,8 +36,7 @@ public class BlockInit
 	public static final Block HEMP_WOOD__DOOR = new BlockDoorBase("hemp_wood_door", Material.WOOD, Main.HERBALCRAFT);
 	
 	
-	//Machines
-	public static final Block RESIN_EXTRACTOR = new BlockResinExtractor("resin_extractor");
+	
 	
 	//Tree Stuff
 	public static final Block HEMP_LEAVES = new HempLeaves("hemp_leaves");

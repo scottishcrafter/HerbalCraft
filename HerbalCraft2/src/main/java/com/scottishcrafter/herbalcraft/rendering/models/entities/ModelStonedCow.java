@@ -1,6 +1,6 @@
 package com.scottishcrafter.herbalcraft.rendering.models.entities;
 
-import net.minecraft.client.model.ModelBase;
+import net.minecraft.client.model.ModelQuadruped;
 import net.minecraft.client.model.ModelRenderer;
 import net.minecraft.entity.Entity;
 import net.minecraft.util.math.MathHelper;
@@ -8,7 +8,7 @@ import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
 @SideOnly(Side.CLIENT)
-public class ModelStonedCow extends ModelBase {
+public class ModelStonedCow extends ModelQuadruped {
     public ModelRenderer CowBody;
     public ModelRenderer CowUdders;
     public ModelRenderer BackLeftLeg;
@@ -20,6 +20,7 @@ public class ModelStonedCow extends ModelBase {
     public ModelRenderer CowLeftEar;
 
     public ModelStonedCow() {
+    	super(12, 0.0F);
         this.textureWidth = 64;
         this.textureHeight = 32;
         this.CowLeftEar = new ModelRenderer(this, 22, 0);
@@ -75,17 +76,15 @@ public class ModelStonedCow extends ModelBase {
         modelRenderer.rotateAngleZ = z;
     }
     @Override
-    public void setRotationAngles(float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch, float scaleFactor, Entity entityIn) 
+    public void setRotationAngles(float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch, float scaleFactor, Entity entityIn)
     {
-    	this.FrontLeftLeg.rotateAngleX = MathHelper.cos(limbSwing * 0.6662F) * 1.4F * limbSwingAmount;
-    	this.BackLeftLeg.rotateAngleX = MathHelper.cos(limbSwing * 0.6662F) * 1.4F * limbSwingAmount;
-    	this.FrontRightLeg.rotateAngleX = MathHelper.cos(limbSwing * 0.6662F + (float)Math.PI) * 1.4F * limbSwingAmount;
-    	this.BackRightLeg.rotateAngleX = MathHelper.cos(limbSwing * 0.6662F + (float)Math.PI) * 1.4F * limbSwingAmount;
-    	
-    	this.CowHead.rotateAngleY = netHeadYaw * 0.017453292F;
-    	this.CowHead.rotateAngleX = headPitch * 0.017453292F;
-    	this.CowLeftEar.rotateAngleY = netHeadYaw * 0.017453292F;
-    	this.CowRightEar.rotateAngleX = headPitch * 0.017453292F;
+        this.CowHead.rotateAngleX = headPitch * 0.017453292F;
+        this.CowHead.rotateAngleY = netHeadYaw * 0.017453292F;
+        this.CowBody.rotateAngleX = ((float)Math.PI / 2F);
+        this.BackLeftLeg.rotateAngleX = MathHelper.cos(limbSwing * 0.6662F) * 1.4F * limbSwingAmount;
+        this.FrontLeftLeg.rotateAngleX = MathHelper.cos(limbSwing * 0.6662F + (float)Math.PI) * 1.4F * limbSwingAmount;
+        this.BackRightLeg.rotateAngleX = MathHelper.cos(limbSwing * 0.6662F + (float)Math.PI) * 1.4F * limbSwingAmount;
+        this.FrontRightLeg.rotateAngleX = MathHelper.cos(limbSwing * 0.6662F) * 1.4F * limbSwingAmount;
     }
 
 

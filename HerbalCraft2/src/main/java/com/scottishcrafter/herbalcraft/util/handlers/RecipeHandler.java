@@ -1,6 +1,7 @@
 package com.scottishcrafter.herbalcraft.util.handlers;
 
 
+import com.scottishcrafter.herbalcraft.init.BlockInit;
 import com.scottishcrafter.herbalcraft.init.ItemInit;
 
 import net.minecraft.init.Items;
@@ -31,6 +32,13 @@ public class RecipeHandler {
 		
 		//Gelatin
 		GameRegistry.addSmelting(new ItemStack(Items.DYE, (int) (1), 15), new ItemStack(ItemInit.GELATIN, (int) (1)), 0F);
+		
+		//Resin
+		GameRegistry.addSmelting(BlockInit.HEMP_LOG, new ItemStack(ItemInit.RESIN, (int) (3)), 0F);
+		GameRegistry.addSmelting(BlockInit.HYBRID_LOG, new ItemStack(ItemInit.SUPER_RESIN, (int) (3)), 0F);
+		GameRegistry.addSmelting(BlockInit.INDICA_LOG, new ItemStack(ItemInit.RESIN, (int) (3)), 0F);
+		GameRegistry.addSmelting(BlockInit.MEDICINAL_LOG, new ItemStack(ItemInit.RESIN, (int) (3)), 0F);
+		GameRegistry.addSmelting(BlockInit.SATIVA_LOG, new ItemStack(ItemInit.RESIN, (int) (3)), 0F);
 	}
 
 }

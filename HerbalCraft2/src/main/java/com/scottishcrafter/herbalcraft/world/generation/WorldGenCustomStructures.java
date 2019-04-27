@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.Random;
 
 import com.scottishcrafter.herbalcraft.init.BlockInit;
-import com.scottishcrafter.herbalcraft.world.biomes.BiomeCanna;
 import com.scottishcrafter.herbalcraft.world.generation.generators.WorldGenStructure;
 import net.minecraft.block.Block;
 import net.minecraft.util.math.BlockPos;

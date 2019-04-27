@@ -7,7 +7,8 @@ item.hemp_mulch.name=Hemp Mulch
 item.hemp_paper.name=Hemp Paper
 item.rizlaz_single.name=Rizlaz
 item.gelatin.name=Gelatin
-item.resin_tap.name=Resin Tap
+
+
 
 //Canna Chest
 tile.canna_chest.name=Canna Chest
@@ -46,9 +47,6 @@ item.crushed_bud_indica.name=Crushed Indica Bud
 item.crushed_bud_medicinal.name=Crushed Medicinal Bud
 item.crushed_bud_sativa.name=Crushed Sativa Bud
 
-//Other Crushed
-item.crushed_redstone.name=Crushed Redstone
-item.crushed_diamond.name=Crushed Diamond
 
 //Crop Drops
 item.cropdrop_hemp.name=Hemp Crop
@@ -67,6 +65,12 @@ item.joint_hybrid.name=Hybrid Joint
 item.joint_indica.name=Indica Joint
 item.joint_medicinal.name=Medicinal Joint
 item.joint_sativa.name=Sativa Joint
+
+//Roach
+item.roach_hybrid.name=Hybrid Roach
+item.roach_indica.name=Indica Roach
+item.roach_medicinal.name=Medicinal Roach
+item.roach_sativa.name=Sativa Roach
 
 //Seeds
 item.seeds_hemp.name=Hemp Seeds
@@ -168,27 +172,20 @@ tile.medicinal_leaves.name=Medicinal Leaves
 tile.medicinal_log.name=Medicinal Log
 tile.medicinal_planks.name=Medicinal Planks
 tile.medicinal_sapling.name=Medicinal Sapling
-
 tile.hemp_chest.name=Hemp Chest
-//tile.santa_hat.name=Santa Hat
+tile.santa_hat.name=Santa Hat
 tile.hempingot_block.name=Hemp Ingot Block
 tile.hempingot_slab_half.name=HempIngot Slab
 tile.hemp_wood_slab_half.name=Hemp Wood Slab.
 
-
-//Machines
-tile.resin_extractor.name=Resin Extractor
-
 //Containers
 container.canna_chest=Canna Chest
-container.resin_extractor=Extractor
 
 //Creative Tabs
 itemGroup.herbalcraft=HC:HerbalCraft
 itemGroup.hcedibles=HC:Edibles
 itemGroup.hcarmoury=HC:Armoury
 itemGroup.hctools=HC:Tools
-itemGroup.hcmachines=HC:Machines
 itemGroup.hctrees=HC:Trees
 
 //Entity

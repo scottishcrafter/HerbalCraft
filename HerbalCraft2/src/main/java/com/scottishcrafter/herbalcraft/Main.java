@@ -28,7 +28,6 @@ public class Main
 	//public static final CreativeTabs TUTORIAL = new TutorialTab();
 	public static final CreativeTabs HERBALCRAFT = new HerbalCraftTab();
 	public static final CreativeTabs HCEDIBLES = new HCEdiblesTab();
-	public static final CreativeTabs HCMACHINES = new HCMachinesTab();
 	public static final CreativeTabs HCARMOURY = new HCArmouryTab();
 	public static final CreativeTabs HCTOOLS = new HCToolsTab();
 	public static final CreativeTabs HCTREES = new HCTreesTab();

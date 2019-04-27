@@ -2,9 +2,7 @@ package com.scottishcrafter.herbalcraft.util.handlers;
 
 import com.scottishcrafter.herbalcraft.Main;
 import com.scottishcrafter.herbalcraft.commands.CommandTeleportDimension;
-import com.scottishcrafter.herbalcraft.init.BiomeInit;
 import com.scottishcrafter.herbalcraft.init.BlockInit;
-import com.scottishcrafter.herbalcraft.init.DimensionInit;
 import com.scottishcrafter.herbalcraft.init.EntityInit;
 import com.scottishcrafter.herbalcraft.init.ItemInit;
 import com.scottishcrafter.herbalcraft.util.ModConfiguration;
@@ -77,16 +75,12 @@ public class RegistryHandler
 	{
 		
 		
-		//GameRegistry.registerWorldGenerator(new WorldGenCustomOres(), 0);
+		
 		//GameRegistry.registerWorldGenerator(new WorldGenCustomStructures(), 0);
 		GameRegistry.registerWorldGenerator(new WorldGenCustomTrees(), 0);
 		GameRegistry.registerWorldGenerator(new WorldGenHerbalCrops(), 0);
-		
-		BiomeInit.registerBiomes();
-		DimensionInit.registerDimensions();
 		EntityInit.registerEntities();
 		RenderHandler.registerEntityRenders();
-		//RenderHandler.registerCustomMeshesAndStates();
 		ModConfiguration.registerConfig(event);
 	}
 	
@@ -98,7 +92,6 @@ public class RegistryHandler
 	
 	public static void postInitRegistries(FMLPostInitializationEvent event)
 	{
-		//WorldType CANNALAND = new WorldTypeCanna();
 		RecipeHandler.registerSmelting();
 	}
 	

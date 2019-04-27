@@ -15,7 +15,6 @@ public class ModConfiguration
 	public static int ENTITY_STONED_CHICKEN_ID = 202;
 	public static int ENTITY_STONED_PIG_ID = 203;
 	//public static int ENTITY_STONED_SHEEP_ID = 204;
-	public static int GUI_RESIN_EXTRACTOR_ID = 1;
 	public static int GUI_CANNA_CHEST_ID = 2;
 	public static int DIMENSION_CANNALAND_ID = 2;
 	
@@ -36,7 +35,6 @@ public class ModConfiguration
 		
 		category = "GUI IDs";
 		config.addCustomCategoryComment(category, "Set the ID's for the GUI's to ensure that they don't clash with other mod's ids");
-		GUI_RESIN_EXTRACTOR_ID = config.getInt("GUI_RESIN_EXTRACTOR_ID", category, 1, 1, 999, "Set the ID for the Resin Extractor (Non-Electric)");
 		GUI_CANNA_CHEST_ID = config.getInt("GUI_CANNA_CHEST_ID", category, 4, 1, 999, "Set the ID for the Copper Chest");
 
 		

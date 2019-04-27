@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XX",
+    "X "
+  ],
+  "key": {
+    "X": 
+      {
+        "item": "herbalcraft:roach_indica"
+      }
+      
+  },
+  "result": {
+    "item": "herbalcraft:joint_indica",
+    "count": 1
+  }
+}

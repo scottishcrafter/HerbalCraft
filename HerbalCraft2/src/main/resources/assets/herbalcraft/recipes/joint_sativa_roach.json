@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XX",
+    "X "
+  ],
+  "key": {
+    "X": 
+      {
+        "item": "herbalcraft:roach_sativa"
+      }
+      
+  },
+  "result": {
+    "item": "herbalcraft:joint_sativa",
+    "count": 1
+  }
+}

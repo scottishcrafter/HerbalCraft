@@ -12,7 +12,6 @@ import com.scottishcrafter.herbalcraft.items.seeds.*;
 import com.scottishcrafter.herbalcraft.items.tools.ToolAxeBase;
 import com.scottishcrafter.herbalcraft.items.tools.ToolHoeBase;
 import com.scottishcrafter.herbalcraft.items.tools.ToolPickaxeBase;
-import com.scottishcrafter.herbalcraft.items.tools.ToolResinTap;
 import com.scottishcrafter.herbalcraft.items.tools.ToolShovelBase;
 import com.scottishcrafter.herbalcraft.items.tools.ToolSwordBase;
 import net.minecraft.init.SoundEvents;
@@ -56,9 +55,7 @@ public class ItemInit
 	public static final Item CRUSHED_BUD_INDICA = new ItemBase ("crushed_bud_indica", Main.HERBALCRAFT);
 	public static final Item CRUSHED_BUD_MEDICINAL = new ItemBase ("crushed_bud_medicinal", Main.HERBALCRAFT);
 	public static final Item CRUSHED_BUD_SATIVA = new ItemBase ("crushed_bud_sativa", Main.HERBALCRAFT);
-	//Other Crushed Items
-	public static final Item CRUSHED_REDSTONE = new ItemBase ("crushed_redstone", Main.HERBALCRAFT);
-	public static final Item CRUSHED_DIAMOND = new ItemBase ("crushed_diamond", Main.HERBALCRAFT);
+
 	
 	//Herb Grinder
 	public static final Item HERB_GRINDER = new ItemHerbGrinder ("herb_grinder", Main.HERBALCRAFT);
@@ -67,6 +64,12 @@ public class ItemInit
 	public static final Item JOINT_INDICA = new JointIndica("joint_indica", 1, false);
 	public static final Item JOINT_MEDICINAL = new JointMedicinal("joint_medicinal", 1, false);
 	public static final Item JOINT_SATIVA = new JointSativa("joint_sativa", 1, false);
+	
+	
+	public static final Item ROACH_HYBRID = new Roach ("roach_hybrid");
+	public static final Item ROACH_INDICA = new Roach ("roach_indica");
+	public static final Item ROACH_MEDICINAL = new Roach ("roach_medicinal");
+	public static final Item ROACH_SATIVA = new Roach ("roach_sativa");
 	
 	//Seeds
 	public static final Item SEEDS_HEMP = new SeedsHemp("seeds_hemp", 1, false);
@@ -165,5 +168,5 @@ public class ItemInit
 		public static final Item SUPER_RESIN_PICKAXE = new ToolPickaxeBase("super_resin_pickaxe", SUPER_RESIN_TOOL, Main.HCTOOLS);
 		public static final Item SUPER_RESIN_SHOVEL = new ToolShovelBase("super_resin_shovel", SUPER_RESIN_TOOL, Main.HCTOOLS);
 		public static final Item SUPER_RESIN_SWORD = new ToolSwordBase("super_resin_sword", SUPER_RESIN_TOOL, Main.HCTOOLS);	
-		public static final Item RESIN_TAP = new ToolResinTap("resin_tap", RESIN_TOOL, Main.HCTOOLS);
+		
 }

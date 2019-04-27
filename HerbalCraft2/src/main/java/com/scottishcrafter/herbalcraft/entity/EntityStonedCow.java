@@ -73,7 +73,7 @@ public class EntityStonedCow extends EntityCow
 	    {
 	        ItemStack itemstack = player.getHeldItem(hand);
 
-	        if (itemstack.getItem() == Items.BUCKET && !player.capabilities.isCreativeMode && !this.isChild())
+	        if (itemstack.getItem() == Items.BUCKET && !this.isChild())
 	        {
 	            player.playSound(SoundEvents.ENTITY_COW_MILK, 1.0F, 1.0F);
 	            itemstack.shrink(1);

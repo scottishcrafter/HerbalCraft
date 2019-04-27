@@ -5,7 +5,8 @@ import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 @SideOnly(Side.CLIENT)
 public class ModelStonedPig extends ModelQuadruped {
-    public ModelStonedPig()
+   
+	public ModelStonedPig()
     {
         this(0.0F);
     }
