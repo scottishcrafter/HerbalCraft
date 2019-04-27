@@ -12,6 +12,7 @@ import com.scottishcrafter.herbalcraft.items.seeds.*;
 import com.scottishcrafter.herbalcraft.items.tools.ToolAxeBase;
 import com.scottishcrafter.herbalcraft.items.tools.ToolHoeBase;
 import com.scottishcrafter.herbalcraft.items.tools.ToolPickaxeBase;
+import com.scottishcrafter.herbalcraft.items.tools.ToolResinTap;
 import com.scottishcrafter.herbalcraft.items.tools.ToolShovelBase;
 import com.scottishcrafter.herbalcraft.items.tools.ToolSwordBase;
 import net.minecraft.init.SoundEvents;
@@ -164,5 +165,5 @@ public class ItemInit
 		public static final Item SUPER_RESIN_PICKAXE = new ToolPickaxeBase("super_resin_pickaxe", SUPER_RESIN_TOOL, Main.HCTOOLS);
 		public static final Item SUPER_RESIN_SHOVEL = new ToolShovelBase("super_resin_shovel", SUPER_RESIN_TOOL, Main.HCTOOLS);
 		public static final Item SUPER_RESIN_SWORD = new ToolSwordBase("super_resin_sword", SUPER_RESIN_TOOL, Main.HCTOOLS);	
-		
+		public static final Item RESIN_TAP = new ToolResinTap("resin_tap", RESIN_TOOL, Main.HCTOOLS);
 }
