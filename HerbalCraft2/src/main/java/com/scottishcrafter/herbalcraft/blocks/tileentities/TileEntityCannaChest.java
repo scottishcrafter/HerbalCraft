@@ -95,8 +95,6 @@ public class TileEntityCannaChest extends TileEntityLockableLoot implements ITic
 		if (!this.world.isRemote && this.numPlayersUsing != 0 && (this.ticksSinceSync + pos.getX() + pos.getY() + pos.getZ()) % 200 == 0)
         {
             this.numPlayersUsing = 0;
-            float f = 5.0F;
-
             for (EntityPlayer entityplayer : this.world.getEntitiesWithinAABB(EntityPlayer.class, new AxisAlignedBB((double)((float)pos.getX() - 5.0F), (double)((float)pos.getY() - 5.0F), (double)((float)pos.getZ() - 5.0F), (double)((float)(pos.getX() + 1) + 5.0F), (double)((float)(pos.getY() + 1) + 5.0F), (double)((float)(pos.getZ() + 1) + 5.0F))))
             {
                 if (entityplayer.openContainer instanceof ContainerCannaChest)
@@ -110,8 +108,6 @@ public class TileEntityCannaChest extends TileEntityLockableLoot implements ITic
         }
 		
         this.prevLidAngle = this.lidAngle;
-        float f1 = 0.1F;
-
         if (this.numPlayersUsing > 0 && this.lidAngle == 0.0F)
         {
             double d1 = (double)pos.getX() + 0.5D;
@@ -136,8 +132,6 @@ public class TileEntityCannaChest extends TileEntityLockableLoot implements ITic
             {
                 this.lidAngle = 1.0F;
             }
-
-            float f3 = 0.5F;
 
             if (this.lidAngle < 0.5F && f2 >= 0.5F)
             {

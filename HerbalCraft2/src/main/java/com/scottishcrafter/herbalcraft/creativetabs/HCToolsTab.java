@@ -15,6 +15,6 @@ public class HCToolsTab extends CreativeTabs
 	@Override
 	public ItemStack getTabIconItem() 
 	{
-		return new ItemStack(ItemInit.HEMPINGOT_SWORD);
+		return new ItemStack(ItemInit.SUPER_RESIN_SWORD);
 	}
 }

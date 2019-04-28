@@ -25,7 +25,6 @@ public class BlockInit
 	
 	//Blocks
 	public static final Block HEMPINGOT_BLOCK = new BlockBase("hempingot_block", Material.IRON, Main.HERBALCRAFT);
-	public static final Block HEMP_WOOL = new BlockBase("hemp_wool", Material.CARPET, Main.HERBALCRAFT);
 	public static final BlockSlab HEMPINGOT_SLAB_DOUBLE = new BlockSlabDoubleBase("hempingot_slab_double", Material.IRON, Main.HERBALCRAFT, BlockInit.HEMPINGOT_SLAB_HALF);
 	public static final BlockSlab HEMPINGOT_SLAB_HALF = new BlockSlabHalfBase("hempingot_slab_half", Material.IRON, Main.HERBALCRAFT, BlockInit.HEMPINGOT_SLAB_HALF, BlockInit.HEMPINGOT_SLAB_DOUBLE);
 	public static final BlockSlab HEMP_WOOD_SLAB_DOUBLE = new BlockSlabDoubleBase("hemp_wood_slab_double", Material.WOOD, Main.HERBALCRAFT, BlockInit.HEMP_WOOD_SLAB_HALF);

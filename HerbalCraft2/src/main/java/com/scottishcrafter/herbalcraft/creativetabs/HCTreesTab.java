@@ -1,8 +1,6 @@
 package com.scottishcrafter.herbalcraft.creativetabs;
 
 import com.scottishcrafter.herbalcraft.init.BlockInit;
-import com.scottishcrafter.herbalcraft.init.ItemInit;
-
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;

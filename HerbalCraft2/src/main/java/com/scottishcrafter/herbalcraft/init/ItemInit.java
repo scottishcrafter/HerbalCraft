@@ -26,11 +26,9 @@ public class ItemInit
 	public static final List<Item> ITEMS = new ArrayList<Item>();
 			
 	//Armour Materials                                                                                                                                     {Helmet,Chest,Legs,Boots}           
-	public static final ArmorMaterial HEMP_INGOT_MATERIAL = EnumHelper.addArmorMaterial("hempingot_model", Reference.MODID + ":hempingot_model", 20, new int[] {2, 6, 5, 2}, 0, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0f);
 	public static final ArmorMaterial RESIN_MATERIAL = EnumHelper.addArmorMaterial("resin_model", Reference.MODID + ":resin_model", 20, new int[] {2, 6, 5, 2}, 0, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 2.0f);
 	public static final ArmorMaterial SUPER_RESIN_MATERIAL = EnumHelper.addArmorMaterial("super_resin_model", Reference.MODID + ":super_resin_model", 20, new int[] {4, 9, 7, 4}, 0, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 2.0f);
 	//Tool Materials
-	public static final ToolMaterial HEMPINGOT_TOOL = EnumHelper.addToolMaterial("hempingot_tool", 2, 400, 3.0f, 5.0f, 20);
 	public static final ToolMaterial RESIN_TOOL = EnumHelper.addToolMaterial("resin_tool", 2, 400, 3.0f, 5.0f, 20);
 	public static final ToolMaterial SUPER_RESIN_TOOL = EnumHelper.addToolMaterial("super_resin_tool", 2, 400, 3.0f, 5.0f, 20);
 	
@@ -84,6 +82,14 @@ public class ItemInit
 	public static final Item SEEDS_TOASTED_INDICA = new ToastedSeeds("seeds_toasted_indica", 2, false);
 	public static final Item SEEDS_TOASTED_MEDICINAL = new ToastedSeeds("seeds_toasted_medicinal", 2, false);
 	public static final Item SEEDS_TOASTED_SATIVA = new ToastedSeeds("seeds_toasted_sativa", 2, false);
+	
+	//Cuttings
+	public static final Item CUTTING_HEMP = new SeedsHemp("cutting_hemp", 1, false);
+	public static final Item CUTTING_HYBRID = new SeedsHybrid("cutting_hybrid", 1, false);
+	public static final Item CUTTING_INDICA = new SeedsIndica("cutting_indica", 1, false);
+	public static final Item CUTTING_MEDICINAL = new SeedsMedicinal("cutting_medicinal", 1, false);
+	public static final Item CUTTING_SATIVA = new SeedsSativa("cutting_sativa", 1, false);
+	
 	//Edibles
 	public static final Item COOKIE_CBD = new CookieCBD("cookie_cbd", 3, false);
 	public static final Item COOKIE_HYBRID = new CookieHybrid("cookie_hybrid", 3, false);
@@ -110,11 +116,11 @@ public class ItemInit
 	public static final Item CROPDROP_SATIVA = new CropDropSativa ("cropdrop_sativa", Main.HERBALCRAFT);
 	
 	//Tree Drops
-	public static final Item TREEDROP_HEMP = new TreeDropHemp ("treedrop_hemp", Main.HERBALCRAFT);
-	public static final Item TREEDROP_HYBRID = new TreeDropHybrid ("treedrop_hybrid", Main.HERBALCRAFT);
-	public static final Item TREEDROP_INDICA = new TreeDropIndica ("treedrop_indica", Main.HERBALCRAFT);
-	public static final Item TREEDROP_MEDICINAL = new TreeDropMedicinal ("treedrop_medicinal", Main.HERBALCRAFT);
-	public static final Item TREEDROP_SATIVA = new TreeDropSativa ("treedrop_sativa", Main.HERBALCRAFT);
+	public static final Item TREEDROP_HEMP = new TreeDropHemp ("treedrop_hemp", Main.HCTREES);
+	public static final Item TREEDROP_HYBRID = new TreeDropHybrid ("treedrop_hybrid", Main.HCTREES);
+	public static final Item TREEDROP_INDICA = new TreeDropIndica ("treedrop_indica", Main.HCTREES);
+	public static final Item TREEDROP_MEDICINAL = new TreeDropMedicinal ("treedrop_medicinal", Main.HCTREES);
+	public static final Item TREEDROP_SATIVA = new TreeDropSativa ("treedrop_sativa", Main.HCTREES);
 	
 	//Items:Raw Hemps
 	public static final Item HEMP_RAW = new ItemBase("hemp_raw", Main.HERBALCRAFT);
@@ -129,12 +135,6 @@ public class ItemInit
 	public static final Item HEMP_DRIED_MEDICINAL = new ItemBase("hemp_dried_medicinal", Main.HERBALCRAFT);
 	public static final Item HEMP_DRIED_SATIVA = new ItemBase("hemp_dried_sativa", Main.HERBALCRAFT);
 	
-	//HempIngot Armour
-	public static final Item HEMPINGOT_HELMET = new ArmourModel("hempingot_helmet", Main.HCARMOURY, HEMP_INGOT_MATERIAL, EntityEquipmentSlot.HEAD);
-	public static final Item HEMPINGOT_CHESTPLATE = new ArmourModel("hempingot_chestplate", Main.HCARMOURY, HEMP_INGOT_MATERIAL, EntityEquipmentSlot.CHEST);
-	public static final Item HEMPINGOT_LEGGINGS = new ArmourModel("hempingot_leggings", Main.HCARMOURY, HEMP_INGOT_MATERIAL, EntityEquipmentSlot.LEGS);
-	public static final Item HEMPINGOT_BOOTS = new ArmourModel("hempingot_boots", Main.HCARMOURY, HEMP_INGOT_MATERIAL, EntityEquipmentSlot.FEET);
-	
 	//Resin Armour
 	public static final Item RESIN_HELMET = new ArmourModel("resin_helmet", Main.HCARMOURY, RESIN_MATERIAL, EntityEquipmentSlot.HEAD);
 	public static final Item RESIN_CHESTPLATE = new ArmourModel("resin_chestplate", Main.HCARMOURY, RESIN_MATERIAL, EntityEquipmentSlot.CHEST);
@@ -146,13 +146,6 @@ public class ItemInit
 	public static final Item SUPER_RESIN_CHESTPLATE = new ArmourModel("super_resin_chestplate", Main.HCARMOURY, SUPER_RESIN_MATERIAL, EntityEquipmentSlot.CHEST);
 	public static final Item SUPER_RESINT_LEGGINGS = new ArmourModel("super_resin_leggings", Main.HCARMOURY, SUPER_RESIN_MATERIAL, EntityEquipmentSlot.LEGS);
 	public static final Item SUPER_RESIN_BOOTS = new ArmourModel("super_resin_boots", Main.HCARMOURY, SUPER_RESIN_MATERIAL, EntityEquipmentSlot.FEET);
-	
-	//Hemp Ingot Tools
-	public static final Item HEMPINGOT_AXE = new ToolAxeBase("hempingot_axe", HEMPINGOT_TOOL, Main.HCTOOLS);
-	public static final Item HEMPINGOT_HOE = new ToolHoeBase("hempingot_hoe", HEMPINGOT_TOOL, Main.HCTOOLS);
-	public static final Item HEMPINGOT_PICKAXE = new ToolPickaxeBase("hempingot_pickaxe", HEMPINGOT_TOOL, Main.HCTOOLS);
-	public static final Item HEMPINGOT_SHOVEL = new ToolShovelBase("hempingot_shovel", HEMPINGOT_TOOL, Main.HCTOOLS);
-	public static final Item HEMPINGOT_SWORD = new ToolSwordBase("hempingot_sword", HEMPINGOT_TOOL, Main.HCTOOLS);
 	
 	//Resin Tools
 		public static final Item RESIN_AXE = new ToolAxeBase("resin_axe", RESIN_TOOL, Main.HCTOOLS);

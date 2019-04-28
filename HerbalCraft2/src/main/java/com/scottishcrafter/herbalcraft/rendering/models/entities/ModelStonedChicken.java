@@ -22,7 +22,6 @@ public class ModelStonedChicken extends ModelBase
 
     public ModelStonedChicken()
     {
-        int i = 16;
         this.head = new ModelRenderer(this, 0, 0);
         this.head.addBox(-2.0F, -6.0F, -2.0F, 4, 6, 3, 0.0F);
         this.head.setRotationPoint(0.0F, 15.0F, -4.0F);
@@ -56,7 +55,6 @@ public class ModelStonedChicken extends ModelBase
 
         if (this.isChild)
         {
-            float f = 2.0F;
             GlStateManager.pushMatrix();
             GlStateManager.translate(0.0F, 5.0F * scale, 2.0F * scale);
             this.head.render(scale);
@@ -98,7 +96,5 @@ public class ModelStonedChicken extends ModelBase
         this.body.rotateAngleX = ((float)Math.PI / 2F);
         this.rightLeg.rotateAngleX = MathHelper.cos(limbSwing * 0.6662F) * 1.4F * limbSwingAmount;
         this.leftLeg.rotateAngleX = MathHelper.cos(limbSwing * 0.6662F + (float)Math.PI) * 1.4F * limbSwingAmount;
-        this.rightWing.rotateAngleZ = ageInTicks;
-        this.leftWing.rotateAngleZ = -ageInTicks;
     }
 }

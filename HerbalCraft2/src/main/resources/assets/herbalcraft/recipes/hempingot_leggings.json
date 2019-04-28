@@ -6,12 +6,13 @@
 		"X X"
 	],
 	"key": {
-		"X": {
-			"item": "herbalcraft:hemp_ingot"
-		}
+		"X": 
+      {
+        "item": "herbalcraft:hemp_ingot"
+      }
 		
 	},
 	"result": {
-		"item": "herbalcraft:hempingot_leggings"
+		"item": "minecraft:iron_leggings"
 	}
 }

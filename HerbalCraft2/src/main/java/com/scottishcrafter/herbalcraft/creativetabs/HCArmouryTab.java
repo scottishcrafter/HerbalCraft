@@ -15,6 +15,6 @@ public class HCArmouryTab extends CreativeTabs
 	@Override
 	public ItemStack getTabIconItem() 
 	{
-		return new ItemStack(ItemInit.HEMPINGOT_CHESTPLATE);
+		return new ItemStack(ItemInit.SUPER_RESIN_CHESTPLATE);
 	}
 }

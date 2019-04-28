@@ -6,14 +6,16 @@
 		" # "
 	],
 	"key": {
-		"X": {
-			"item": "herbalcraft:hemp_ingot"
-		},
+		"X": 
+      {
+        "item": "herbalcraft:hemp_ingot"
+      },
+
 		"#": {
 			"item": "minecraft:stick"
 		}
 	},
 	"result": {
-		"item": "herbalcraft:hempingot_shovel"
+		"item": "minecraft:iron_shovel"
 	}
 }
