@@ -67,5 +67,23 @@ public class HerbGrinderUsed  {
 						null);
 		}
 		
+		if ((((entity instanceof EntityLivingBase) ? ((EntityLivingBase) entity).getHeldItemOffhand() : null).getItem() == new ItemStack(
+				ItemInit.BUD_HYBRID_SM, (int) (1)).getItem())) {
+			if (entity instanceof EntityPlayer)
+				ItemHandlerHelper.giveItemToPlayer(((EntityPlayer) entity), new ItemStack(ItemInit.CRUSHED_BUD_HYBRID_SM, (int) (3)));
+			if (entity instanceof EntityPlayer)
+				((EntityPlayer) entity).inventory.clearMatchingItems(new ItemStack(ItemInit.BUD_HYBRID_SM, (int) (1)).getItem(), -1, (int) 1,
+						null);
+		}
+		
+		if ((((entity instanceof EntityLivingBase) ? ((EntityLivingBase) entity).getHeldItemOffhand() : null).getItem() == new ItemStack(
+				ItemInit.BUD_HYBRID_IM, (int) (1)).getItem())) {
+			if (entity instanceof EntityPlayer)
+				ItemHandlerHelper.giveItemToPlayer(((EntityPlayer) entity), new ItemStack(ItemInit.CRUSHED_BUD_HYBRID_IM, (int) (3)));
+			if (entity instanceof EntityPlayer)
+				((EntityPlayer) entity).inventory.clearMatchingItems(new ItemStack(ItemInit.BUD_HYBRID_IM, (int) (1)).getItem(), -1, (int) 1,
+						null);
+		}
+		
 		
 }}
