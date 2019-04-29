@@ -14,6 +14,14 @@ import com.scottishcrafter.herbalcraft.items.tools.ToolHoeBase;
 import com.scottishcrafter.herbalcraft.items.tools.ToolPickaxeBase;
 import com.scottishcrafter.herbalcraft.items.tools.ToolShovelBase;
 import com.scottishcrafter.herbalcraft.items.tools.ToolSwordBase;
+import com.scottishcrafter.herbalcraft.items.vapes.Vape;
+import com.scottishcrafter.herbalcraft.items.vapes.VapeHybridIM;
+import com.scottishcrafter.herbalcraft.items.vapes.VapeHybridSI;
+import com.scottishcrafter.herbalcraft.items.vapes.VapeHybridSM;
+import com.scottishcrafter.herbalcraft.items.vapes.VapeIndica;
+import com.scottishcrafter.herbalcraft.items.vapes.VapeMedicinal;
+import com.scottishcrafter.herbalcraft.items.vapes.VapeSativa;
+
 import net.minecraft.init.SoundEvents;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
@@ -33,6 +41,15 @@ public class ItemInit
 	public static final ToolMaterial RESIN_TOOL = EnumHelper.addToolMaterial("resin_tool", 2, 400, 3.0f, 5.0f, 20);
 	public static final ToolMaterial SUPER_RESIN_TOOL = EnumHelper.addToolMaterial("super_resin_tool", 2, 400, 3.0f, 5.0f, 20);
 	
+	//Vape
+	public static final Item VAPE_EMPTY = new Vape("vape_empty", Main.HERBALCRAFT);
+	public static final Item VAPE_INDICA = new VapeIndica("vape_indica", 1, false);
+	public static final Item VAPE_MEDICINAL = new VapeMedicinal("vape_medicinal", 1, false);
+	public static final Item VAPE_SATIVA = new VapeSativa("vape_sativa", 1, false);
+	public static final Item VAPE_HYBRID_SI = new VapeHybridSI("vape_hybrid_si", 1, false);
+	public static final Item VAPE_HYBRID_IM = new VapeHybridIM("vape_hybrid_im", 1, false);
+	public static final Item VAPE_HYBRID_SM = new VapeHybridSM("vape_hybrid_sm", 1, false);
+	
 	//Items
 	public static final Item RESIN = new ItemBase("resin",Main.HERBALCRAFT);
 	public static final Item HEMP_INGOT_RAW = new ItemBase("hemp_ingot_raw",Main.HERBALCRAFT);
@@ -41,6 +58,7 @@ public class ItemInit
 	public static final Item RIZLAZ_SINGLE = new ItemBase("rizlaz_single", Main.HERBALCRAFT);
 	public static final Item HEMP_MULCH = new ItemBase("hemp_mulch", Main.HERBALCRAFT);
 	public static final Item HEMP_PAPER = new ItemBase("hemp_paper", Main.HERBALCRAFT);
+	public static final Item HEMP_STRING = new ItemBase("hemp_string", Main.HERBALCRAFT);
 	//Buds
 	public static final Item BUD_HEMP = new ItemBase ("bud_hemp", Main.HERBALCRAFT);
 	public static final Item BUD_HYBRID_SI = new ItemBase ("bud_hybrid_si", Main.HERBALCRAFT);

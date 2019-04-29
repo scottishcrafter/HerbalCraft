@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "X#",
+        "##"
+    ],
+    "key": {
+         "#": [
+      {
+        "item": "herbalcraft:bud_medicinal"
+      },
+      {
+        "item": "herbalcraft:crushed_bud_medicinal"
+      }
+    ],
+        "X": {
+            "item": "herbalcraft:vape_empty"
+        }
+    },
+    "result": {
+        "item": "herbalcraft:vape_medicinal",
+        "count": 1
+    }
+}

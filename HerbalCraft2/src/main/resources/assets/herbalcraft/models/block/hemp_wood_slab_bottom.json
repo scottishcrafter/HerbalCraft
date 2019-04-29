@@ -1,9 +1,0 @@
-{
-    "parent": "block/half_slab",
-    "textures":
-    {
-        "bottom": "herbalcraft:blocks/hemp_planks",
-        "top": "herbalcraft:blocks/hemp_planks",
-        "side": "herbalcraft:blocks/hemp_planks"
-    }
-}

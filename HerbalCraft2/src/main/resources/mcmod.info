@@ -2,7 +2,7 @@
 	"modid": "herbalcraft",
 	"name": "Herbal Craft",
 	"description": "Adding Herbal Healing and other benifits to your Minecraft world.",
-	"version": "0.0.21",
+	"version": "0.0.22",
 	"mcversion": "1.12.2",
 	"logoFile": "assets/herbalcraft/textures/items/theherbalmod_logo.png",
 	"updateJSON": "https://updates.scottishcrafter.com/herbalcraft/version.json",

@@ -1,7 +1,0 @@
-{
-    "variants":
-    {
-        "half=bottom,variant=default": { "model": "herbalcraft:hempingot_slab_bottom" },
-        "half=top,variant=default": { "model": "herbalcraft:hempingot_slab_top" }
-    }
-}

@@ -5,6 +5,7 @@ import com.scottishcrafter.herbalcraft.commands.CommandTeleportDimension;
 import com.scottishcrafter.herbalcraft.init.BlockInit;
 import com.scottishcrafter.herbalcraft.init.EntityInit;
 import com.scottishcrafter.herbalcraft.init.ItemInit;
+import com.scottishcrafter.herbalcraft.init.OreDict;
 import com.scottishcrafter.herbalcraft.util.ModConfiguration;
 import com.scottishcrafter.herbalcraft.util.interfaces.IHasModel;
 import com.scottishcrafter.herbalcraft.world.generation.WorldGenCustomTrees;
@@ -93,6 +94,7 @@ public class RegistryHandler
 	public static void postInitRegistries(FMLPostInitializationEvent event)
 	{
 		RecipeHandler.registerSmelting();
+		OreDict.init();
 	}
 	
 	public static void serverRegistries(FMLServerStartingEvent event)

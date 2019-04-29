@@ -25,19 +25,8 @@ public class BlockInit
 	public static final Block MEDICINAL_PLANT = new MedicinalCrop("plant_medicinal");
 	public static final Block SATIVA_PLANT = new SativaCrop("plant_sativa");
 	
-	//Blocks
-	public static final Block HEMPINGOT_BLOCK = new BlockBase("hempingot_block", Material.IRON, Main.HERBALCRAFT);
-	public static final BlockSlab HEMPINGOT_SLAB_DOUBLE = new BlockSlabDoubleBase("hempingot_slab_double", Material.IRON, Main.HERBALCRAFT, BlockInit.HEMPINGOT_SLAB_HALF);
-	public static final BlockSlab HEMPINGOT_SLAB_HALF = new BlockSlabHalfBase("hempingot_slab_half", Material.IRON, Main.HERBALCRAFT, BlockInit.HEMPINGOT_SLAB_HALF, BlockInit.HEMPINGOT_SLAB_DOUBLE);
-	public static final BlockSlab HEMP_WOOD_SLAB_DOUBLE = new BlockSlabDoubleBase("hemp_wood_slab_double", Material.WOOD, Main.HERBALCRAFT, BlockInit.HEMP_WOOD_SLAB_HALF);
-	public static final BlockSlab HEMP_WOOD_SLAB_HALF = new BlockSlabHalfBase("hemp_wood_slab_half", Material.WOOD, Main.HERBALCRAFT, BlockInit.HEMP_WOOD_SLAB_HALF, BlockInit.HEMP_WOOD_SLAB_DOUBLE);
 	//Custom Models
 	public static final Block CANNA_CHEST = new BlockCannaChest("canna_chest");
-	public static final Block HEMPINGOT__DOOR = new BlockDoorBase("hempingot_door", Material.ANVIL, Main.HERBALCRAFT);
-	public static final Block HEMP_WOOD__DOOR = new BlockDoorBase("hemp_wood_door", Material.WOOD, Main.HERBALCRAFT);
-	
-	
-	
 	
 	//Tree Stuff
 	public static final Block HEMP_LEAVES = new HempLeaves("hemp_leaves");

@@ -1,8 +1,0 @@
-{
-    "parent": "block/door_bottom_rh",
-    "textures":
-    {
-        "bottom": "herbalcraft:blocks/hempingot_door_bottom",
-        "top": "herbalcraft:blocks/hempingot_door_top"
-    }
-}

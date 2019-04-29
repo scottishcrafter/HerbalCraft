@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "X#",
+        "##"
+    ],
+    "key": {
+         "#": [
+      {
+        "item": "herbalcraft:bud_indica"
+      },
+      {
+        "item": "herbalcraft:crushed_bud_indica"
+      }
+    ],
+        "X": {
+            "item": "herbalcraft:vape_empty"
+        }
+    },
+    "result": {
+        "item": "herbalcraft:vape_indica",
+        "count": 1
+    }
+}

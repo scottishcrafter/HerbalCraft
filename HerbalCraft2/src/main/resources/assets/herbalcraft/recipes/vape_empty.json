@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "iGi",
+        "iRi",
+        "iLi"
+    ],
+    "key": {
+        "i": {
+    "type": "forge:ore_dict",
+    "ore": "ingotIron"
+},
+        "G": {
+            "item": "minecraft:glass_bottle"
+        },
+        "R": {
+            "item": "minecraft:repeater"
+        },
+        "L": {
+            "item": "minecraft:dye",
+            "data": 4
+        }
+    },
+    "result": {
+        "item": "herbalcraft:vape_empty",
+        "count": 1
+    }
+}

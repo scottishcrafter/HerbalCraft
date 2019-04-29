@@ -1,8 +1,0 @@
-{
-    "parent": "block/door_bottom_rh",
-    "textures":
-    {
-        "bottom": "herbalcraft:blocks/hemp_wood_door_bottom",
-        "top": "herbalcraft:blocks/hemp_wood_door_top"
-    }
-}

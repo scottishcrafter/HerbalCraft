@@ -7,13 +7,19 @@ item.hemp_mulch.name=Hemp Mulch
 item.hemp_paper.name=Hemp Paper
 item.rizlaz_single.name=Rizlaz
 item.gelatin.name=Gelatin
+item.hemp_string.name=Hemp String
+
+//Vapes
+item.vape_empty.name=Empty Vape
+item.vape_indica.name=Indica Vape
+item.vape_medicinal.name=Medicinal Vape
+item.vape_sativa.name=Sativa Vape
+item.vape_hybrid_si.name=Hybrid Vape
+item.vape_hybrid_im.name=Hybrid Vape
+item.vape_hybrid_sm.name=Hybrid Vape
 
 //Canna Chest
 tile.canna_chest.name=Canna Chest
-
-//Doors
-tile.hempingot_door.name=HempIngot Door
-tile.hemp_wood_door.name=Hemp Wood Door
 
 //Raw Hemp
 item.hemp_raw.name=Raw Hemp
@@ -176,9 +182,6 @@ tile.medicinal_planks.name=Medicinal Planks
 tile.medicinal_sapling.name=Medicinal Sapling
 tile.hemp_chest.name=Hemp Chest
 tile.santa_hat.name=Santa Hat
-tile.hempingot_block.name=Hemp Ingot Block
-tile.hempingot_slab_half.name=HempIngot Slab
-tile.hemp_wood_slab_half.name=Hemp Wood Slab.
 
 //Containers
 container.canna_chest=Canna Chest
