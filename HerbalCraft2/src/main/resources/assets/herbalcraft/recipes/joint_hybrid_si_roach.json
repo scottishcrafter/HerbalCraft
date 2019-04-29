@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XX",
+    "X "
+  ],
+  "key": {
+    "X": 
+      {
+        "item": "herbalcraft:roach_hybrid_si"
+      }
+      
+  },
+  "result": {
+    "item": "herbalcraft:joint_hybrid_si",
+    "count": 1
+  }
+}

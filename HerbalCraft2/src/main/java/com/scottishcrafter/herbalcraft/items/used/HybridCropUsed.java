@@ -24,8 +24,8 @@ public class HybridCropUsed  {
 		if (entity instanceof EntityPlayer)
 			ItemHandlerHelper.giveItemToPlayer(((EntityPlayer) entity), new ItemStack(ItemInit.HEMP_RAW_HYBRID, (int) (3)));
 		if (entity instanceof EntityPlayer)
-			ItemHandlerHelper.giveItemToPlayer(((EntityPlayer) entity), new ItemStack(ItemInit.BUD_HYBRID, (int) (3)));
+			ItemHandlerHelper.giveItemToPlayer(((EntityPlayer) entity), new ItemStack(ItemInit.BUD_HYBRID_SI, (int) (3)));
 		if (entity instanceof EntityPlayer)
-			((EntityPlayer) entity).inventory.clearMatchingItems(new ItemStack(ItemInit.CROPDROP_HYBRID, (int) (1)).getItem(), -1, (int) 1, null);
+			((EntityPlayer) entity).inventory.clearMatchingItems(new ItemStack(ItemInit.CROPDROP_HYBRID_SI, (int) (1)).getItem(), -1, (int) 1, null);
 	}
 }

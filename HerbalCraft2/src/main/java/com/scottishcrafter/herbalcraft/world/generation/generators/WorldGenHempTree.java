@@ -1,7 +1,6 @@
 package com.scottishcrafter.herbalcraft.world.generation.generators;
 
 import java.util.Random;
-
 import com.scottishcrafter.herbalcraft.init.BlockInit;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -12,6 +11,7 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraft.world.gen.feature.WorldGenAbstractTree;
 import net.minecraftforge.common.IPlantable;
+
 
 public class WorldGenHempTree extends WorldGenAbstractTree
 {

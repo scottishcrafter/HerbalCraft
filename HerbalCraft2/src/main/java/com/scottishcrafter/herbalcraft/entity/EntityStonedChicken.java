@@ -25,7 +25,7 @@ import net.minecraft.util.math.MathHelper;
 import net.minecraft.world.World;
 
 public class EntityStonedChicken extends EntityChicken
-{	private static final Set<Item> TEMPTATION_ITEMS = Sets.newHashSet(ItemInit.BUD_HEMP, ItemInit.BUD_HYBRID, ItemInit.BUD_INDICA, ItemInit.BUD_MEDICINAL, ItemInit.BUD_SATIVA);
+{	private static final Set<Item> TEMPTATION_ITEMS = Sets.newHashSet(ItemInit.BUD_HEMP, ItemInit.BUD_HYBRID_SI, ItemInit.BUD_INDICA, ItemInit.BUD_MEDICINAL, ItemInit.BUD_SATIVA);
 	public EntityStonedChicken(World worldIn) 
 	{
 		super(worldIn);

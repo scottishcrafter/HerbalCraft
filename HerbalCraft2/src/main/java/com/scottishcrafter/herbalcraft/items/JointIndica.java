@@ -42,8 +42,8 @@ public class JointIndica extends ItemFood implements IHasModel {
 	protected void onFoodEaten(ItemStack stack, World worldIn, EntityPlayer player) {
 		if(!worldIn.isRemote) {
 			player.addPotionEffect(new PotionEffect(MobEffects.NAUSEA, 10*20, 1, false, true));
-			player.addPotionEffect(new PotionEffect(MobEffects.MINING_FATIGUE, 2400, 1, false, true));
-			player.addPotionEffect(new PotionEffect(MobEffects.LUCK, 2400, 1, false, true));
+			player.addPotionEffect(new PotionEffect(MobEffects.MINING_FATIGUE, 1200, 1, false, true));
+			player.addPotionEffect(new PotionEffect(MobEffects.LUCK, 1200, 1, false, true));
 		}
 
 	

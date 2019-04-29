@@ -1,0 +1,6 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "herbalcraft:items/cropdrop_hybrid_im"
+	}
+}

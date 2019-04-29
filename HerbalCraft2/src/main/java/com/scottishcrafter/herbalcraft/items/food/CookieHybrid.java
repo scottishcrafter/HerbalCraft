@@ -1,9 +1,12 @@
 package com.scottishcrafter.herbalcraft.items.food;
 
+import java.util.List;
+
 import com.scottishcrafter.herbalcraft.Main;
 import com.scottishcrafter.herbalcraft.init.ItemInit;
 import com.scottishcrafter.herbalcraft.util.interfaces.IHasModel;
 
+import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.MobEffects;
 import net.minecraft.item.ItemFood;
@@ -38,6 +41,11 @@ public class CookieHybrid extends ItemFood implements IHasModel {
 		}
 
 	
+	}
+	
+	@Override
+	public void addInformation(ItemStack stack, World worldIn, List<String> tooltip, ITooltipFlag flagIn) {
+		tooltip.add("Sativa and Indica Hybrid");
 	}
 
 }

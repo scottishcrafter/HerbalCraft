@@ -1,0 +1,6 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "herbalcraft:items/seeds_toasted_hybrid_sm"
+	}
+}

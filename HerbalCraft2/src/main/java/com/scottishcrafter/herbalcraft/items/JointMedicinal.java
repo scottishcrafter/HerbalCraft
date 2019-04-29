@@ -42,8 +42,8 @@ public class JointMedicinal extends ItemFood implements IHasModel {
 	protected void onFoodEaten(ItemStack stack, World worldIn, EntityPlayer player) {
 		if(!worldIn.isRemote) {
 			player.addPotionEffect(new PotionEffect(MobEffects.NAUSEA, 5*20, 1, false, true));
-			player.addPotionEffect(new PotionEffect(MobEffects.HEALTH_BOOST, 2400, 1, false, true));
-			player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 2400, 1, false, true));
+			player.addPotionEffect(new PotionEffect(MobEffects.HEALTH_BOOST, 1200, 1, false, true));
+			player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 1200, 1, false, true));
 		}
 
 	

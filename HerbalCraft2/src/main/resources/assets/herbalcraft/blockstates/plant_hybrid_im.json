@@ -1,0 +1,36 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "cross"
+	},
+	"variants": {
+		"age": {
+			"0": {
+				"textures": {
+					"cross": "herbalcraft:blocks/hybrid_im_stage0"
+				}
+			},
+			"1": {
+				"textures": {
+					"cross": "herbalcraft:blocks/hybrid_im_stage1"
+				}
+			},
+			"2": {
+				"textures": {
+					"cross": "herbalcraft:blocks/hybrid_im_stage2"
+				}
+			},
+			"3": {
+				"textures": {
+					"cross": "herbalcraft:blocks/hybrid_im_stage3"
+				}
+			},
+			"4": {
+				"textures": {
+					"cross": "herbalcraft:blocks/hybrid_im_stage4"
+				}
+			}
+			
+		}
+	}
+}

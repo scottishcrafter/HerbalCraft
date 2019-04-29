@@ -42,8 +42,8 @@ public class JointSativa extends ItemFood implements IHasModel {
 	protected void onFoodEaten(ItemStack stack, World worldIn, EntityPlayer player) {
 		if(!worldIn.isRemote) {
 			player.addPotionEffect(new PotionEffect(MobEffects.NAUSEA, 10*20, 1, false, true));
-			player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 2400, 1, false, true));
-			player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 2400, 1, false, true));
+			player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 1200, 1, false, true));
+			player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 1200, 1, false, true));
 		}
 
 	

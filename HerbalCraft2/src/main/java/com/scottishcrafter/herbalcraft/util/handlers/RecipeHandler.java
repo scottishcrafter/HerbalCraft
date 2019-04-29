@@ -25,7 +25,9 @@ public class RecipeHandler {
 		
 		//Toasted Seeds
 		GameRegistry.addSmelting(ItemInit.SEEDS_HEMP, new ItemStack(ItemInit.SEEDS_TOASTED_HEMP), 0F);
-		GameRegistry.addSmelting(ItemInit.SEEDS_HYBRID, new ItemStack(ItemInit.SEEDS_TOASTED_HYBRID), 0F);
+		GameRegistry.addSmelting(ItemInit.SEEDS_HYBRID_SI, new ItemStack(ItemInit.SEEDS_TOASTED_HYBRID_SI), 0F);
+		GameRegistry.addSmelting(ItemInit.SEEDS_HYBRID_SM, new ItemStack(ItemInit.SEEDS_TOASTED_HYBRID_SM), 0F);
+		GameRegistry.addSmelting(ItemInit.SEEDS_HYBRID_IM, new ItemStack(ItemInit.SEEDS_TOASTED_HYBRID_IM), 0F);
 		GameRegistry.addSmelting(ItemInit.SEEDS_INDICA, new ItemStack(ItemInit.SEEDS_TOASTED_INDICA), 0F);
 		GameRegistry.addSmelting(ItemInit.SEEDS_MEDICINAL, new ItemStack(ItemInit.SEEDS_TOASTED_MEDICINAL), 0F);
 		GameRegistry.addSmelting(ItemInit.SEEDS_SATIVA, new ItemStack(ItemInit.SEEDS_TOASTED_SATIVA), 0F);

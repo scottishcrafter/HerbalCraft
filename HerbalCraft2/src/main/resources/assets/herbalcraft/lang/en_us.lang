@@ -8,13 +8,9 @@ item.hemp_paper.name=Hemp Paper
 item.rizlaz_single.name=Rizlaz
 item.gelatin.name=Gelatin
 
-
-
 //Canna Chest
 tile.canna_chest.name=Canna Chest
 
-//Wool
-tile.hemp_wool.name=Hemp Wool
 //Doors
 tile.hempingot_door.name=HempIngot Door
 tile.hemp_wood_door.name=Hemp Wood Door
@@ -35,14 +31,18 @@ item.hemp_dried_sativa.name=Dried Sativa Hemp
 
 //Buds
 item.bud_hemp.name=Hemp Bud
-item.bud_hybrid.name=Hybrid Bud
+item.bud_hybrid_si.name=Hybrid Bud (S,I)
+item.bud_hybrid_im.name=Hybrid Bud (I,M)
+item.bud_hybrid_sm.name=Hybrid Bud (S,M)
 item.bud_indica.name=Indica Bud
 item.bud_medicinal.name=Medicinal Bud
 item.bud_sativa.name=Sativa Bud
 
 //Crushed Buds
 item.crushed_bud_hemp.name=Crushed Hemp Bud
-item.crushed_bud_hybrid.name=Crushed Hybrid Bud
+item.crushed_bud_hybrid_si.name=Crushed Hybrid Bud (S,I)
+item.crushed_bud_hybrid_sm.name=Crushed Hybrid Bud (S,M)
+item.crushed_bud_hybrid_im.name=Crushed Hybrid Bud (I,M)
 item.crushed_bud_indica.name=Crushed Indica Bud
 item.crushed_bud_medicinal.name=Crushed Medicinal Bud
 item.crushed_bud_sativa.name=Crushed Sativa Bud
@@ -50,7 +50,9 @@ item.crushed_bud_sativa.name=Crushed Sativa Bud
 
 //Crop Drops
 item.cropdrop_hemp.name=Hemp Crop
-item.cropdrop_hybrid.name=Hybrid Crop
+item.cropdrop_hybrid_si.name=Hybrid Crop (S,I)
+item.cropdrop_hybrid_sm.name=Hybrid Crop (S,M)
+item.cropdrop_hybrid_im.name=Hybrid Crop (I,M)
 item.cropdrop_indica.name=Indica Crop
 item.cropdrop_medicinal.name=Medicinal Crop
 item.cropdrop_sativa.name=Sativa Crop
@@ -61,41 +63,52 @@ item.treedrop_indica.name=Indica Tree Bundle
 item.treedrop_sativa.name=Sativa Tree Bundle
 item.treedrop_hybrid.name=Hybrid Tree Bundle
 //Joints
-item.joint_hybrid.name=Hybrid Joint
+item.joint_hybrid_si.name=Hybrid Joint
+item.joint_hybrid_sm.name=Hybrid Joint
+item.joint_hybrid_im.name=Hybrid Joint
 item.joint_indica.name=Indica Joint
 item.joint_medicinal.name=Medicinal Joint
 item.joint_sativa.name=Sativa Joint
 
 //Roach
-item.roach_hybrid.name=Hybrid Roach
+item.roach_hybrid_si.name=Hybrid Roach (S,I)
+item.roach_hybrid_sm.name=Hybrid Roach (S,M)
+item.roach_hybrid_im.name=Hybrid Roach (I,M)
 item.roach_indica.name=Indica Roach
 item.roach_medicinal.name=Medicinal Roach
 item.roach_sativa.name=Sativa Roach
 
 //Seeds
 item.seeds_hemp.name=Hemp Seeds
-item.seeds_hybrid.name=Hybrid Seeds
+item.seeds_hybrid_si.name=Hybrid Seeds
+item.seeds_hybrid_sm.name=Hybrid Seeds
+item.seeds_hybrid_im.name=Hybrid Seeds
 item.seeds_indica.name=Indica Seeds
 item.seeds_medicinal.name=Medicinal Seeds
 item.seeds_sativa.name=Sativa Seeds
 
 //Toasted Seeds
 item.seeds_toasted_hemp.name=Toasted Hemp Seeds
-item.seeds_toasted_hybrid.name=Toasted Hybrid Seeds
+item.seeds_toasted_hybrid_si.name=Toasted Hybrid Seeds
+item.seeds_toasted_hybrid_sm.name=Toasted Hybrid Seeds
+item.seeds_toasted_hybrid_im.name=Toasted Hybrid Seeds
 item.seeds_toasted_indica.name=Toasted Indica Seeds
 item.seeds_toasted_medicinal.name=Toasted Medicinal Seeds
 item.seeds_toasted_sativa.name=Toasted Sativa Seeds
 
+
 //Plants
 tile.plant_hemp.name=Hemp Plant
-tile.plant_hybrid.name=Hybrid Plant
+tile.plant_hybrid_si.name=Hybrid Plant (S,I)
+tile.plant_hybrid_sm.name=Hybrid Plant (S,M)
+tile.plant_hybrid_im.name=Hybrid Plant (I,M)
 tile.plant_indica.name=Indica Plant
 tile.plant_medicinal.name=Medicinal Plant
 tile.plant_sativa.name=Sativa Plant
 
 //Edibles
 item.cookie_cbd.name=CBD Cookie
-item.cookie_hybrid.name=Hybrid Cookie
+item.cookie_hybrid_si.name=Hybrid Cookie
 item.cookie_indica.name=Indica Cookie
 item.cookie_medicinal.name=Medicinal Cookie
 item.cookie_sativa.name=Sativa Cookie
@@ -114,10 +127,6 @@ item.canna_egg.name=Canna Egg
 item.herb_grinder.name=Herb Grinder
 
 //Armour
-item.hempingot_helmet.name=HempIngot Helmet
-item.hempingot_chestplate.name=Hemp Ingot Chestplate
-item.hempingot_leggings.name=Hemp Ingot Leggings
-item.hempingot_boots.name=Hemp Ingot Boots
 item.resin_helmet.name=Resin Helmet
 item.resin_chestplate.name=Resin Chestplate
 item.resin_leggings.name=Resin Leggings
@@ -126,13 +135,6 @@ item.super_resin_helmet.name=Super Resin Helmet
 item.super_resin_chestplate.name=Super Resin Chestplate
 item.super_resin_leggings.name=Super Resin Leggings
 item.super_resin_boots.name=Super Resin Boots
-
-//Hemp IngotTools
-item.hempingot_axe.name=Hemp Ingot Axe
-item.hempingot_hoe.name=Hemp Ingot Hoe
-item.hempingot_pickaxe.name=Hemp Ingot Pickaxe
-item.hempingot_shovel.name=Hemp Ingot Shovel
-item.hempingot_sword.name=Hemp Ingot Sword
 
 //Resin Tools
 item.resin_axe.name=Resin Axe
@@ -190,5 +192,4 @@ itemGroup.hctrees=HC:Trees
 
 //Entity
 entity.stoned_cow.name=Stoned Cow
-entity.stoned_pig.name=Stoned Pig
 entity.stoned_chicken.name=Stoned Chicken

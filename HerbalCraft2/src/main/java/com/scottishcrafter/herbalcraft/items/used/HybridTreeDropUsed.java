@@ -23,7 +23,7 @@ public class HybridTreeDropUsed {
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		if (entity instanceof EntityPlayer)
-			ItemHandlerHelper.giveItemToPlayer(((EntityPlayer) entity), new ItemStack(ItemInit.CROPDROP_HYBRID, (int) (2)));
+			ItemHandlerHelper.giveItemToPlayer(((EntityPlayer) entity), new ItemStack(ItemInit.CROPDROP_HYBRID_SI, (int) (2)));
 		if (entity instanceof EntityPlayer)
 			ItemHandlerHelper.giveItemToPlayer(((EntityPlayer) entity), new ItemStack(BlockInit.HYBRID_SAPLING, (int) (2)));
 		if (entity instanceof EntityPlayer)

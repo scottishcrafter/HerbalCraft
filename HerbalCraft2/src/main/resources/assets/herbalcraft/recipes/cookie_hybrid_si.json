@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#C#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:wheat"
+        },
+        "C": {
+            "item": "herbalcraft:seeds_toasted_hybrid_si"
+        }
+    },
+    "result": {
+        "item": "herbalcraft:cookie_hybrid_si",
+        "count": 8
+    }
+}

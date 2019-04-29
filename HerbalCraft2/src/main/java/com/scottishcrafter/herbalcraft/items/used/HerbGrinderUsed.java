@@ -48,11 +48,11 @@ public class HerbGrinderUsed  {
 		
 	}
 		if ((((entity instanceof EntityLivingBase) ? ((EntityLivingBase) entity).getHeldItemOffhand() : null).getItem() == new ItemStack(
-				ItemInit.BUD_HYBRID, (int) (1)).getItem())) {
+				ItemInit.BUD_HYBRID_SI, (int) (1)).getItem())) {
 			if (entity instanceof EntityPlayer)
-				ItemHandlerHelper.giveItemToPlayer(((EntityPlayer) entity), new ItemStack(ItemInit.CRUSHED_BUD_HYBRID, (int) (3)));
+				ItemHandlerHelper.giveItemToPlayer(((EntityPlayer) entity), new ItemStack(ItemInit.CRUSHED_BUD_HYBRID_SI, (int) (3)));
 			if (entity instanceof EntityPlayer)
-				((EntityPlayer) entity).inventory.clearMatchingItems(new ItemStack(ItemInit.BUD_HYBRID, (int) (1)).getItem(), -1, (int) 1,
+				((EntityPlayer) entity).inventory.clearMatchingItems(new ItemStack(ItemInit.BUD_HYBRID_SI, (int) (1)).getItem(), -1, (int) 1,
 						null);
 			
 		

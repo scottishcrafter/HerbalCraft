@@ -2,10 +2,10 @@ package com.scottishcrafter.herbalcraft.world.generation;
 
 import java.util.Random;
 
-import com.scottishcrafter.herbalcraft.blocks.crops.BlockHempPlant;
-import com.scottishcrafter.herbalcraft.blocks.crops.BlockIndicaPlant;
-import com.scottishcrafter.herbalcraft.blocks.crops.BlockMedicinalPlant;
-import com.scottishcrafter.herbalcraft.blocks.crops.BlockSativaPlant;
+import com.scottishcrafter.herbalcraft.blocks.crops.HempCrop;
+import com.scottishcrafter.herbalcraft.blocks.crops.IndicaCrop;
+import com.scottishcrafter.herbalcraft.blocks.crops.MedicinalCrop;
+import com.scottishcrafter.herbalcraft.blocks.crops.SativaCrop;
 import com.scottishcrafter.herbalcraft.init.BlockInit;
 
 import net.minecraft.init.Blocks;
@@ -36,16 +36,16 @@ public class WorldGenHerbalCrops implements IWorldGenerator
 			 if(world.getBlockState(new BlockPos(x, y, z)).getBlock() == Blocks.GRASS)  {
 				 if(bushType == 1){
 					 world.setBlockState(new BlockPos(x, y + 1, z), BlockInit.HEMP_PLANT.getDefaultState().
-							 withProperty(BlockHempPlant.AGE, Integer.valueOf(4)), 2);
+							 withProperty(HempCrop.AGE, Integer.valueOf(4)), 2);
 				 } else if(bushType == 0) {
 					 world.setBlockState(new BlockPos(x, y + 1, z), BlockInit.SATIVA_PLANT.getDefaultState().
-							 withProperty(BlockSativaPlant.AGE, Integer.valueOf(4)), 2);
+							 withProperty(SativaCrop.AGE, Integer.valueOf(4)), 2);
 				 } else if(bushType == 2) {
 					 world.setBlockState(new BlockPos(x, y + 1, z), BlockInit.INDICA_PLANT.getDefaultState().
-							 withProperty(BlockIndicaPlant.AGE, Integer.valueOf(4)), 2);
+							 withProperty(IndicaCrop.AGE, Integer.valueOf(4)), 2);
 				 } else if(bushType == 3) {
 					 world.setBlockState(new BlockPos(x, y + 1, z), BlockInit.MEDICINAL_PLANT.getDefaultState().
-							 withProperty(BlockMedicinalPlant.AGE, Integer.valueOf(4)), 2);
+							 withProperty(MedicinalCrop.AGE, Integer.valueOf(4)), 2);
 				 }
 			 }
        	 }

@@ -17,11 +17,13 @@ public class BlockInit
 	public static final List<Block> BLOCKS = new ArrayList<Block>();
 	
 	//Crops
-	public static final Block HEMP_PLANT = new BlockHempPlant("plant_hemp");
-	public static final Block HYBRID_PLANT = new BlockHybridPlant("plant_hybrid");
-	public static final Block INDICA_PLANT = new BlockIndicaPlant("plant_indica");
-	public static final Block MEDICINAL_PLANT = new BlockMedicinalPlant("plant_medicinal");
-	public static final Block SATIVA_PLANT = new BlockSativaPlant("plant_sativa");
+	public static final Block HEMP_PLANT = new HempCrop("plant_hemp");
+	public static final Block HYBRID_PLANT_IM = new IMHybridCrop("plant_hybrid_im");
+	public static final Block HYBRID_PLANT_SI = new SIHybridCrop("plant_hybrid_si");
+	public static final Block HYBRID_PLANT_SM = new SMHybridCrop("plant_hybrid_sm");
+	public static final Block INDICA_PLANT = new IndicaCrop("plant_indica");
+	public static final Block MEDICINAL_PLANT = new MedicinalCrop("plant_medicinal");
+	public static final Block SATIVA_PLANT = new SativaCrop("plant_sativa");
 	
 	//Blocks
 	public static final Block HEMPINGOT_BLOCK = new BlockBase("hempingot_block", Material.IRON, Main.HERBALCRAFT);
