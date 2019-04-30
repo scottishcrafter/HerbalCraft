@@ -1,7 +1,6 @@
 package com.scottishcrafter.herbalcraft.util.handlers;
 
 import com.scottishcrafter.herbalcraft.Main;
-import com.scottishcrafter.herbalcraft.commands.CommandTeleportDimension;
 import com.scottishcrafter.herbalcraft.init.BlockInit;
 import com.scottishcrafter.herbalcraft.init.EntityInit;
 import com.scottishcrafter.herbalcraft.init.ItemInit;
@@ -99,6 +98,6 @@ public class RegistryHandler
 	
 	public static void serverRegistries(FMLServerStartingEvent event)
 	{
-		event.registerServerCommand(new CommandTeleportDimension());
+		
 	}
 }

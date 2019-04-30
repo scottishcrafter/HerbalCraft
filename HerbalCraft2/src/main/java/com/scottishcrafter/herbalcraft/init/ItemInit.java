@@ -4,9 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.scottishcrafter.herbalcraft.Main;
-import com.scottishcrafter.herbalcraft.Reference;
 import com.scottishcrafter.herbalcraft.items.*;
-import com.scottishcrafter.herbalcraft.items.armour.ArmourModel;
 import com.scottishcrafter.herbalcraft.items.food.*;
 import com.scottishcrafter.herbalcraft.items.seeds.*;
 import com.scottishcrafter.herbalcraft.items.tools.ToolAxeBase;
@@ -22,33 +20,25 @@ import com.scottishcrafter.herbalcraft.items.vapes.VapeIndica;
 import com.scottishcrafter.herbalcraft.items.vapes.VapeMedicinal;
 import com.scottishcrafter.herbalcraft.items.vapes.VapeSativa;
 
-import net.minecraft.init.SoundEvents;
-import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
 import net.minecraft.item.Item.ToolMaterial;
-import net.minecraft.item.ItemArmor.ArmorMaterial;
 import net.minecraftforge.common.util.EnumHelper;
 
 public class ItemInit 
 {
 	public static final List<Item> ITEMS = new ArrayList<Item>();
 			
-	//Armour Materials                                                                                                                                     {Helmet,Chest,Legs,Boots}           
-	public static final ArmorMaterial RESIN_MATERIAL = EnumHelper.addArmorMaterial("resin_model", Reference.MODID + ":resin_model", 20, new int[] {2, 6, 5, 2}, 0, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 2.0f);
-	public static final ArmorMaterial SUPER_RESIN_MATERIAL = EnumHelper.addArmorMaterial("super_resin_model", Reference.MODID + ":super_resin_model", 20, new int[] {4, 9, 7, 4}, 0, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 2.0f);
+	//Seeds
+	public static final Item SEEDS_HEMP = new SeedsHemp("seeds_hemp", 1, false);
+	public static final Item SEEDS_INDICA = new SeedsIndica("seeds_indica", 1, false);
+	public static final Item SEEDS_MEDICINAL = new SeedsMedicinal("seeds_medicinal", 1, false);
+	public static final Item SEEDS_SATIVA = new SeedsSativa("seeds_sativa", 1, false);
+	public static final Item SEEDS_HYBRID_IM = new SeedsHybridIM("seeds_hybrid_im", 1, false);
+	public static final Item SEEDS_HYBRID_SI = new SeedsHybridSI("seeds_hybrid_si", 1, false);
+	public static final Item SEEDS_HYBRID_SM = new SeedsHybridSM("seeds_hybrid_sm", 1, false);
+		
 	
-	//Tool Materials
-	public static final ToolMaterial RESIN_TOOL = EnumHelper.addToolMaterial("resin_tool", 2, 400, 3.0f, 5.0f, 20);
-	public static final ToolMaterial SUPER_RESIN_TOOL = EnumHelper.addToolMaterial("super_resin_tool", 2, 400, 3.0f, 5.0f, 20);
 	
-	//Vape
-	public static final Item VAPE_EMPTY = new Vape("vape_empty", Main.HERBALCRAFT);
-	public static final Item VAPE_INDICA = new VapeIndica("vape_indica", 1, false);
-	public static final Item VAPE_MEDICINAL = new VapeMedicinal("vape_medicinal", 1, false);
-	public static final Item VAPE_SATIVA = new VapeSativa("vape_sativa", 1, false);
-	public static final Item VAPE_HYBRID_SI = new VapeHybridSI("vape_hybrid_si", 1, false);
-	public static final Item VAPE_HYBRID_IM = new VapeHybridIM("vape_hybrid_im", 1, false);
-	public static final Item VAPE_HYBRID_SM = new VapeHybridSM("vape_hybrid_sm", 1, false);
 	
 	//Items
 	public static final Item RESIN = new ItemBase("resin",Main.HERBALCRAFT);
@@ -59,35 +49,45 @@ public class ItemInit
 	public static final Item HEMP_MULCH = new ItemBase("hemp_mulch", Main.HERBALCRAFT);
 	public static final Item HEMP_PAPER = new ItemBase("hemp_paper", Main.HERBALCRAFT);
 	public static final Item HEMP_STRING = new ItemBase("hemp_string", Main.HERBALCRAFT);
+	public static final Item HEMP_CLOTH = new ItemBase("hemp_cloth", Main.HERBALCRAFT);
+	
 	//Buds
 	public static final Item BUD_HEMP = new ItemBase ("bud_hemp", Main.HERBALCRAFT);
-	public static final Item BUD_HYBRID_SI = new ItemBase ("bud_hybrid_si", Main.HERBALCRAFT);
-	public static final Item BUD_HYBRID_SM = new ItemBase ("bud_hybrid_sm", Main.HERBALCRAFT);
-	public static final Item BUD_HYBRID_IM = new ItemBase ("bud_hybrid_im", Main.HERBALCRAFT);
 	public static final Item BUD_INDICA = new ItemBase ("bud_indica", Main.HERBALCRAFT);
 	public static final Item BUD_MEDICINAL = new ItemBase ("bud_medicinal", Main.HERBALCRAFT);
 	public static final Item BUD_SATIVA = new ItemBase ("bud_sativa", Main.HERBALCRAFT);
+	public static final Item BUD_HYBRID_SI = new ItemBase ("bud_hybrid_si", Main.HERBALCRAFT);
+	public static final Item BUD_HYBRID_SM = new ItemBase ("bud_hybrid_sm", Main.HERBALCRAFT);
+	public static final Item BUD_HYBRID_IM = new ItemBase ("bud_hybrid_im", Main.HERBALCRAFT);
 	//Crushed Buds
 	public static final Item CRUSHED_BUD_HEMP = new ItemBase ("crushed_bud_hemp", Main.HERBALCRAFT);
-	public static final Item CRUSHED_BUD_HYBRID_SI = new ItemBase ("crushed_bud_hybrid_si", Main.HERBALCRAFT);
-	public static final Item CRUSHED_BUD_HYBRID_SM = new ItemBase ("crushed_bud_hybrid_sm", Main.HERBALCRAFT);
-	public static final Item CRUSHED_BUD_HYBRID_IM = new ItemBase ("crushed_bud_hybrid_im", Main.HERBALCRAFT);
 	public static final Item CRUSHED_BUD_INDICA = new ItemBase ("crushed_bud_indica", Main.HERBALCRAFT);
 	public static final Item CRUSHED_BUD_MEDICINAL = new ItemBase ("crushed_bud_medicinal", Main.HERBALCRAFT);
 	public static final Item CRUSHED_BUD_SATIVA = new ItemBase ("crushed_bud_sativa", Main.HERBALCRAFT);
+	public static final Item CRUSHED_BUD_HYBRID_SI = new ItemBase ("crushed_bud_hybrid_si", Main.HERBALCRAFT);
+	public static final Item CRUSHED_BUD_HYBRID_SM = new ItemBase ("crushed_bud_hybrid_sm", Main.HERBALCRAFT);
+	public static final Item CRUSHED_BUD_HYBRID_IM = new ItemBase ("crushed_bud_hybrid_im", Main.HERBALCRAFT);
 
-	
 	//Herb Grinder
 	public static final Item HERB_GRINDER = new ItemHerbGrinder ("herb_grinder", Main.HERBALCRAFT);
 	//Joints
-	public static final Item JOINT_HYBRID_SI = new JointHybridIS("joint_hybrid_si", 1, false);
-	public static final Item JOINT_HYBRID_IM = new JointHybridIM("joint_hybrid_im", 1, false);
-	public static final Item JOINT_HYBRID_SM = new JointHybridSM("joint_hybrid_sm", 1, false);
 	public static final Item JOINT_INDICA = new JointIndica("joint_indica", 1, false);
 	public static final Item JOINT_MEDICINAL = new JointMedicinal("joint_medicinal", 1, false);
 	public static final Item JOINT_SATIVA = new JointSativa("joint_sativa", 1, false);
+	public static final Item JOINT_HYBRID_SI = new JointHybridIS("joint_hybrid_si", 1, false);
+	public static final Item JOINT_HYBRID_IM = new JointHybridIM("joint_hybrid_im", 1, false);
+	public static final Item JOINT_HYBRID_SM = new JointHybridSM("joint_hybrid_sm", 1, false);
 	
+	//Vape
+	public static final Item VAPE_EMPTY = new Vape("vape_empty", Main.HERBALCRAFT);
+	public static final Item VAPE_INDICA = new VapeIndica("vape_indica", 1, false);
+	public static final Item VAPE_MEDICINAL = new VapeMedicinal("vape_medicinal", 1, false);
+	public static final Item VAPE_SATIVA = new VapeSativa("vape_sativa", 1, false);
+	public static final Item VAPE_HYBRID_SI = new VapeHybridSI("vape_hybrid_si", 1, false);
+	public static final Item VAPE_HYBRID_IM = new VapeHybridIM("vape_hybrid_im", 1, false);
+	public static final Item VAPE_HYBRID_SM = new VapeHybridSM("vape_hybrid_sm", 1, false);
 	
+	//Roach
 	public static final Item ROACH_HYBRID_SI = new Roach ("roach_hybrid_si");
 	public static final Item ROACH_HYBRID_IM = new Roach ("roach_hybrid_im");
 	public static final Item ROACH_HYBRID_SM = new Roach ("roach_hybrid_sm");
@@ -95,23 +95,15 @@ public class ItemInit
 	public static final Item ROACH_MEDICINAL = new Roach ("roach_medicinal");
 	public static final Item ROACH_SATIVA = new Roach ("roach_sativa");
 	
-	//Seeds
-	public static final Item SEEDS_HEMP = new SeedsHemp("seeds_hemp", 1, false);
-	public static final Item SEEDS_HYBRID_IM = new SeedsHybridIM("seeds_hybrid_im", 1, false);
-	public static final Item SEEDS_HYBRID_SI = new SeedsHybridSI("seeds_hybrid_si", 1, false);
-	public static final Item SEEDS_HYBRID_SM = new SeedsHybridSM("seeds_hybrid_sm", 1, false);
-	public static final Item SEEDS_INDICA = new SeedsIndica("seeds_indica", 1, false);
-	public static final Item SEEDS_MEDICINAL = new SeedsMedicinal("seeds_medicinal", 1, false);
-	public static final Item SEEDS_SATIVA = new SeedsSativa("seeds_sativa", 1, false);
 	
 	//Toasted Seeds
 	public static final Item SEEDS_TOASTED_HEMP = new ToastedSeeds("seeds_toasted_hemp", 2, false);
-	public static final Item SEEDS_TOASTED_HYBRID_IM = new ToastedSeedsIM("seeds_toasted_hybrid_im", 2, false);
-	public static final Item SEEDS_TOASTED_HYBRID_SI = new ToastedSeedsIS("seeds_toasted_hybrid_si", 2, false);
-	public static final Item SEEDS_TOASTED_HYBRID_SM = new ToastedSeedsSM("seeds_toasted_hybrid_sm", 2, false);
 	public static final Item SEEDS_TOASTED_INDICA = new ToastedSeeds("seeds_toasted_indica", 2, false);
 	public static final Item SEEDS_TOASTED_MEDICINAL = new ToastedSeeds("seeds_toasted_medicinal", 2, false);
 	public static final Item SEEDS_TOASTED_SATIVA = new ToastedSeeds("seeds_toasted_sativa", 2, false);
+	public static final Item SEEDS_TOASTED_HYBRID_IM = new ToastedSeedsIM("seeds_toasted_hybrid_im", 2, false);
+	public static final Item SEEDS_TOASTED_HYBRID_SI = new ToastedSeedsIS("seeds_toasted_hybrid_si", 2, false);
+	public static final Item SEEDS_TOASTED_HYBRID_SM = new ToastedSeedsSM("seeds_toasted_hybrid_sm", 2, false);
 	
 	
 	//Edibles
@@ -161,31 +153,28 @@ public class ItemInit
 	public static final Item HEMP_DRIED_MEDICINAL = new ItemBase("hemp_dried_medicinal", Main.HERBALCRAFT);
 	public static final Item HEMP_DRIED_SATIVA = new ItemBase("hemp_dried_sativa", Main.HERBALCRAFT);
 	
-	//Resin Armour
-	public static final Item RESIN_HELMET = new ArmourModel("resin_helmet", Main.HCARMOURY, RESIN_MATERIAL, EntityEquipmentSlot.HEAD);
-	public static final Item RESIN_CHESTPLATE = new ArmourModel("resin_chestplate", Main.HCARMOURY, RESIN_MATERIAL, EntityEquipmentSlot.CHEST);
-	public static final Item RESINT_LEGGINGS = new ArmourModel("resin_leggings", Main.HCARMOURY, RESIN_MATERIAL, EntityEquipmentSlot.LEGS);
-	public static final Item RESIN_BOOTS = new ArmourModel("resin_boots", Main.HCARMOURY, RESIN_MATERIAL, EntityEquipmentSlot.FEET);
+			
+	//Tool Materials
+	public static final ToolMaterial RESIN_TOOL = EnumHelper.addToolMaterial("resin_tool", 2, 400, 3.0f, 5.0f, 20);
+	public static final ToolMaterial SUPER_RESIN_TOOL = EnumHelper.addToolMaterial("super_resin_tool", 2, 400, 3.0f, 5.0f, 20);
+		
 	
-	//Super Resin Armour
-	public static final Item SUPER_RESIN_HELMET = new ArmourModel("super_resin_helmet", Main.HCARMOURY, SUPER_RESIN_MATERIAL, EntityEquipmentSlot.HEAD);
-	public static final Item SUPER_RESIN_CHESTPLATE = new ArmourModel("super_resin_chestplate", Main.HCARMOURY, SUPER_RESIN_MATERIAL, EntityEquipmentSlot.CHEST);
-	public static final Item SUPER_RESINT_LEGGINGS = new ArmourModel("super_resin_leggings", Main.HCARMOURY, SUPER_RESIN_MATERIAL, EntityEquipmentSlot.LEGS);
-	public static final Item SUPER_RESIN_BOOTS = new ArmourModel("super_resin_boots", Main.HCARMOURY, SUPER_RESIN_MATERIAL, EntityEquipmentSlot.FEET);
 	
 	//Resin Tools
-		public static final Item RESIN_AXE = new ToolAxeBase("resin_axe", RESIN_TOOL, Main.HCTOOLS);
-		public static final Item RESIN_HOE = new ToolHoeBase("resin_hoe", RESIN_TOOL, Main.HCTOOLS);
-		public static final Item RESIN_PICKAXE = new ToolPickaxeBase("resin_pickaxe", RESIN_TOOL, Main.HCTOOLS);
-		public static final Item RESIN_SHOVEL = new ToolShovelBase("resin_shovel", RESIN_TOOL, Main.HCTOOLS);
-		public static final Item RESIN_SWORD = new ToolSwordBase("resin_sword", RESIN_TOOL, Main.HCTOOLS);
+	public static final Item RESIN_AXE = new ToolAxeBase("resin_axe", RESIN_TOOL, Main.HERBALCRAFT);
+	public static final Item RESIN_HOE = new ToolHoeBase("resin_hoe", RESIN_TOOL, Main.HERBALCRAFT);
+	public static final Item RESIN_PICKAXE = new ToolPickaxeBase("resin_pickaxe", RESIN_TOOL, Main.HERBALCRAFT);
+	public static final Item RESIN_SHOVEL = new ToolShovelBase("resin_shovel", RESIN_TOOL, Main.HERBALCRAFT);
+	public static final Item RESIN_SWORD = new ToolSwordBase("resin_sword", RESIN_TOOL, Main.HERBALCRAFT);
 		
 		
    //Resin Tools
-		public static final Item SUPER_RESIN_AXE = new ToolAxeBase("super_resin_axe", SUPER_RESIN_TOOL, Main.HCTOOLS);
-		public static final Item SUPER_RESIN_HOE = new ToolHoeBase("super_resin_hoe", SUPER_RESIN_TOOL, Main.HCTOOLS);
-		public static final Item SUPER_RESIN_PICKAXE = new ToolPickaxeBase("super_resin_pickaxe", SUPER_RESIN_TOOL, Main.HCTOOLS);
-		public static final Item SUPER_RESIN_SHOVEL = new ToolShovelBase("super_resin_shovel", SUPER_RESIN_TOOL, Main.HCTOOLS);
-		public static final Item SUPER_RESIN_SWORD = new ToolSwordBase("super_resin_sword", SUPER_RESIN_TOOL, Main.HCTOOLS);	
+	public static final Item SUPER_RESIN_AXE = new ToolAxeBase("super_resin_axe", SUPER_RESIN_TOOL, Main.HERBALCRAFT);
+	public static final Item SUPER_RESIN_HOE = new ToolHoeBase("super_resin_hoe", SUPER_RESIN_TOOL, Main.HERBALCRAFT);
+	public static final Item SUPER_RESIN_PICKAXE = new ToolPickaxeBase("super_resin_pickaxe", SUPER_RESIN_TOOL, Main.HERBALCRAFT);
+	public static final Item SUPER_RESIN_SHOVEL = new ToolShovelBase("super_resin_shovel", SUPER_RESIN_TOOL, Main.HERBALCRAFT);
+	public static final Item SUPER_RESIN_SWORD = new ToolSwordBase("super_resin_sword", SUPER_RESIN_TOOL, Main.HERBALCRAFT);	
+		
+			
 		
 }

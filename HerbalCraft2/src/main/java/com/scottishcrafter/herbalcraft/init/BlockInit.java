@@ -6,7 +6,6 @@ import java.util.List;
 import com.scottishcrafter.herbalcraft.Main;
 import com.scottishcrafter.herbalcraft.blocks.*;
 import com.scottishcrafter.herbalcraft.blocks.crops.*;
-import com.scottishcrafter.herbalcraft.blocks.slabs.*;
 import com.scottishcrafter.herbalcraft.blocks.trees.*;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockSlab;

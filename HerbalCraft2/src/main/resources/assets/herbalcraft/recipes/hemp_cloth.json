@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XX",
+    "XX"
+  ],
+  "key": {
+    "X": [
+      {
+        "item": "herbalcraft:hemp_dried"
+      },
+      {
+        "item": "herbalcraft:hemp_dried_sativa"
+      },
+      {
+        "item": "herbalcraft:hemp_dried_hybrid"
+      },
+      {
+        "item": "herbalcraft:hemp_dried_indica"
+      },
+      {
+        "item": "herbalcraft:hemp_dried_medicinal"
+      }
+    ]
+  },
+  "result": {
+    "item": "herbalcraft:hemp_cloth",
+    "count": 4
+  }
+}

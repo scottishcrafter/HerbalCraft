@@ -2,13 +2,12 @@ package com.scottishcrafter.herbalcraft.blocks.crops;
 
 import com.scottishcrafter.herbalcraft.init.BlockInit;
 import com.scottishcrafter.herbalcraft.init.ItemInit;
-import net.minecraft.block.BlockCrops;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.properties.PropertyInteger;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 
-public class IndicaCrop extends BlockCrops {
+public class IndicaCrop extends CropBase {
 	
 	public IndicaCrop(String name)
 	{

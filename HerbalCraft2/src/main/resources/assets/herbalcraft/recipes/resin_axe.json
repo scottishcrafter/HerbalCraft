@@ -1,17 +1,19 @@
 {
 	"type": "minecraft:crafting_shaped",
 	"pattern": [
-		"   ",
-		"X X",
-		"X X"
+		"XX ",
+		"X# ",
+		" # "
 	],
 	"key": {
 		"X": {
 			"item": "herbalcraft:resin"
+		},
+		"#": {
+			"item": "minecraft:stick"
 		}
-		
 	},
 	"result": {
-		"item": "herbalcraft:resin_boots"
+		"item": "herbalcraft:resin_axe"
 	}
 }

@@ -8,6 +8,7 @@ item.hemp_paper.name=Hemp Paper
 item.rizlaz_single.name=Rizlaz
 item.gelatin.name=Gelatin
 item.hemp_string.name=Hemp String
+item.hemp_cloth.name=Hemp Cloth
 
 //Vapes
 item.vape_empty.name=Empty Vape
@@ -68,6 +69,7 @@ item.treedrop_hemp.name=Hemp Tree Bundle
 item.treedrop_indica.name=Indica Tree Bundle
 item.treedrop_sativa.name=Sativa Tree Bundle
 item.treedrop_hybrid.name=Hybrid Tree Bundle
+item.treedrop_medicinal.name=Medicinal Tree Bundle
 //Joints
 item.joint_hybrid_si.name=Hybrid Joint
 item.joint_hybrid_sm.name=Hybrid Joint
@@ -131,16 +133,6 @@ item.canna_egg.name=Canna Egg
 
 //MISC
 item.herb_grinder.name=Herb Grinder
-
-//Armour
-item.resin_helmet.name=Resin Helmet
-item.resin_chestplate.name=Resin Chestplate
-item.resin_leggings.name=Resin Leggings
-item.resin_boots.name=Resin Boots
-item.super_resin_helmet.name=Super Resin Helmet
-item.super_resin_chestplate.name=Super Resin Chestplate
-item.super_resin_leggings.name=Super Resin Leggings
-item.super_resin_boots.name=Super Resin Boots
 
 //Resin Tools
 item.resin_axe.name=Resin Axe

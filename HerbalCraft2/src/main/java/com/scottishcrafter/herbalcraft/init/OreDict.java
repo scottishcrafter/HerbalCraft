@@ -32,6 +32,7 @@ public class OreDict {
         OreDictionary.registerOre("slimeball", ItemInit.RESIN);
         OreDictionary.registerOre("chest", BlockInit.CANNA_CHEST);
         OreDictionary.registerOre("string", ItemInit.HEMP_STRING);
+        OreDictionary.registerOre("leather", ItemInit.HEMP_CLOTH);
         System.out.println("Ore dictionary elements added!");
     }
 }

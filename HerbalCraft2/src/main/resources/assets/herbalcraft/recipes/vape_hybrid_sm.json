@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "X#",
+        "##"
+    ],
+    "key": {
+         "#": [
+      {
+        "item": "herbalcraft:bud_hybrid_sm"
+      },
+      {
+        "item": "herbalcraft:crushed_bud_hybrid_sm"
+      }
+    ],
+        "X": {
+            "item": "herbalcraft:vape_empty"
+        }
+    },
+    "result": {
+        "item": "herbalcraft:vape_hybrid_sm",
+        "count": 1
+    }
+}
