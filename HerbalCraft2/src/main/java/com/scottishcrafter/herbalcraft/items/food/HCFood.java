@@ -6,9 +6,9 @@ import com.scottishcrafter.herbalcraft.util.interfaces.IHasModel;
 
 import net.minecraft.item.ItemFood;
 
-public class ToastedSeeds extends ItemFood implements IHasModel {
+public class HCFood extends ItemFood implements IHasModel {
 	
-	public ToastedSeeds(String name, int amount, boolean isWolfFood)
+	public HCFood(String name, int amount, boolean isWolfFood)
 	{
 		super(amount, isWolfFood);
 		setUnlocalizedName(name);

@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "EME",
+        "SXS"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:dye",
+            "data": 3
+        },
+        "X": {
+            "item": "minecraft:wheat"
+        },
+        "E": {
+            "item": "minecraft:egg"
+        },
+        "M": {
+            "item": "minecraft:milk_bucket"
+        },
+        "S": {
+            "item": "minecraft:sugar"
+        }
+    },
+    "result": {
+        "item": "herbalcraft:brownie",
+        "count": 4
+    }
+}

@@ -3,9 +3,9 @@ import com.scottishcrafter.herbalcraft.init.BlockInit;
 import com.scottishcrafter.herbalcraft.init.ItemInit;
 import net.minecraftforge.oredict.OreDictionary;
 
-public class OreDict {
+public class OreDict{
 
-    public static void init() {
+    public static void init()  {
     	
         OreDictionary.registerOre("logWood", BlockInit.HEMP_LOG);
         OreDictionary.registerOre("logWood", BlockInit.INDICA_LOG);
@@ -33,6 +33,10 @@ public class OreDict {
         OreDictionary.registerOre("chest", BlockInit.CANNA_CHEST);
         OreDictionary.registerOre("string", ItemInit.HEMP_STRING);
         OreDictionary.registerOre("leather", ItemInit.HEMP_CLOTH);
+        OreDictionary.registerOre("dyeGreen", ItemInit.HEMP_DRIED);
+        OreDictionary.registerOre("dyeLime", ItemInit.HEMP_DRIED_SATIVA);
+        OreDictionary.registerOre("dyePurple", ItemInit.HEMP_DRIED_INDICA);
+        OreDictionary.registerOre("dyeRed", ItemInit.HEMP_DRIED_MEDICINAL);
         System.out.println("Ore dictionary elements added!");
     }
 }

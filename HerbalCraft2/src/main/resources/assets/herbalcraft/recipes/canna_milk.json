@@ -1,0 +1,55 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "X#X",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:milk_bucket"
+    },
+    "X": [
+      {
+        "item": "herbalcraft:bud_sativa"
+      },
+      {
+        "item": "herbalcraft:crushed_bud_sativa"
+      },
+      {
+        "item": "herbalcraft:bud_indica"
+      },
+      {
+        "item": "herbalcraft:crushed_bud_indica"
+      },
+      {
+        "item": "herbalcraft:bud_medicinal"
+      },
+      {
+        "item": "herbalcraft:crushed_bud_medicinal"
+      },
+      {
+        "item": "herbalcraft:bud_hybrid_sm"
+      },
+      {
+        "item": "herbalcraft:crushed_bud_hybrid_sm"
+      },
+      {
+        "item": "herbalcraft:bud_hybrid_im"
+      },
+      {
+        "item": "herbalcraft:crushed_bud_hybrid_im"
+      },
+      {
+        "item": "herbalcraft:bud_hybrid_si"
+      },
+      {
+        "item": "herbalcraft:crushed_bud_hybrid_si"
+      }
+    ]
+  },
+  "result": {
+    "item": "herbalcraft:canna_milk",
+    "count": 1
+  }
+}

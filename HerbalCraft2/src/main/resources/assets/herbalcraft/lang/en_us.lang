@@ -117,6 +117,8 @@ tile.plant_sativa.name=Sativa Plant
 //Edibles
 item.cookie_cbd.name=CBD Cookie
 item.cookie_hybrid_si.name=Hybrid Cookie
+item.cookie_hybrid_sm.name=Hybrid Cookie
+item.cookie_hybrid_im.name=Hybrid Cookie
 item.cookie_indica.name=Indica Cookie
 item.cookie_medicinal.name=Medicinal Cookie
 item.cookie_sativa.name=Sativa Cookie
@@ -130,6 +132,14 @@ item.gummy_medicinal.name=Medicinal Gummy Bear
 item.gummy_sativa.name=Sativa Gummy Bear
 item.canna_milk.name=Canna Milk
 item.canna_egg.name=Canna Egg
+item.brownie.name=Chocolate Brownie
+item.brownie_indica.name=Indica Brownie
+item.brownie_medicinal.name=Medicinal Brownie
+item.brownie_sativa.name=Sativa Brownie
+item.brownie_hybrid_si.name=Hybrid Brownie
+item.brownie_hybrid_sm.name=Hybrid Brownie
+item.brownie_hbrid_im.name=Hybrid Brownie
+item.herbal_fertilizer.name=Fertilizer
 
 //MISC
 item.herb_grinder.name=Herb Grinder

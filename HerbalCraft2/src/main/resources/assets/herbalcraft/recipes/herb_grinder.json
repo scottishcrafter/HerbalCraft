@@ -8,19 +8,17 @@
   "key": {
   "#": 
      {
-      "item": "minecraft:planks",
-      "data": 0
+       "type": "forge:ore_dict",
+    "ore": "plankWood"
       
     },
    
-    "X": [
+    "X": 
       {
-        "item": "minecraft:iron_ingot"
-      },
-      {
-        "item": "herbalcraft:hemp_ingot"
+         "type": "forge:ore_dict",
+    "ore": "ingotIron"
       }
-    ]
+      
   },
   "result": {
     "item": "herbalcraft:herb_grinder"

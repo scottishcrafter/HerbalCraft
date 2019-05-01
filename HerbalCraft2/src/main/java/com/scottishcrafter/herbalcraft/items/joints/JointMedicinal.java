@@ -1,13 +1,10 @@
-package com.scottishcrafter.herbalcraft.items;
-
-import java.util.List;
+package com.scottishcrafter.herbalcraft.items.joints;
 
 import com.scottishcrafter.herbalcraft.Main;
 import com.scottishcrafter.herbalcraft.init.ItemInit;
 import com.scottishcrafter.herbalcraft.util.interfaces.IHasModel;
 
 import net.minecraft.advancements.CriteriaTriggers;
-import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.EntityPlayerMP;
@@ -22,9 +19,9 @@ import net.minecraft.util.SoundCategory;
 import net.minecraft.world.World;
 import net.minecraftforge.items.ItemHandlerHelper;
 
-public class JointHybridIS extends ItemFood implements IHasModel {
+public class JointMedicinal extends ItemFood implements IHasModel {
 	
-	public JointHybridIS(String name, int amount, boolean isWolfFood)
+	public JointMedicinal(String name, int amount, boolean isWolfFood)
 	{
 		super(amount, isWolfFood);
 		setUnlocalizedName(name);
@@ -44,10 +41,9 @@ public class JointHybridIS extends ItemFood implements IHasModel {
 	@Override
 	protected void onFoodEaten(ItemStack stack, World worldIn, EntityPlayer player) {
 		if(!worldIn.isRemote) {
-			player.addPotionEffect(new PotionEffect(MobEffects.NAUSEA, 10*20, 1, false, true));
-			player.addPotionEffect(new PotionEffect(MobEffects.LUCK, 1200, 1, false, true));
-			player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 1200, 1, false, true));
-			player.addPotionEffect(new PotionEffect(MobEffects.HUNGER, 15*20, 1, false, true));
+			player.addPotionEffect(new PotionEffect(MobEffects.NAUSEA, 5*20, 1, false, true));
+			player.addPotionEffect(new PotionEffect(MobEffects.HEALTH_BOOST, 1200, 1, false, true));
+			player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 1200, 1, false, true));
 		}
 
 	
@@ -72,7 +68,7 @@ public class JointHybridIS extends ItemFood implements IHasModel {
             if (entityplayer instanceof EntityPlayerMP)
             {
                 CriteriaTriggers.CONSUME_ITEM.trigger((EntityPlayerMP)entityplayer, stack);
-                ItemHandlerHelper.giveItemToPlayer(((EntityPlayerMP) entityplayer), new ItemStack(ItemInit.ROACH_HYBRID_SI, (int) (1)));
+                ItemHandlerHelper.giveItemToPlayer(((EntityPlayerMP) entityplayer), new ItemStack(ItemInit.ROACH_MEDICINAL, (int) (1)));
             }
         }
 
@@ -80,8 +76,4 @@ public class JointHybridIS extends ItemFood implements IHasModel {
         return stack;
     }
 	
-	@Override
-	public void addInformation(ItemStack stack, World worldIn, List<String> tooltip, ITooltipFlag flagIn) {
-		tooltip.add("Sativa and Indica Hybrid");
-	}
 }

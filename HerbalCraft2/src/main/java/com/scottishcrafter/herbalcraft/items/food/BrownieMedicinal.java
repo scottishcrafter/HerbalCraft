@@ -14,9 +14,9 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.potion.PotionEffect;
 import net.minecraft.world.World;
 
-public class CookieHybrid extends ItemFood implements IHasModel {
+public class BrownieMedicinal extends ItemFood implements IHasModel {
 	
-	public CookieHybrid(String name, int amount, boolean isWolfFood)
+	public BrownieMedicinal(String name, int amount, boolean isWolfFood)
 	{
 		super(amount, isWolfFood);
 		setUnlocalizedName(name);
@@ -36,8 +36,8 @@ public class CookieHybrid extends ItemFood implements IHasModel {
 	@Override
 	protected void onFoodEaten(ItemStack stack, World worldIn, EntityPlayer player) {
 		if(!worldIn.isRemote) {
-			player.addPotionEffect(new PotionEffect(MobEffects.LUCK, 2400, 1, false, false));
-			player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 2400, 1, false, false));
+			player.addPotionEffect(new PotionEffect(MobEffects.LEVITATION, 5*20, 1, false, false));
+			player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 35*20, 3, false, false));
 		}
 
 	
@@ -45,7 +45,7 @@ public class CookieHybrid extends ItemFood implements IHasModel {
 	
 	@Override
 	public void addInformation(ItemStack stack, World worldIn, List<String> tooltip, ITooltipFlag flagIn) {
-		tooltip.add("Sativa and Indica Hybrid");
+		tooltip.add("Don't eat me outside unless you're prepared!");
 	}
 
 }

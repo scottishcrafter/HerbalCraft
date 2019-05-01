@@ -7,6 +7,7 @@ import com.scottishcrafter.herbalcraft.Main;
 import com.scottishcrafter.herbalcraft.items.*;
 import com.scottishcrafter.herbalcraft.items.food.*;
 import com.scottishcrafter.herbalcraft.items.seeds.*;
+import com.scottishcrafter.herbalcraft.items.joints.*;
 import com.scottishcrafter.herbalcraft.items.tools.ToolAxeBase;
 import com.scottishcrafter.herbalcraft.items.tools.ToolHoeBase;
 import com.scottishcrafter.herbalcraft.items.tools.ToolPickaxeBase;
@@ -36,6 +37,7 @@ public class ItemInit
 	public static final Item SEEDS_HYBRID_IM = new SeedsHybridIM("seeds_hybrid_im", 1, false);
 	public static final Item SEEDS_HYBRID_SI = new SeedsHybridSI("seeds_hybrid_si", 1, false);
 	public static final Item SEEDS_HYBRID_SM = new SeedsHybridSM("seeds_hybrid_sm", 1, false);
+	public static final Item FERTILIZER = new Fertilizer("herbal_fertilizer", Main.HERBALCRAFT);
 		
 	
 	
@@ -97,10 +99,10 @@ public class ItemInit
 	
 	
 	//Toasted Seeds
-	public static final Item SEEDS_TOASTED_HEMP = new ToastedSeeds("seeds_toasted_hemp", 2, false);
-	public static final Item SEEDS_TOASTED_INDICA = new ToastedSeeds("seeds_toasted_indica", 2, false);
-	public static final Item SEEDS_TOASTED_MEDICINAL = new ToastedSeeds("seeds_toasted_medicinal", 2, false);
-	public static final Item SEEDS_TOASTED_SATIVA = new ToastedSeeds("seeds_toasted_sativa", 2, false);
+	public static final Item SEEDS_TOASTED_HEMP = new HCFood("seeds_toasted_hemp", 2, false);
+	public static final Item SEEDS_TOASTED_INDICA = new HCFood("seeds_toasted_indica", 2, false);
+	public static final Item SEEDS_TOASTED_MEDICINAL = new HCFood("seeds_toasted_medicinal", 2, false);
+	public static final Item SEEDS_TOASTED_SATIVA = new HCFood("seeds_toasted_sativa", 2, false);
 	public static final Item SEEDS_TOASTED_HYBRID_IM = new ToastedSeedsIM("seeds_toasted_hybrid_im", 2, false);
 	public static final Item SEEDS_TOASTED_HYBRID_SI = new ToastedSeedsIS("seeds_toasted_hybrid_si", 2, false);
 	public static final Item SEEDS_TOASTED_HYBRID_SM = new ToastedSeedsSM("seeds_toasted_hybrid_sm", 2, false);
@@ -108,7 +110,9 @@ public class ItemInit
 	
 	//Edibles
 	public static final Item COOKIE_CBD = new CookieCBD("cookie_cbd", 3, false);
-	public static final Item COOKIE_HYBRID_SI = new CookieHybrid("cookie_hybrid_si", 3, false);
+	public static final Item COOKIE_HYBRID_SI = new CookieHybridIS("cookie_hybrid_si", 3, false);
+	public static final Item COOKIE_HYBRID_SM = new CookieHybridSM("cookie_hybrid_sm", 3, false);
+	public static final Item COOKIE_HYBRID_IM = new CookieHybridIM("cookie_hybrid_im", 3, false);
 	public static final Item COOKIE_INDICA = new CookieIndica("cookie_indica", 3, false);
 	public static final Item COOKIE_MEDICINAL = new CookieMedicinal("cookie_medicinal", 3, false);
 	public static final Item COOKIE_SATIVA = new CookieSativa("cookie_sativa", 3, false);
@@ -120,6 +124,13 @@ public class ItemInit
 	public static final Item GUMMY_INDICA = new CookieIndica("gummy_indica", 5, false);
 	public static final Item GUMMY_MEDICINAL = new CookieMedicinal("gummy_medicinal", 5, false);
 	public static final Item GUMMY_SATIVA = new CookieSativa("gummy_sativa", 5, false);
+	public static final Item BROWNIE = new HCFood("brownie", 5, false);
+	public static final Item BROWNIE_INDICA = new BrownieIndica ("brownie_indica", 5, false);
+	public static final Item BROWNIE_MEDICINAL = new BrownieMedicinal ("brownie_medicinal", 5, false);
+	public static final Item BROWNIE_SATIVA = new BrownieSativa ("brownie_sativa", 5, false);
+	public static final Item BROWNIE_HYBRID_SM = new BrownieHybridSM ("brownie_hybrid_sm", 5, false);
+	public static final Item BROWNIE_HYBRID_SI = new BrownieHybridSI("brownie_hybrid_si", 5, false);
+	public static final Item BROWNIE_HYBRID_IM = new BrownieHybridIM("brownie_hybrid_im", 5, false);
 	public static final Item GELATIN = new ItemBase("gelatin", Main.HCEDIBLES);
 	public static final Item CANNA_MILK = new ItemBase("canna_milk", Main.HCEDIBLES);
 	public static final Item CANNA_EGG = new ItemBase("canna_egg", Main.HCEDIBLES);

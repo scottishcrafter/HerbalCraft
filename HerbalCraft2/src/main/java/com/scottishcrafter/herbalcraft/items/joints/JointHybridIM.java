@@ -1,4 +1,4 @@
-package com.scottishcrafter.herbalcraft.items;
+package com.scottishcrafter.herbalcraft.items.joints;
 
 import java.util.List;
 

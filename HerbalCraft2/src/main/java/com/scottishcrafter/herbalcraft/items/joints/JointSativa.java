@@ -1,4 +1,4 @@
-package com.scottishcrafter.herbalcraft.items;
+package com.scottishcrafter.herbalcraft.items.joints;
 
 import com.scottishcrafter.herbalcraft.Main;
 import com.scottishcrafter.herbalcraft.init.ItemInit;
@@ -19,9 +19,9 @@ import net.minecraft.util.SoundCategory;
 import net.minecraft.world.World;
 import net.minecraftforge.items.ItemHandlerHelper;
 
-public class JointIndica extends ItemFood implements IHasModel {
+public class JointSativa extends ItemFood implements IHasModel {
 	
-	public JointIndica(String name, int amount, boolean isWolfFood)
+	public JointSativa(String name, int amount, boolean isWolfFood)
 	{
 		super(amount, isWolfFood);
 		setUnlocalizedName(name);
@@ -42,13 +42,13 @@ public class JointIndica extends ItemFood implements IHasModel {
 	protected void onFoodEaten(ItemStack stack, World worldIn, EntityPlayer player) {
 		if(!worldIn.isRemote) {
 			player.addPotionEffect(new PotionEffect(MobEffects.NAUSEA, 10*20, 1, false, true));
-			player.addPotionEffect(new PotionEffect(MobEffects.MINING_FATIGUE, 1200, 1, false, true));
-			player.addPotionEffect(new PotionEffect(MobEffects.LUCK, 1200, 1, false, true));
+			player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 1200, 1, false, true));
+			player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 1200, 1, false, true));
 		}
 
 	
 	}
-	
+
 	@Override
     public EnumAction getItemUseAction(ItemStack stack) {
         return EnumAction.BOW;
@@ -68,7 +68,7 @@ public class JointIndica extends ItemFood implements IHasModel {
             if (entityplayer instanceof EntityPlayerMP)
             {
                 CriteriaTriggers.CONSUME_ITEM.trigger((EntityPlayerMP)entityplayer, stack);
-                ItemHandlerHelper.giveItemToPlayer(((EntityPlayerMP) entityplayer), new ItemStack(ItemInit.ROACH_INDICA, (int) (1)));
+                ItemHandlerHelper.giveItemToPlayer(((EntityPlayerMP) entityplayer), new ItemStack(ItemInit.ROACH_SATIVA, (int) (1)));
             }
         }
 

@@ -1,0 +1,38 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "J#J",
+        "EME",
+        "SXS"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:dye",
+            "data": 3
+        },
+        "X": {
+            "item": "minecraft:wheat"
+        },
+        "E": {
+            "item": "herbalcraft:canna_egg"
+        },
+         "J": [
+      {
+        "item": "herbalcraft:bud_hybrid_im"
+      },
+      {
+        "item": "herbalcraft:crushed_bud_hybrid_im"
+      }
+    ],
+        "M": {
+            "item": "herbalcraft:canna_milk"
+        },
+        "S": {
+            "item": "minecraft:sugar"
+        }
+    },
+    "result": {
+        "item": "herbalcraft:brownie_hybrid_im",
+        "count": 4
+    }
+}
