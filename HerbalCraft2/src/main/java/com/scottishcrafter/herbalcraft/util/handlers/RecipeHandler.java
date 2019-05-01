@@ -43,11 +43,12 @@ public class RecipeHandler {
 		GameRegistry.addSmelting(BlockInit.SATIVA_LOG, new ItemStack(ItemInit.RESIN, (int) (3)), 0F);
 		
 		//Fertilizer
-		GameRegistry.addSmelting(ItemInit.HEMP_DRIED, new ItemStack(ItemInit.FERTILIZER), 0F);
-		GameRegistry.addSmelting(ItemInit.HEMP_DRIED_INDICA, new ItemStack(ItemInit.FERTILIZER), 0F);
-		GameRegistry.addSmelting(ItemInit.HEMP_DRIED_SATIVA, new ItemStack(ItemInit.FERTILIZER), 0F);
-		GameRegistry.addSmelting(ItemInit.HEMP_DRIED_MEDICINAL, new ItemStack(ItemInit.FERTILIZER), 0F);
-		GameRegistry.addSmelting(ItemInit.HEMP_DRIED_HYBRID, new ItemStack(ItemInit.FERTILIZER), 0F);
+		GameRegistry.addSmelting(ItemInit.HEMP_DRIED, new ItemStack(ItemInit.FERTILIZER, (int) (2)), 0F);
+		GameRegistry.addSmelting(ItemInit.HEMP_DRIED_INDICA, new ItemStack(ItemInit.FERTILIZER, (int) (2)), 0F);
+		GameRegistry.addSmelting(ItemInit.HEMP_DRIED_SATIVA, new ItemStack(ItemInit.FERTILIZER, (int) (2)), 0F);
+		GameRegistry.addSmelting(ItemInit.HEMP_DRIED_MEDICINAL, new ItemStack(ItemInit.FERTILIZER, (int) (2)), 0F);
+		GameRegistry.addSmelting(ItemInit.HEMP_DRIED_HYBRID, new ItemStack(ItemInit.FERTILIZER, (int) (2)), 0F);
+		GameRegistry.addSmelting(ItemInit.WEED_LEAF, new ItemStack(ItemInit.FERTILIZER), 0F);
 		
 	}
 	

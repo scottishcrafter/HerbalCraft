@@ -2,10 +2,10 @@ package com.scottishcrafter.herbalcraft.world.generation;
 
 import java.util.Random;
 
-import com.scottishcrafter.herbalcraft.blocks.crops.HempCrop;
-import com.scottishcrafter.herbalcraft.blocks.crops.IndicaCrop;
-import com.scottishcrafter.herbalcraft.blocks.crops.MedicinalCrop;
-import com.scottishcrafter.herbalcraft.blocks.crops.SativaCrop;
+import com.scottishcrafter.herbalcraft.blocks.crops.HempBush;
+import com.scottishcrafter.herbalcraft.blocks.crops.IndicaBush;
+import com.scottishcrafter.herbalcraft.blocks.crops.MedicinalBush;
+import com.scottishcrafter.herbalcraft.blocks.crops.SativaBush;
 import com.scottishcrafter.herbalcraft.init.BlockInit;
 
 import net.minecraft.init.Blocks;
@@ -35,17 +35,17 @@ public class WorldGenHerbalCrops implements IWorldGenerator
 			 int bushType = random.nextInt(4);
 			 if(world.getBlockState(new BlockPos(x, y, z)).getBlock() == Blocks.GRASS)  {
 				 if(bushType == 1){
-					 world.setBlockState(new BlockPos(x, y + 1, z), BlockInit.HEMP_PLANT.getDefaultState().
-							 withProperty(HempCrop.AGE, Integer.valueOf(4)), 2);
+					 world.setBlockState(new BlockPos(x, y + 1, z), BlockInit.BUSH_HEMP.getDefaultState().
+							 withProperty(HempBush.AGE, Integer.valueOf(4)), 2);
 				 } else if(bushType == 0) {
-					 world.setBlockState(new BlockPos(x, y + 1, z), BlockInit.SATIVA_PLANT.getDefaultState().
-							 withProperty(SativaCrop.AGE, Integer.valueOf(4)), 2);
+					 world.setBlockState(new BlockPos(x, y + 1, z), BlockInit.BUSH_SATIVA.getDefaultState().
+							 withProperty(SativaBush.AGE, Integer.valueOf(4)), 2);
 				 } else if(bushType == 2) {
-					 world.setBlockState(new BlockPos(x, y + 1, z), BlockInit.INDICA_PLANT.getDefaultState().
-							 withProperty(IndicaCrop.AGE, Integer.valueOf(4)), 2);
+					 world.setBlockState(new BlockPos(x, y + 1, z), BlockInit.BUSH_INDICA.getDefaultState().
+							 withProperty(IndicaBush.AGE, Integer.valueOf(4)), 2);
 				 } else if(bushType == 3) {
-					 world.setBlockState(new BlockPos(x, y + 1, z), BlockInit.MEDICINAL_PLANT.getDefaultState().
-							 withProperty(MedicinalCrop.AGE, Integer.valueOf(4)), 2);
+					 world.setBlockState(new BlockPos(x, y + 1, z), BlockInit.BUSH_MEDICINAL.getDefaultState().
+							 withProperty(MedicinalBush.AGE, Integer.valueOf(4)), 2);
 				 }
 			 }
        	 }

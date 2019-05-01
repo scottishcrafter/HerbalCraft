@@ -9,6 +9,7 @@ item.rizlaz_single.name=Rizlaz
 item.gelatin.name=Gelatin
 item.hemp_string.name=Hemp String
 item.hemp_cloth.name=Hemp Cloth
+item.weed_leaf.name=Weed Leaf
 
 //Vapes
 item.vape_empty.name=Empty Vape
@@ -105,14 +106,14 @@ item.seeds_toasted_medicinal.name=Toasted Medicinal Seeds
 item.seeds_toasted_sativa.name=Toasted Sativa Seeds
 
 
-//Plants
-tile.plant_hemp.name=Hemp Plant
-tile.plant_hybrid_si.name=Hybrid Plant (S,I)
-tile.plant_hybrid_sm.name=Hybrid Plant (S,M)
-tile.plant_hybrid_im.name=Hybrid Plant (I,M)
-tile.plant_indica.name=Indica Plant
-tile.plant_medicinal.name=Medicinal Plant
-tile.plant_sativa.name=Sativa Plant
+//Bushes
+tile.bush_hemp.name=Hemp Bush
+tile.bush_hybrid_si.name=Hybrid Bush (S,I)
+tile.bush_hybrid_sm.name=Hybrid Bush (S,M)
+tile.bush_hybrid_im.name=Hybrid Bush (I,M)
+tile.bush_indica.name=Indica Bush
+tile.bush_medicinal.name=Medicinal Bush
+tile.bush_sativa.name=Sativa Bush
 
 //Edibles
 item.cookie_cbd.name=CBD Cookie
@@ -138,7 +139,7 @@ item.brownie_medicinal.name=Medicinal Brownie
 item.brownie_sativa.name=Sativa Brownie
 item.brownie_hybrid_si.name=Hybrid Brownie
 item.brownie_hybrid_sm.name=Hybrid Brownie
-item.brownie_hbrid_im.name=Hybrid Brownie
+item.brownie_hybrid_im.name=Hybrid Brownie
 item.herbal_fertilizer.name=Fertilizer
 
 //MISC
@@ -191,8 +192,6 @@ container.canna_chest=Canna Chest
 //Creative Tabs
 itemGroup.herbalcraft=HC:HerbalCraft
 itemGroup.hcedibles=HC:Edibles
-itemGroup.hcarmoury=HC:Armoury
-itemGroup.hctools=HC:Tools
 itemGroup.hctrees=HC:Trees
 
 //Entity

@@ -37,6 +37,8 @@ public class OreDict{
         OreDictionary.registerOre("dyeLime", ItemInit.HEMP_DRIED_SATIVA);
         OreDictionary.registerOre("dyePurple", ItemInit.HEMP_DRIED_INDICA);
         OreDictionary.registerOre("dyeRed", ItemInit.HEMP_DRIED_MEDICINAL);
+        OreDictionary.registerOre("fiberHemp", ItemInit.HEMP_STRING);
+        OreDictionary.registerOre("fabricHemp", ItemInit.HEMP_CLOTH);
         System.out.println("Ore dictionary elements added!");
     }
 }

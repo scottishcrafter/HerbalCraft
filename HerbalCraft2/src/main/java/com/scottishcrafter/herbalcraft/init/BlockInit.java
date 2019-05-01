@@ -8,7 +8,6 @@ import com.scottishcrafter.herbalcraft.blocks.*;
 import com.scottishcrafter.herbalcraft.blocks.crops.*;
 import com.scottishcrafter.herbalcraft.blocks.trees.*;
 import net.minecraft.block.Block;
-import net.minecraft.block.BlockSlab;
 import net.minecraft.block.material.Material;
 
 public class BlockInit 
@@ -16,13 +15,13 @@ public class BlockInit
 	public static final List<Block> BLOCKS = new ArrayList<Block>();
 	
 	//Crops
-	public static final Block HEMP_PLANT = new HempCrop("plant_hemp");
-	public static final Block HYBRID_PLANT_IM = new IMHybridCrop("plant_hybrid_im");
-	public static final Block HYBRID_PLANT_SI = new SIHybridCrop("plant_hybrid_si");
-	public static final Block HYBRID_PLANT_SM = new SMHybridCrop("plant_hybrid_sm");
-	public static final Block INDICA_PLANT = new IndicaCrop("plant_indica");
-	public static final Block MEDICINAL_PLANT = new MedicinalCrop("plant_medicinal");
-	public static final Block SATIVA_PLANT = new SativaCrop("plant_sativa");
+	public static final Block BUSH_HYBRID_IM = new IMHybridBush("bush_hybrid_im");
+	public static final Block BUSH_HYBRID_SI = new SIHybridBush("bush_hybrid_si");
+	public static final Block BUSH_HYBRID_SM = new SMHybridBush("bush_hybrid_sm");
+	public static final Block BUSH_HEMP = new HempBush("bush_hemp");
+	public static final Block BUSH_INDICA = new IndicaBush("bush_indica");
+	public static final Block BUSH_MEDICINAL = new MedicinalBush("bush_medicinal");
+	public static final Block BUSH_SATIVA = new SativaBush("bush_sativa");
 	
 	//Custom Models
 	public static final Block CANNA_CHEST = new BlockCannaChest("canna_chest");

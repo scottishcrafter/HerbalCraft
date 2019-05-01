@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "XXX",
+    "   "
+  ],
+  "key": {
+    "X": 
+      {
+        "item": "minecraft:paper"
+      }
+  },
+  "result": {
+    "item": "herbalcraft:rizlaz_single",
+    "count": 1
+  }
+}

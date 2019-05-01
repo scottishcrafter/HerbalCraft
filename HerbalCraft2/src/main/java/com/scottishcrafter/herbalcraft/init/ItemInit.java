@@ -30,19 +30,20 @@ public class ItemInit
 	public static final List<Item> ITEMS = new ArrayList<Item>();
 			
 	//Seeds
-	public static final Item SEEDS_HEMP = new SeedsHemp("seeds_hemp", 1, false);
-	public static final Item SEEDS_INDICA = new SeedsIndica("seeds_indica", 1, false);
-	public static final Item SEEDS_MEDICINAL = new SeedsMedicinal("seeds_medicinal", 1, false);
-	public static final Item SEEDS_SATIVA = new SeedsSativa("seeds_sativa", 1, false);
-	public static final Item SEEDS_HYBRID_IM = new SeedsHybridIM("seeds_hybrid_im", 1, false);
-	public static final Item SEEDS_HYBRID_SI = new SeedsHybridSI("seeds_hybrid_si", 1, false);
-	public static final Item SEEDS_HYBRID_SM = new SeedsHybridSM("seeds_hybrid_sm", 1, false);
+	public static final Item SEEDS_HEMP = new SeedsHempBush("seeds_hemp", 1, false);
+	public static final Item SEEDS_INDICA = new SeedsIndicaBush("seeds_indica", 1, false);
+	public static final Item SEEDS_MEDICINAL = new SeedsMedicinalBush("seeds_medicinal", 1, false);
+	public static final Item SEEDS_SATIVA = new SeedsSativaBush("seeds_sativa", 1, false);
+	public static final Item SEEDS_HYBRID_IM = new SeedsHybridIMBush("seeds_hybrid_im", 1, false);
+	public static final Item SEEDS_HYBRID_SI = new SeedsHybridSIBush("seeds_hybrid_si", 1, false);
+	public static final Item SEEDS_HYBRID_SM = new SeedsHybridSMBush("seeds_hybrid_sm", 1, false);
 	public static final Item FERTILIZER = new Fertilizer("herbal_fertilizer", Main.HERBALCRAFT);
 		
 	
 	
 	
 	//Items
+	public static final Item WEED_LEAF = new ItemBase("weed_leaf",Main.HERBALCRAFT);
 	public static final Item RESIN = new ItemBase("resin",Main.HERBALCRAFT);
 	public static final Item HEMP_INGOT_RAW = new ItemBase("hemp_ingot_raw",Main.HERBALCRAFT);
 	public static final Item HEMP_INGOT = new ItemBase("hemp_ingot",Main.HERBALCRAFT);

@@ -1,0 +1,127 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+    "textures": {
+        "bush_stalk_top": "herbalcraft:blocks/bush_stalk_top",
+        "bush_stalk": "herbalcraft:blocks/bush_stalk",
+        "hemp_bush": "herbalcraft:blocks/sativa_bush"
+    },
+    "display": {
+        "gui": {
+            "rotation": [ 30, 45, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.625, 0.625, 0.625 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 0 ],
+            "scale": [ 0.25, 0.25, 0.25 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "head": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.4, 0.4, 0.4 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 75, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        }
+    },
+    "elements": [
+        {
+            "name": "Stem",
+            "from": [ 6, -1, 6 ], 
+            "to": [ 10, 4, 10 ], 
+            "faces": {
+                "north": { "texture": "#bush_stalk", "uv": [ 0, 0, 4, 4 ] },
+                "east": { "texture": "#bush_stalk", "uv": [ 0, 0, 4, 4 ] },
+                "south": { "texture": "#bush_stalk", "uv": [ 0, 0, 3, 2 ] },
+                "west": { "texture": "#bush_stalk", "uv": [ 0, 0, 4, 4 ] },
+                "down": { "texture": "#bush_stalk_top", "uv": [ 0, 0, 4, 4 ], "rotation": 90 }
+            }
+        },
+        {
+            "name": "bush_Base",
+            "from": [ 1, 2, 1 ], 
+            "to": [ 15, 16, 15 ], 
+            "faces": {
+                "north": { "texture": "#hemp_bush", "uv": [ 1, 1, 15, 15 ] },
+                "east": { "texture": "#hemp_bush", "uv": [ 1, 1, 15, 15 ] },
+                "south": { "texture": "#hemp_bush", "uv": [ 1, 1, 15, 15 ] },
+                "west": { "texture": "#hemp_bush", "uv": [ 1, 1, 15, 15 ] },
+                "up": { "texture": "#hemp_bush", "uv": [ 1, 1, 15, 15 ] },
+                "down": { "texture": "#hemp_bush", "uv": [ 1, 1, 15, 15 ] }
+            }
+        },
+        {
+            "name": "bush_front_face",
+            "from": [ 0, 3, 2 ], 
+            "to": [ 1, 15, 14 ], 
+            "faces": {
+                "north": { "texture": "#hemp_bush", "uv": [ 0, 4, 1, 16 ] },
+                "south": { "texture": "#hemp_bush", "uv": [ 0, 3, 1, 15 ] },
+                "west": { "texture": "#hemp_bush", "uv": [ 2, 2, 14, 14 ] },
+                "up": { "texture": "#hemp_bush", "uv": [ 2, 4, 14, 5 ] },
+                "down": { "texture": "#hemp_bush", "uv": [ 4, 15, 16, 16 ] }
+            }
+        },
+        {
+            "name": "bush_right_face",
+            "from": [ 2, 3, 0 ], 
+            "to": [ 14, 15, 1 ], 
+            "faces": {
+                "north": { "texture": "#hemp_bush", "uv": [ 2, 2, 14, 14 ] },
+                "east": { "texture": "#hemp_bush", "uv": [ 2, 2, 3, 14 ] },
+                "west": { "texture": "#hemp_bush", "uv": [ 13, 2, 14, 14 ] },
+                "up": { "texture": "#hemp_bush", "uv": [ 2, 2, 14, 3 ] },
+                "down": { "texture": "#hemp_bush", "uv": [ 2, 14, 14, 15 ] }
+            }
+        },
+        {
+            "name": "bush_back_face",
+            "from": [ 15, 3, 2 ], 
+            "to": [ 16, 15, 14 ], 
+            "faces": {
+                "north": { "texture": "#hemp_bush", "uv": [ 13, 2, 14, 14 ] },
+                "east": { "texture": "#hemp_bush", "uv": [ 2, 2, 14, 14 ] },
+                "south": { "texture": "#hemp_bush", "uv": [ 2, 2, 3, 14 ] },
+                "up": { "texture": "#hemp_bush", "uv": [ 2, 2, 14, 3 ] },
+                "down": { "texture": "#hemp_bush", "uv": [ 2, 13, 14, 14 ] }
+            }
+        },
+        {
+            "name": "bush_left_face",
+            "from": [ 2, 3, 15 ], 
+            "to": [ 14, 15, 16 ], 
+            "faces": {
+                "east": { "texture": "#hemp_bush", "uv": [ 13, 2, 14, 14 ] },
+                "south": { "texture": "#hemp_bush", "uv": [ 2, 2, 14, 14 ] },
+                "west": { "texture": "#hemp_bush", "uv": [ 2, 2, 3, 14 ] },
+                "up": { "texture": "#hemp_bush", "uv": [ 2, 2, 14, 3 ] },
+                "down": { "texture": "#hemp_bush", "uv": [ 2, 13, 14, 14 ] }
+            }
+        },
+        {
+            "name": "bush_top",
+            "from": [ 2, 16, 2 ], 
+            "to": [ 14, 17, 14 ], 
+            "faces": {
+                "north": { "texture": "#hemp_bush", "uv": [ 4, 2, 16, 3 ] },
+                "east": { "texture": "#hemp_bush", "uv": [ 3, 3, 15, 4 ] },
+                "south": { "texture": "#hemp_bush", "uv": [ 3, 3, 15, 4 ] },
+                "west": { "texture": "#hemp_bush", "uv": [ 4, 2, 16, 3 ] },
+                "up": { "texture": "#hemp_bush", "uv": [ 3, 8, 15, 16 ] }
+            }
+        }
+    ]
+}

@@ -6,6 +6,7 @@ import com.scottishcrafter.herbalcraft.init.ItemInit;
 
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.items.ItemHandlerHelper;
 
@@ -23,6 +24,10 @@ public class HybridCropUsed  {
 		Entity entity = (Entity) dependencies.get("entity");
 		if (entity instanceof EntityPlayer)
 			ItemHandlerHelper.giveItemToPlayer(((EntityPlayer) entity), new ItemStack(ItemInit.HEMP_RAW_HYBRID, (int) (3)));
+		if (entity instanceof EntityPlayer)
+			ItemHandlerHelper.giveItemToPlayer(((EntityPlayer) entity), new ItemStack(Items.STICK, (int) (1)));
+		if (entity instanceof EntityPlayer)
+			ItemHandlerHelper.giveItemToPlayer(((EntityPlayer) entity), new ItemStack(ItemInit.WEED_LEAF, (int) (2)));
 		if (entity instanceof EntityPlayer)
 			ItemHandlerHelper.giveItemToPlayer(((EntityPlayer) entity), new ItemStack(ItemInit.BUD_HYBRID_SI, (int) (3)));
 		if (entity instanceof EntityPlayer)

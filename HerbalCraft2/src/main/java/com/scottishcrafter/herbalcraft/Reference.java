@@ -4,7 +4,7 @@ public class Reference
 {
 	public static final String MODID = "herbalcraft";
 	public static final String MODNAME = "Herbal Craft";
-	public static final String VERSION = "0.0.24";
+	public static final String VERSION = "0.1.0";
 	public static final String UPDATE_JSON = "https://updates.scottishcrafter.com/herbalcraft/version.json";
 	
 	public static final String CLIENT = "com.scottishcrafter.herbalcraft.proxy.ClientProxy";

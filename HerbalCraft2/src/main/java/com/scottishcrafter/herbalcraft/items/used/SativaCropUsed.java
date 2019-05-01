@@ -4,6 +4,7 @@ import net.minecraftforge.items.ItemHandlerHelper;
 
 import net.minecraft.item.ItemStack;
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.init.Items;
 import net.minecraft.entity.Entity;
 
 import com.scottishcrafter.herbalcraft.Main;
@@ -23,6 +24,10 @@ public class SativaCropUsed {
 		Entity entity = (Entity) dependencies.get("entity");
 		if (entity instanceof EntityPlayer)
 			ItemHandlerHelper.giveItemToPlayer(((EntityPlayer) entity), new ItemStack(ItemInit.BUD_SATIVA, (int) (3)));
+		if (entity instanceof EntityPlayer)
+			ItemHandlerHelper.giveItemToPlayer(((EntityPlayer) entity), new ItemStack(Items.STICK, (int) (1)));
+		if (entity instanceof EntityPlayer)
+			ItemHandlerHelper.giveItemToPlayer(((EntityPlayer) entity), new ItemStack(ItemInit.WEED_LEAF, (int) (2)));
 		if (entity instanceof EntityPlayer)
 			ItemHandlerHelper.giveItemToPlayer(((EntityPlayer) entity), new ItemStack(ItemInit.HEMP_RAW_SATIVA, (int) (3)));
 		if (entity instanceof EntityPlayer)

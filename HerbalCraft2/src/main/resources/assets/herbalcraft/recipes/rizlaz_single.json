@@ -6,14 +6,10 @@
     "   "
   ],
   "key": {
-    "X": [
+    "X": 
       {
         "item": "herbalcraft:hemp_paper"
-      },
-      {
-        "item": "minecraft:paper"
       }
-    ]
   },
   "result": {
     "item": "herbalcraft:rizlaz_single",
