@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X  "
+  ],
+  "key": {
+    "X": 
+      {
+        "item": "herbalcraft:cropdrop_indica"
+      }
+  },
+  "result": {
+    "item": "herbalcraft:hemp_raw_indica",
+    "count": 6
+  }
+}

@@ -1,8 +1,0 @@
-{
-    "parent": "block/cube_column",
-    "textures":
-    {
-        "end": "herbalcraft:blocks/hybrid_log_top",
-        "side": "herbalcraft:blocks/hybrid_log_side"
-    }
-}

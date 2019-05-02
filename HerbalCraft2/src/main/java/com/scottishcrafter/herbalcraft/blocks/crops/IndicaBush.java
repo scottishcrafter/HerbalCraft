@@ -3,12 +3,10 @@ package com.scottishcrafter.herbalcraft.blocks.crops;
 import com.scottishcrafter.herbalcraft.init.BlockInit;
 import com.scottishcrafter.herbalcraft.init.ItemInit;
 
-import net.minecraft.block.BlockCrops;
 import net.minecraft.block.SoundType;
-import net.minecraft.block.properties.PropertyInteger;
 import net.minecraft.item.Item;
 
-public class IndicaBush extends BlockCrops {
+public class IndicaBush extends HCBush {
 	
 	
 	
@@ -36,20 +34,5 @@ public class IndicaBush extends BlockCrops {
 		return ItemInit.CROPDROP_INDICA;
 	}
 	
-	
-
-
-	@Override
-	protected PropertyInteger getAgeProperty()
-	    {
-	        return AGE;
-	    }
-	
-	@Override
-	public int getMaxAge()
-	    {
-	        return 4;
-	    }
-
 
 }

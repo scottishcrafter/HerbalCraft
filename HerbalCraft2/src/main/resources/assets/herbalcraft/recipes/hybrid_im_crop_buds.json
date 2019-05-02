@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  X"
+  ],
+  "key": {
+    "X": 
+      {
+        "item": "herbalcraft:cropdrop_hybrid_im"
+      }
+  },
+  "result": {
+    "item": "herbalcraft:bud_hybrid_im",
+    "count": 6
+  }
+}

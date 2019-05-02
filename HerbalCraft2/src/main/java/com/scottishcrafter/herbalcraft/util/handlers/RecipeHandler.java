@@ -37,7 +37,6 @@ public class RecipeHandler {
 		
 		//Resin
 		GameRegistry.addSmelting(BlockInit.HEMP_LOG, new ItemStack(ItemInit.RESIN, (int) (3)), 0F);
-		GameRegistry.addSmelting(BlockInit.HYBRID_LOG, new ItemStack(ItemInit.SUPER_RESIN, (int) (3)), 0F);
 		GameRegistry.addSmelting(BlockInit.INDICA_LOG, new ItemStack(ItemInit.RESIN, (int) (3)), 0F);
 		GameRegistry.addSmelting(BlockInit.MEDICINAL_LOG, new ItemStack(ItemInit.RESIN, (int) (3)), 0F);
 		GameRegistry.addSmelting(BlockInit.SATIVA_LOG, new ItemStack(ItemInit.RESIN, (int) (3)), 0F);
@@ -49,6 +48,9 @@ public class RecipeHandler {
 		GameRegistry.addSmelting(ItemInit.HEMP_DRIED_MEDICINAL, new ItemStack(ItemInit.FERTILIZER, (int) (2)), 0F);
 		GameRegistry.addSmelting(ItemInit.HEMP_DRIED_HYBRID, new ItemStack(ItemInit.FERTILIZER, (int) (2)), 0F);
 		GameRegistry.addSmelting(ItemInit.WEED_LEAF, new ItemStack(ItemInit.FERTILIZER), 0F);
+		
+		//Compat Items
+		GameRegistry.addSmelting(ItemInit.RESIN, new ItemStack(ItemInit.RUBBER), 0F);
 		
 	}
 	

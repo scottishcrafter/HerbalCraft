@@ -3,12 +3,10 @@ package com.scottishcrafter.herbalcraft.blocks.crops;
 import com.scottishcrafter.herbalcraft.init.BlockInit;
 import com.scottishcrafter.herbalcraft.init.ItemInit;
 
-import net.minecraft.block.BlockCrops;
 import net.minecraft.block.SoundType;
-import net.minecraft.block.properties.PropertyInteger;
 import net.minecraft.item.Item;
 
-public class MedicinalBush extends BlockCrops {
+public class MedicinalBush extends HCBush {
 	
 	public MedicinalBush(String name)
 	{
@@ -21,11 +19,6 @@ public class MedicinalBush extends BlockCrops {
 		
 	}
 	
-	@Override
-	protected PropertyInteger getAgeProperty()
-    {
-        return AGE;
-    }
 	
 	@Override
 	protected Item getSeed()
@@ -39,10 +32,5 @@ public class MedicinalBush extends BlockCrops {
 		return ItemInit.CROPDROP_MEDICINAL;
 	}
 	       
-	@Override
-	public int getMaxAge()
-    {
-        return 4;
-    }
 
 }

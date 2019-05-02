@@ -4,12 +4,10 @@ package com.scottishcrafter.herbalcraft.blocks.crops;
 import com.scottishcrafter.herbalcraft.init.BlockInit;
 import com.scottishcrafter.herbalcraft.init.ItemInit;
 
-import net.minecraft.block.BlockCrops;
 import net.minecraft.block.SoundType;
-import net.minecraft.block.properties.PropertyInteger;
 import net.minecraft.item.Item;
 
-public class IMHybridBush extends BlockCrops {
+public class IMHybridBush extends HCBush {
 	
 	public IMHybridBush(String name)
 	{
@@ -22,12 +20,7 @@ public class IMHybridBush extends BlockCrops {
 		
 	}
 	
-	@Override
-	protected PropertyInteger getAgeProperty()
-    {
-        return AGE;
-    }
-
+	
 	@Override
 	protected Item getSeed()
 	{
@@ -40,9 +33,5 @@ public class IMHybridBush extends BlockCrops {
 		return ItemInit.CROPDROP_HYBRID_IM;
 	}
 	
-	@Override
-	public int getMaxAge()
-    {
-        return 4;
-    }
+	
 }

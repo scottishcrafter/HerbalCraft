@@ -1,9 +1,0 @@
-{
-    "variants":
-    {
-        "axis=y":  { "model": "herbalcraft:hybrid_log" },
-        "axis=z":   { "model": "herbalcraft:hybrid_log", "x": 90 },
-        "axis=x":   { "model": "herbalcraft:hybrid_log", "x": 90, "y": 90 },
-        "axis=none": { "model": "herbalcraft:hybrid_bark" }
-    }
-}

@@ -47,12 +47,12 @@ public class ItemInit
 	public static final Item RESIN = new ItemBase("resin",Main.HERBALCRAFT);
 	public static final Item HEMP_INGOT_RAW = new ItemBase("hemp_ingot_raw",Main.HERBALCRAFT);
 	public static final Item HEMP_INGOT = new ItemBase("hemp_ingot",Main.HERBALCRAFT);
-	public static final Item SUPER_RESIN = new ItemBase("super_resin", Main.HERBALCRAFT);
 	public static final Item RIZLAZ_SINGLE = new ItemBase("rizlaz_single", Main.HERBALCRAFT);
 	public static final Item HEMP_MULCH = new ItemBase("hemp_mulch", Main.HERBALCRAFT);
 	public static final Item HEMP_PAPER = new ItemBase("hemp_paper", Main.HERBALCRAFT);
 	public static final Item HEMP_STRING = new ItemBase("hemp_string", Main.HERBALCRAFT);
 	public static final Item HEMP_CLOTH = new ItemBase("hemp_cloth", Main.HERBALCRAFT);
+	public static final Item TOUGH_HEMP_CLOTH = new ItemBase("tough_hemp_cloth", Main.HERBALCRAFT);
 	
 	//Buds
 	public static final Item BUD_HEMP = new ItemBase ("bud_hemp", Main.HERBALCRAFT);
@@ -147,7 +147,6 @@ public class ItemInit
 	
 	//Tree Drops
 	public static final Item TREEDROP_HEMP = new TreeDropHemp ("treedrop_hemp", Main.HCTREES);
-	public static final Item TREEDROP_HYBRID = new TreeDropHybrid ("treedrop_hybrid", Main.HCTREES);
 	public static final Item TREEDROP_INDICA = new TreeDropIndica ("treedrop_indica", Main.HCTREES);
 	public static final Item TREEDROP_MEDICINAL = new TreeDropMedicinal ("treedrop_medicinal", Main.HCTREES);
 	public static final Item TREEDROP_SATIVA = new TreeDropSativa ("treedrop_sativa", Main.HCTREES);
@@ -167,8 +166,8 @@ public class ItemInit
 	
 			
 	//Tool Materials
-	public static final ToolMaterial RESIN_TOOL = EnumHelper.addToolMaterial("resin_tool", 2, 400, 3.0f, 5.0f, 20);
-	public static final ToolMaterial SUPER_RESIN_TOOL = EnumHelper.addToolMaterial("super_resin_tool", 2, 400, 3.0f, 5.0f, 20);
+	public static final ToolMaterial RESIN_TOOL = EnumHelper.addToolMaterial("resin_tool", 3, 500, 4.0f, 6.0f, 30);
+	
 		
 	
 	
@@ -179,14 +178,7 @@ public class ItemInit
 	public static final Item RESIN_SHOVEL = new ToolShovelBase("resin_shovel", RESIN_TOOL, Main.HERBALCRAFT);
 	public static final Item RESIN_SWORD = new ToolSwordBase("resin_sword", RESIN_TOOL, Main.HERBALCRAFT);
 		
-		
-   //Resin Tools
-	public static final Item SUPER_RESIN_AXE = new ToolAxeBase("super_resin_axe", SUPER_RESIN_TOOL, Main.HERBALCRAFT);
-	public static final Item SUPER_RESIN_HOE = new ToolHoeBase("super_resin_hoe", SUPER_RESIN_TOOL, Main.HERBALCRAFT);
-	public static final Item SUPER_RESIN_PICKAXE = new ToolPickaxeBase("super_resin_pickaxe", SUPER_RESIN_TOOL, Main.HERBALCRAFT);
-	public static final Item SUPER_RESIN_SHOVEL = new ToolShovelBase("super_resin_shovel", SUPER_RESIN_TOOL, Main.HERBALCRAFT);
-	public static final Item SUPER_RESIN_SWORD = new ToolSwordBase("super_resin_sword", SUPER_RESIN_TOOL, Main.HERBALCRAFT);	
-		
-			
+	//Compat Items
+	public static final Item RUBBER = new ItemCompat("rubber");
 		
 }

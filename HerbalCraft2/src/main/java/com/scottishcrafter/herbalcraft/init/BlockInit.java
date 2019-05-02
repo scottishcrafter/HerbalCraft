@@ -32,11 +32,6 @@ public class BlockInit
 	public static final Block HEMP_PLANKS = new BlockBase("hemp_planks", Material.WOOD, Main.HCTREES);
 	public static final Block HEMP_SAPLING = new HempSapling("hemp_sapling");
 	
-	public static final Block HYBRID_LEAVES = new HybridLeaves("hybrid_leaves");
-	public static final Block HYBRID_LOG = new BlockLogBase("hybrid_log");
-	public static final Block HYBRID_PLANKS = new BlockBase("hybrid_planks", Material.WOOD, Main.HCTREES);
-	public static final Block HYBRID_SAPLING = new HybridSapling("hybrid_sapling");
-	
 	public static final Block INDICA_LEAVES = new IndicaLeaves("indica_leaves");
 	public static final Block INDICA_LOG = new BlockLogBase("indica_log");
 	public static final Block INDICA_PLANKS = new BlockBase("indica_planks", Material.WOOD, Main.HCTREES);

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  X"
+  ],
+  "key": {
+    "X": 
+      {
+        "item": "herbalcraft:treedrop_indica"
+      }
+  },
+  "result": {
+    "item": "herbalcraft:cropdrop_indica",
+    "count": 3
+  }
+}

@@ -2,14 +2,15 @@
 item.hemp_ingot_raw.name=Raw Hemp Ingot
 item.hemp_ingot.name=Hemp Ingot
 item.resin.name=Resin
-item.super_resin.name=Super Resin
 item.hemp_mulch.name=Hemp Mulch
 item.hemp_paper.name=Hemp Paper
 item.rizlaz_single.name=Rizlaz
 item.gelatin.name=Gelatin
 item.hemp_string.name=Hemp String
 item.hemp_cloth.name=Hemp Cloth
+item.tough_hemp_cloth.name=Tough Hemp Cloth
 item.weed_leaf.name=Weed Leaf
+item.rubber.name=Rubber
 
 //Vapes
 item.vape_empty.name=Empty Vape
@@ -69,8 +70,8 @@ item.cropdrop_sativa.name=Sativa Crop
 item.treedrop_hemp.name=Hemp Tree Bundle
 item.treedrop_indica.name=Indica Tree Bundle
 item.treedrop_sativa.name=Sativa Tree Bundle
-item.treedrop_hybrid.name=Hybrid Tree Bundle
 item.treedrop_medicinal.name=Medicinal Tree Bundle
+
 //Joints
 item.joint_hybrid_si.name=Hybrid Joint
 item.joint_hybrid_sm.name=Hybrid Joint
@@ -152,18 +153,13 @@ item.resin_pickaxe.name=Resin Pickaxe
 item.resin_shovel.name=Resin Shovel
 item.resin_sword.name=Resin Sword
 
-//Super Resin Tools
-item.super_resin_axe.name=Super Resin Axe
-item.super_resin_hoe.name=Super Resin Hoe
-item.super_resin_pickaxe.name=Super Resin Pickaxe
-item.super_resin_shovel.name=Super Resin Shovel
-item.super_resin_sword.name=Super Resin Sword
 
 //Blocks
 tile.hemp_leaves.name=Hemp Leaves
 tile.hemp_log.name=Hemp Log
 tile.hemp_planks.name=Hemp Planks
 tile.hemp_sapling.name=Hemp Sapling
+
 tile.indica_leaves.name=Indica Leaves
 tile.indica_log.name=Indica Log
 tile.indica_planks.name=Indica Planks
@@ -173,11 +169,6 @@ tile.sativa_leaves.name=Sativa Leaves
 tile.sativa_log.name=Sativa Log
 tile.sativa_planks.name=Sativa Planks
 tile.sativa_sapling.name=Sativa Sapling
-
-tile.hybrid_leaves.name=Hybrid Leaves
-tile.hybrid_log.name=Hybrid Log
-tile.hybrid_planks.name=Hybrid Planks
-tile.hybrid_sapling.name=Hybrid Sapling
 
 tile.medicinal_leaves.name=Medicinal Leaves
 tile.medicinal_log.name=Medicinal Log

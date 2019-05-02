@@ -1,7 +1,0 @@
-{
-    "parent": "block/cross",
-    "textures":
-    {
-        "cross": "herbalcraft:blocks/hybrid_sapling"
-    }
-}

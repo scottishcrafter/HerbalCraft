@@ -1,0 +1,9 @@
+{
+	"variants": {
+        "open": { "model": "herbalcraft:canna_chest_open" },
+        "closed": { "model": "herbalcraft:canna_chest_closed" },
+        "normal": { "model": "herbalcraft:canna_chest_closed" },
+        "inventory": { "model": "herbalcraft:canna_chest" }
+    }
+		
+	}

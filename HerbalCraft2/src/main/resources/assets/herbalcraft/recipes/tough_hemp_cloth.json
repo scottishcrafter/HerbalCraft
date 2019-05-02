@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" X ",
+		"X#X",
+		" X "
+	],
+	"key": {
+		"#": {
+			"item": "herbalcraft:resin"
+		},
+		"X": {
+			"item": "herbalcraft:hemp_cloth"
+		}
+	},
+	"result": {
+		"item": "herbalcraft:tough_hemp_cloth",
+		"count": 4
+	}
+}
