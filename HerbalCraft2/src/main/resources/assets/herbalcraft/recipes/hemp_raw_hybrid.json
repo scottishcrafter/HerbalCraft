@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X"
+  ],
+  "key": {
+    "X": 
+      {
+        "item": "herbalcraft:hemp_block_hybrid"
+      }
+  },
+  "result": {
+    "item": "herbalcraft:hemp_raw_hybrid",
+    "count": 9
+  }
+}

@@ -9,45 +9,13 @@
     "#": {
       "item": "minecraft:egg"
     },
-    "X": [
-      {
-        "item": "herbalcraft:bud_sativa"
-      },
-      {
-        "item": "herbalcraft:crushed_bud_sativa"
-      },
-      {
-        "item": "herbalcraft:bud_indica"
-      },
-      {
-        "item": "herbalcraft:crushed_bud_indica"
-      },
-      {
-        "item": "herbalcraft:bud_medicinal"
-      },
-      {
-        "item": "herbalcraft:crushed_bud_medicinal"
-      },
-      {
-        "item": "herbalcraft:bud_hybrid_sm"
-      },
-      {
-        "item": "herbalcraft:crushed_bud_hybrid_sm"
-      },
-      {
-        "item": "herbalcraft:bud_hybrid_im"
-      },
-      {
-        "item": "herbalcraft:crushed_bud_hybrid_im"
-      },
-      {
-        "item": "herbalcraft:bud_hybrid_si"
-      },
-      {
-        "item": "herbalcraft:crushed_bud_hybrid_si"
-      }
-    ]
-  },
+    "X": {
+       "type": "forge:ore_dict",
+    "ore": "itemBud"
+      
+    }
+    },
+   
   "result": {
     "item": "herbalcraft:canna_egg",
     "count": 1

@@ -12,6 +12,13 @@ item.tough_hemp_cloth.name=Tough Hemp Cloth
 item.weed_leaf.name=Weed Leaf
 item.rubber.name=Rubber
 
+//Hemp Blocks
+tile.hemp_block.name=Hemp Block
+tile.hemp_block_indica.name=Indica Hemp Block
+tile.hemp_block_hybrid.name=Hybrid Hemp Block
+tile.hemp_block_medicinal.name=Medicinal Hemp Block
+tile.hemp_block_sativa.name=Sativa Hemp Block
+
 //Vapes
 item.vape_empty.name=Empty Vape
 item.vape_indica.name=Indica Vape
@@ -186,5 +193,5 @@ itemGroup.hcedibles=HC:Edibles
 itemGroup.hctrees=HC:Trees
 
 //Entity
-entity.stoned_cow.name=Stoned Cow
-entity.stoned_chicken.name=Stoned Chicken
+entity.stonedcow.name=Stoned Cow
+entity.stonedchicken.name=Stoned Chicken

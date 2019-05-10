@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": 
+      {
+        "item": "herbalcraft:hemp_raw_indica"
+      }
+  },
+  "result": {
+    "item": "herbalcraft:hemp_block_indica",
+    "count": 1
+  }
+}

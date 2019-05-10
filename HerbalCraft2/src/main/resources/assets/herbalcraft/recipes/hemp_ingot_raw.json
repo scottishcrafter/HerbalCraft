@@ -9,24 +9,12 @@
     "#": {
       "item": "minecraft:iron_ingot"
     },
-    "X": [
-      {
-        "item": "herbalcraft:hemp_dried"
-      },
-      {
-        "item": "herbalcraft:hemp_dried_sativa"
-      },
-      {
-        "item": "herbalcraft:hemp_dried_hybrid"
-      },
-      {
-        "item": "herbalcraft:hemp_dried_indica"
-      },
-      {
-        "item": "herbalcraft:hemp_dried_medicinal"
-      }
-    ]
-  },
+    "X": {
+       "type": "forge:ore_dict",
+    "ore": "itemHempDried"
+      
+    }
+    },
   "result": {
     "item": "herbalcraft:hemp_ingot_raw",
     "count": 2

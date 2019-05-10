@@ -23,6 +23,13 @@ public class BlockInit
 	public static final Block BUSH_MEDICINAL = new MedicinalBush("bush_medicinal");
 	public static final Block BUSH_SATIVA = new SativaBush("bush_sativa");
 	
+	//Hemp Blocks
+	public static final Block HEMP_BLOCK = new BlockBase("hemp_block", Material.WOOD, Main.HERBALCRAFT);
+	public static final Block HEMP_BLOCK_HYBRID = new BlockBase("hemp_block_hybrid", Material.WOOD, Main.HERBALCRAFT);
+	public static final Block HEMP_BLOCK_INDICA = new BlockBase("hemp_block_indica", Material.WOOD, Main.HERBALCRAFT);
+	public static final Block HEMP_BLOCK_MEDICINAL = new BlockBase("hemp_block_medicinal", Material.WOOD, Main.HERBALCRAFT);
+	public static final Block HEMP_BLOCK_SATIVA = new BlockBase("hemp_block_sativa", Material.WOOD, Main.HERBALCRAFT);
+	
 	//Custom Models
 	public static final Block CANNA_CHEST = new BlockCannaChest("canna_chest");
 	
